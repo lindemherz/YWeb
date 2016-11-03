@@ -1,0 +1,386 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+html, body {
+	margin: 0px auto;
+	padding: 0;
+	height: 100%;
+	outline: 0;
+    font-size: 100%;
+    background: transparent;
+    font-family: Nunito, sans-serif;
+}
+
+body, ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+#page-wrap {
+	min-width: 780px;
+	max-width: 1260px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background-color: white;
+	background: url("../Contents/logos&botones/ybackground.png");
+	background-repeat: no-repeat;
+	background-position: left 60% top 20%;
+	background-attachment: fixed;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	position: relative;
+	left: 15%;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	}
+	#page-wrap #inside {
+		margin: 10px 10px 0px 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+
+/* Elements of main page */
+
+#img.ybackground.png {
+	width: 90%;
+	height: 90%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.center {
+	position: fixed;
+	top:20vw;
+	left: 46vw;
+	z-index: 1;
+}
+
+.center-img {
+	width: 15vw;
+	height: 20%;
+}
+
+/*Floating bubbles*/
+
+.bubble, .bubble2, .formamos-before, .creamos-before, .patriotas-before {
+	width: 150px;
+	height: 150px;
+}
+
+.formamos-before {
+	position: fixed;
+	top: 30vw;
+	left: 35vw;
+	width: 150px;
+	height: 150px;
+	z-index: -1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 10px solid rgb(238, 238, 238);
+}
+
+.formamos {
+	position: relative;
+	top:-0.25vw;
+	left: -0.25vw;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 4px solid rgb(130, 130, 130);
+	background-color: rgb(23, 171, 180);
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+.formamos-p, .creamos-p {
+	position: absolute;
+	top: 40%;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+.formamos-p {
+	left: 20px;
+}
+
+.creamos-p {
+	left: 30px;
+}
+
+.form-lvl-p {
+	color: grey;
+	font-size: 20px;
+}
+
+.formamos-lvl-before {
+	position: fixed;
+	width: 120px;
+	height: 120px;
+	z-index: -1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 10px solid rgb(238, 238, 238);
+}
+
+
+.formamos-level {
+	position: relative;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 3px solid #8c8c8c;
+	background-color: rgb(130, 230, 236);
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: center;
+	height: 120px;
+	width: 120px;
+}
+
+.asesorias-before {
+	position: fixed;
+	top: 22vw;
+	left: 25vw;
+	width: 120px;
+	height: 120px;
+	z-index: -1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 10px solid rgb(238, 238, 238);
+}
+
+.asesorias {
+	top:-0.25vw;
+	left: -0.25vw;
+}
+
+.asesorias-p {
+	position: absolute;
+	top: 35%;
+	left: 10%;
+}
+
+.aceleradora-before {
+	position: fixed;
+	top: 45vw;
+	left: 33vw;
+	width: 120px;
+	height: 120px;
+	z-index: -1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 10px solid rgb(238, 238, 238);
+}
+
+.aceleradora {
+	top:-0.25vw;
+	left: -0.25vw;
+}
+
+.aceleradora-p {
+	position: absolute;
+	top: 40%;
+	left: 5%;
+}
+
+.incubadora-before {
+	position: fixed;
+	top: 35vw;
+	left: 20vw;
+	width: 120px;
+	height: 120px;
+	z-index: -1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 10px solid rgb(238, 238, 238);
+}
+
+.incubadora {
+	top:-0.25vw;
+	left: -0.25vw;
+}
+
+.incubadora-p {
+	position: absolute;
+	top: 35%;
+	left: 5%;
+}
+
+.creamos-before {
+	position: fixed;
+	top: 23vw;
+	left: 65vw;
+	width: 150px;
+	height: 150px;
+	z-index: -1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 10px solid rgb(238, 238, 238);
+}
+
+.creamos {
+	position: relative;
+	top:-0.25vw;
+	left: -0.25vw;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 4px solid #d2d2d2;
+	background-color: rgb(23, 137, 180);
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+.creamos-p {
+	color: white;
+}
+
+.creamos-lvl-before {
+	position: fixed;
+	top: 8vw;
+	left: 37vw;
+	width: 120px;
+	height: 120px;
+	z-index: -1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 10px solid rgb(238, 238, 238);
+}
+
+.creamos-level {
+	position: relative;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 3px solid rgb(210, 210, 210);
+	background-color: rgb(91, 204, 246);
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: center;
+	height: 120px;
+	width: 120px;
+}
+
+.lab-corp-p {
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+
+.lab-corp-before  {
+	position: fixed;
+	top: 40vw;
+	left: 70vw;
+	z-index: -1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 10px solid rgb(238, 238, 238);
+}
+
+.lab-corporativo {
+	top:-0.25vw;
+	left: -0.25vw;
+}
+
+.lab-pat-p {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+
+.lab-pat-before{
+	position: fixed;
+	top: 30vw;
+	left: 80vw;
+	z-index: -1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 10px solid rgb(238, 238, 238);
+}
+
+.lab-patriota {
+	top:-0.25vw;
+	left: -0.25vw;
+}
+
+.ynnovamos {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+
+}
+
+.patriotas-before {
+	position: fixed;
+	top: 8vw;
+	left: 37vw;
+	width: 150px;
+	height: 150px;
+	z-index: -1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: 10px solid rgb(238, 238, 238);
+}
+
+.patriotas {
+	position: relative;
+	top:-0.25vw;
+	left: -0.25vw;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 4px solid black;
+	background-color: white;
+	font-family: 'Nunito' sans-serif;
+	font-size: 22px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.patriotas-p {
+	font-weight: bold;
+	position: absolute;
+	top: 25%;
+	left: 20%;
+}
