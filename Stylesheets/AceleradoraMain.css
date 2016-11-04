@@ -100,8 +100,8 @@ p {
 	position: relative;
 	left: -1vw;
 	top: -3vw;
-	width: 40vw;
-	height: 40vw;
+	width: 41vw;
+	height: 41vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -116,9 +116,9 @@ p {
 }
 
 .txt {
-	width: 90%;
+	width: 85%;
 	top:8vw;
-	left: 25px;
+	left: 40px;
 }
 
 .sphere{

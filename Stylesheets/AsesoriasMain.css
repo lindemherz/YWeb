@@ -27,7 +27,7 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 	position: relative;
-	top: 7vw;
+	top: 2vw;
 	font-size: 28px;
 }
 
@@ -100,8 +100,8 @@ p {
 	position: relative;
 	left: 15vw;
 	top: -5vw;
-	width: 35vw;
-	height: 35vw;
+	width: 37vw;
+	height: 37vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -123,13 +123,15 @@ p {
 .st {
 	font-weight: bold;
 	position: relative;
-	top: 7vw;
+	top: 2vw;
 	font-size: 20px;
+	width: 80%;
+	left: 45px;
 }
 
 .txt {
 	width: 90%;
-	top:7vw;
+	top:2vw;
 	left: 25px;
 }
 
@@ -153,6 +155,3 @@ p {
 #spray_wash {
 	background-image: url(Contents/logos&botones/perfil_logo_Ricardo_Armas.png)
 }
-
-
-

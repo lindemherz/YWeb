@@ -27,7 +27,7 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 	position: relative;
-	top: 7vw;
+	top: 5vw;
 	font-size: 28px;
 }
 
@@ -100,8 +100,8 @@ p {
 	position: relative;
 	left: -8vw;
 	top: 1vw;
-	width: 35vw;
-	height: 35vw;
+	width: 36vw;
+	height: 36vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -112,8 +112,8 @@ p {
 	position: relative;
 	left: 28vw;
 	top: -50vw;
-	width: 40vw;
-	height: 40vw;
+	width: 42vw;
+	height: 42vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -123,20 +123,20 @@ p {
 .st {
 	font-weight: bold;
 	position: relative;
-	top: 7vw;
+	top: 5vw;
 	font-size: 20px;
 }
 
 .txt {
 	width: 90%;
-	top:8vw;
+	top:6vw;
 	left: 25px;
 }
 
 .txt-2{
 	width: 85%;
-	top:8vw;
-	left: 50px;
+	top:6vw;
+	left: 40px;
 }
 
 .sphere{
@@ -158,6 +158,3 @@ p {
 #tierra_de_risas {
 	background-image: url(Contents/logos&botones/MENU_logo_tatiana_feijoo.png)
 }
-
-
-

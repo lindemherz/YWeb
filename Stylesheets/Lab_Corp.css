@@ -364,6 +364,6 @@ p {
 
 .txt {
 	top: 7vw;
-	padding-right: 10px;
-	padding-left: 10px;
+	width: 80%;
+	left: 60px;
 }
