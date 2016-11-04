@@ -17,7 +17,13 @@ a, ul {
 	position: fixed;
 	overflow: hidden;
 	font-family: 'Nunito', sans-serif;
-	font-weight: light;
+	font-weight: 300;
+}
+
+#sidemenu ul {
+	position: relative;
+	top: -20px;
+	left: -30px;
 }
 
 #menu-front {
@@ -28,7 +34,7 @@ a, ul {
 	margin: 10px auto;
 	position: relative;
 	}
-	
+
 
 .menu-txt-1 {
 	color: grey;
@@ -47,8 +53,8 @@ a, ul {
 	background-color: #969696;
 	width: 35px;
 	height: 35px;
-	top: -15px;
-	left: 75px;
+	top: -10px;
+	left: 76px;
 }
 
 .menu-txt-2 {
@@ -68,8 +74,8 @@ a, ul {
 	background-color: rgb(23, 171, 236);
 	width: 35px;
 	height: 35px;
-	top: -15px;
-	left: 75px;
+	top: -10px;
+	left: 76px;
 }
 
 .menu-txt-3 {
@@ -105,8 +111,8 @@ a, ul {
 	background-color: rgb(130, 230, 236);
 	width: 30px;
 	height: 30px;
-	left: 75px;
-	top: -15px;
+	left: 79px;
+	top: -13px;
 }
 
 .menu-txt-6 {
@@ -126,8 +132,8 @@ a, ul {
 	background-color: rgb(23, 137, 180);
 	width: 35px;
 	height: 35px;
-	top: -15px;
-	left: 75px;
+	top: -12px;
+	left: 76px;
 }
 
 .menu-txt-7 {
@@ -155,8 +161,8 @@ a, ul {
 	background-color: rgb(91, 204, 246);
 	width: 30px;
 	height: 30px;
-	top: -15px;
-	left: 75px;
+	top: -12px;
+	left: 79px;
 }
 
 .menu-txt-9 {
@@ -177,8 +183,8 @@ a, ul {
 	background-color: white;
 	width: 35px;
 	height: 35px;
-	top: -15px;
-	left: 75px;
+	top: -10px;
+	left: 76px;
 }
 
 #social-network {
