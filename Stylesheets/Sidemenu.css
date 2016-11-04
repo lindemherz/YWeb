@@ -18,7 +18,14 @@
 }
 
 #sidemenu p {
-		font-size: 16px;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+#sidemenu ul {
+	position: relative;
+	top: -20px;
+	left: -36px;
 }
 
 #menu-front {
@@ -28,7 +35,7 @@
 	height: 90px;
 	margin: 10px auto;
 	position: relative;
-	left: 14px;
+	left: 1px;
 	}
 
 
@@ -49,8 +56,8 @@
 	background-color: #969696;
 	width: 35px;
 	height: 35px;
-	top: -15px;
-	left: 96px;
+	top: -10px;
+	left: 76px;
 }
 
 .menu-txt-2 {
@@ -78,8 +85,8 @@
 	background-color: rgb(23, 171, 236);
 	width: 35px;
 	height: 35px;
-	top: -15px;
-	left: 96px;
+	top: -10px;
+	left: 76px;
 }
 
 .menu-txt-3 {
@@ -115,8 +122,19 @@
 	background-color: rgb(130, 230, 236);
 	width: 30px;
 	height: 30px;
-	left: 98px;
-	top: -15px;
+	left: 78px;
+}
+
+#incubadora-bubble{
+	top: -11px;
+}
+
+#aceleradora-bubble {
+	top: -14px;
+}
+
+#asesoria-bubble {
+	top: -12px;
 }
 
 .menu-txt-6 {
@@ -136,8 +154,8 @@
 	background-color: rgb(23, 137, 180);
 	width: 35px;
 	height: 35px;
-	top: -15px;
-	left: 96px;
+	top: -12px;
+	left: 76px;
 }
 
 .menu-txt-7 {
@@ -176,7 +194,7 @@
 	height: 30px;
 	margin-top: 20px;
 	top: -15px;
-	left: 98px;
+	left: 78px;
 }
 
 .menu-txt-9 {
@@ -197,8 +215,8 @@
 	background-color: white;
 	width: 35px;
 	height: 35px;
-	top: -15px;
-	left: 96px;
+	top: -10px;
+	left: 76px;
 }
 
 #social-network {
