@@ -1,0 +1,20 @@
+#background {
+
+	background: url(../Contents/fotos/INCUBADORA_tatiana_feijoo.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	position: absolute;
+	top: 30%;
+	left: 8%;
+}
+
+.story p {
+	color: white;
+}
+
+.contact {
+	top: 18vw;
+}
