@@ -106,16 +106,12 @@ p {
 	border: solid 3px grey;
 }
 
-.description-corp {
+#patriotas-logo {
 	position: relative;
-	left: 28vw;
-	top: -50vw;
-	width: 40vw;
-	height: 40vw;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	border: solid 3px grey;
+	top:5vw;
+	left: 12vw;
+	height: 70px;
+	width: 250px;
 }
 
 .st {
@@ -146,16 +142,6 @@ p {
 	border-radius: 50%;
 }
 
-#helpingdent {
-	background-image: url(Contents/logos&botones/MENU_logo_Jose_Francisco_Alvarez.png)
-}
-#taller_de_los_ninos {
-	background-image: url(Contents/logos&botones/MENU_logo_Sara_Cifuentes.png)
-}
-
-#tierra_de_risas {
-	background-image: url(Contents/logos&botones/MENU_logo_tatiana_feijoo.png)
-}
 
 
 
