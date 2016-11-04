@@ -1,0 +1,16 @@
+#background {
+
+	background: url(../Contents/fotos/ASESORIA_Ricardo_Armas_Samuel.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	position: absolute;
+	top: 30%;
+	left: 8%;
+}
+
+.story p {
+	color: white;
+}
