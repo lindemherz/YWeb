@@ -1,31 +1,23 @@
+
+
+a, ul {
+	text-decoration: none;
+	list-style: none;
+}
+
 #sidemenu {
 	min-width:230px;
 	width: 15%;
 	max-width: 500px;
 	height: 100%;
 	border: none;
-	padding-right: 0;
-	padding-top: 0;
-	padding-left: 0;
-	padding-bottom: 0;
-	margin-top: 0;
-	margin-right: 20px;
+	padding:0;
+	margin: 0;
 	background-color: rgb(238, 238, 238);
 	position: fixed;
 	overflow: hidden;
 	font-family: 'Nunito', sans-serif;
 	font-weight: light;
-}
-
-#sidemenu p {
-	font-size: 16px;
-	font-weight: lighter;
-}
-
-#sidemenu ul {
-	position: relative;
-	top: -20px;
-	left: -36px;
 }
 
 #menu-front {
@@ -35,9 +27,8 @@
 	height: 90px;
 	margin: 10px auto;
 	position: relative;
-	left: 1px;
 	}
-
+	
 
 .menu-txt-1 {
 	color: grey;
@@ -52,12 +43,12 @@
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: solid 2px grey;
+	border: solid 1.5px grey;
 	background-color: #969696;
 	width: 35px;
 	height: 35px;
-	top: -10px;
-	left: 76px;
+	top: -15px;
+	left: 75px;
 }
 
 .menu-txt-2 {
@@ -68,25 +59,17 @@
 	top: -40px;
 }
 
-.menu-hist, .menu-formamos, .menu-creamos, .menu-pat {
-	text-transform: lowercase;
-}
-
-.menu-formamos, .menu-creamos, .menu-pat {
-	margin-top: 25px;
-}
-
 #formamos-bubble {
 	position: relative;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: solid 2px grey;
+	border: solid 1.5px grey;
 	background-color: rgb(23, 171, 236);
 	width: 35px;
 	height: 35px;
-	top: -10px;
-	left: 76px;
+	top: -15px;
+	left: 75px;
 }
 
 .menu-txt-3 {
@@ -118,23 +101,12 @@
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: solid 2px grey;
+	border: solid 1.5px grey;
 	background-color: rgb(130, 230, 236);
 	width: 30px;
 	height: 30px;
-	left: 78px;
-}
-
-#incubadora-bubble{
-	top: -11px;
-}
-
-#aceleradora-bubble {
-	top: -14px;
-}
-
-#asesoria-bubble {
-	top: -12px;
+	left: 75px;
+	top: -15px;
 }
 
 .menu-txt-6 {
@@ -150,12 +122,12 @@
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: solid 2px grey;
+	border: solid 1.5px grey;
 	background-color: rgb(23, 137, 180);
 	width: 35px;
 	height: 35px;
-	top: -12px;
-	left: 76px;
+	top: -15px;
+	left: 75px;
 }
 
 .menu-txt-7 {
@@ -164,15 +136,6 @@
 	position: relative;
 	top: -190px;
 	left: -20px;
-}
-
-.menu-txt-5 p {
-	margin-top: 15px;
-}
-
-.menu-txt-7 p, .menu-txt-8 p {
-	margin-top: 20px;
-	line-height: 100%;
 }
 
 .menu-txt-8 {
@@ -188,13 +151,12 @@
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: solid 2px grey;
+	border: solid 1.5px grey;
 	background-color: rgb(91, 204, 246);
 	width: 30px;
 	height: 30px;
-	margin-top: 20px;
 	top: -15px;
-	left: 78px;
+	left: 75px;
 }
 
 .menu-txt-9 {
@@ -211,12 +173,12 @@
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: solid 2px grey;
+	border: solid 1.5px grey;
 	background-color: white;
 	width: 35px;
 	height: 35px;
-	top: -10px;
-	left: 76px;
+	top: -15px;
+	left: 75px;
 }
 
 #social-network {
