@@ -304,11 +304,10 @@ a:visited {
 	top: 20%;
 	left: 5%;
 }
-
 .lab-corp-before  {
 	position: fixed;
-	top: 40vw;
-	left: 70vw;
+	top: 10vw;
+	left: 73vw;
 	z-index: -1;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 5;
@@ -329,7 +328,7 @@ a:visited {
 
 .lab-pat-before{
 	position: fixed;
-	top: 30vw;
+	top: 25vw;
 	left: 80vw;
 	z-index: -1;
 	-moz-border-radius: 50%;
