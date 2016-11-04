@@ -27,7 +27,7 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 	position: relative;
-	top: 5vw;
+	top: 7vw;
 	font-size: 28px;
 }
 
@@ -123,20 +123,20 @@ p {
 .st {
 	font-weight: bold;
 	position: relative;
-	top: 4vw;
+	top: 7vw;
 	font-size: 20px;
 }
 
 .txt {
 	width: 90%;
-	top:5vw;
+	top:8vw;
 	left: 25px;
 }
 
 .txt-2{
 	width: 85%;
-	top:5vw;
-	left: 40px;
+	top:8vw;
+	left: 50px;
 }
 
 .sphere{
@@ -158,3 +158,6 @@ p {
 #tierra_de_risas {
 	background-image: url(Contents/logos&botones/MENU_logo_tatiana_feijoo.png)
 }
+
+
+
