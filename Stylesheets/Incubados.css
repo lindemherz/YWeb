@@ -1,0 +1,157 @@
+html, body {
+	margin: 0px auto;
+	padding: 0;
+	height: 100%;
+	outline: 0;
+    font-size: 100%;
+    background: transparent;
+    font-family: Nunito, sans-serif;
+}
+
+body, ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(130, 230, 236);
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+#background {
+	width: 87%;
+	position: fixed;
+	left: 13%;
+	height: 100%;
+
+}
+
+
+.formamos {
+	width: 70px;
+	height: 70px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid rgb(130, 130, 130);
+	background-color: rgb(23, 171, 180);
+	position: fixed;
+	left: 17vw;
+	top: 9.5vw;
+
+}
+
+.formamos-p {
+	position: relative;
+	font-size: 12px;
+	top: 15px;
+	left: 5px;
+	color: white;
+}
+
+.incubadora {
+	width: 90px;
+	height: 90px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid #8c8c8c;
+	background-color: rgb(130, 230, 236);
+	z-index: -1;
+	text-align: center;
+	position: fixed;
+	left: 20vw;
+	top: 12vw;
+
+}
+
+.incubadora-p {
+	position: relative;
+	font-size: 17px;
+	top: 15px;
+	color: rgb(130, 130, 130);
+}
+
+#logo {
+	position: absolute;
+	top: -10vw;
+	left: 25vw;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 5;
+	border-radius: 50%;
+	border: solid 4px rgb(130, 130, 130);
+	background-color: white;
+	height: 30vw;
+	width: 30vw;
+	text-align: center;
+	z-index: -1;
+}
+
+
+#info {
+	width: 40vw;
+	height: 20vw;
+	position: fixed;
+	top: 25vw;
+	left: 16vw;
+	}#info .story {
+		margin: 20px 20px 0px 20px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+
+.story {
+	position: absolute;
+	overflow: auto;
+	height: 20vw;
+	top: -2vw;
+}
+
+#namecard, .txt, .txt2 {
+	color: white;
+}
+
+#namecard {
+	font-weight: bold;
+	font-size: 22px;
+	position: relative;
+	top: -15px;
+}
+
+.contact {
+	color: white;
+	position: absolute;
+	top: 17vw;
+	left: 7vw;
+}
+
+#quote {
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+.email, .web {
+	padding-left: 0;
+}
+
+
+#name {
+	font-size: 26px;
+}
+
+.facebook-logo {
+	border-radius: 50%;
+	height: 35px;
+	position: relative;
+	left: -40px;
+
+}
+
