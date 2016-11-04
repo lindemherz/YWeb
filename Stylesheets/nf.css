@@ -1,0 +1,11 @@
+#background {
+
+	background: url(../Contents/fotos/PATRIOTAS_Nancy_Figueroa.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.quote {
+	position: absolute;
+	top: 40%;
+}
