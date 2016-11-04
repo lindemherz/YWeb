@@ -73,7 +73,7 @@ p {
 	margin: 10px auto;
 	position: relative;
 	}
-	
+
 
 .menu-txt-1 {
 	color: grey;
@@ -347,8 +347,8 @@ p {
 	position: relative;
 	left: 10vw;
 	top: -3vw;
-	width: 40vw;
-	height: 40vw;
+	width: 41vw;
+	height: 41vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -358,10 +358,12 @@ p {
 .st {
 	font-weight: bold;
 	position: relative;
-	top: 7vw;
+	top: 6vw;
 	font-size: 20px;
 }
 
-
-
-
+.txt {
+	top: 7vw;
+	padding-right: 10px;
+	padding-left: 10px;
+}
