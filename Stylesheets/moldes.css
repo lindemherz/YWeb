@@ -7,13 +7,13 @@
 .logo {
 	height: 25%;
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 27%;
 }
 
 .quote {
 	position: relative;
-	top: 13vw;
+	top: 11vw;
 }
 
 .video {
@@ -22,6 +22,7 @@
 
 .story {
 	top: 3vw;
+	height: 14vw;
 }
 
 .story p {
@@ -29,7 +30,7 @@
 }
 
 .contact {
-	top: 22vw;
+	top: 21vw;
 }
 
 .twt-logo{

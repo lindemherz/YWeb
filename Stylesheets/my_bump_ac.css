@@ -4,6 +4,11 @@
 	background-repeat: no-repeat;
 }
 
+#logo {
+	height: 32vw;
+	width: 32vw;
+}
+
 .logo {
 	height: 25%;
 	position: absolute;
