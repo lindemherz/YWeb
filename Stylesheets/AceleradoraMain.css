@@ -64,8 +64,8 @@ p {
 
 .formamos {
 	background-color: rgb(23, 171, 236);
-	height:90px;
-	width:90px;
+	height:5vw;
+	width:5vw;
 	position: relative;
 	top: 40px;
 	left:-10vw;
@@ -75,7 +75,7 @@ p {
 	position: relative;
 	top: 35%;
 	color: white;
-	font-size: 16px;
+	font-size: 3.5vw;
 	text-align: center;
 
 }
