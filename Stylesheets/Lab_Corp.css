@@ -76,7 +76,7 @@ p {
 	position: relative;
 	top: 30%;
 	color: white;
-	font-size: 16px;
+	font-size: 1.10vw;
 	text-align: center;
 
 }
@@ -93,7 +93,7 @@ p {
 .cre-lvl-p {
 	position: relative;
 	top: 18px;
-	font-size: 20px;
+	font-size: 1.30vw;
 	text-align: center;
 	}.cre-lvl-p p{
 		padding-bottom: 5px;
