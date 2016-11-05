@@ -110,7 +110,7 @@ p {
 }
 
 .title {
-	top:5vw;
+	top:4.5vw;
 }
 
 .st {
@@ -127,7 +127,7 @@ p {
 	height: 15vw;
 	width: 30vw;
 	left: 4vw;
-	top: 7vw;
+	top: 6vw;
 	overflow: auto;
 }
 
