@@ -64,11 +64,11 @@ p {
 
 .creamos {
 	background-color: rgb(23, 137, 180);
-	height:80px;
-	width:80px;
+	height:5vw;
+	width:5vw;
 	position: relative;
 	top: 40px;
-	left:-7vw;
+	left:-10vw;
 }
 
 .creamos-p {
@@ -80,6 +80,15 @@ p {
 
 }
 
+.lab-patriota {
+	position: relative;
+	left: -3vw;
+	top: 1vw;
+	background-color: rgb(91, 204, 246);
+	height:8vw;
+	width: 8vw;
+}
+
 .cre-lvl-p {
 	position: relative;
 	top: 18px;
@@ -87,20 +96,12 @@ p {
 	text-align: center;
 }
 
-.lab-patriota {
-	position: relative;
-	top: 20px;
-	background-color: rgb(91, 204, 246);
-	height:120px;
-	width: 120px;
-}
-
 .description {
 	position: relative;
 	left: 10vw;
-	top: -3vw;
-	width: 42vw;
-	height: 42vw;
+	top: -7vw;
+	width: 40vw;
+	height: 40vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
