@@ -64,8 +64,8 @@ p {
 
 .formamos {
 	background-color: rgb(23, 171, 236);
-	height:90px;
-	width:90px;
+	height:6vw;
+	width:6vw;
 	position: relative;
 	top: 40px;
 	left:-10vw;
@@ -75,16 +75,9 @@ p {
 	position: relative;
 	top: 35%;
 	color: white;
-	font-size: 16px;
+	font-size: 1.10vw;
 	text-align: center;
 
-}
-
-.form-lvl-p {
-	position: relative;
-	top: 40px;
-	font-size: 20px;
-	text-align: center;
 }
 
 .aceleradora {
@@ -92,20 +85,28 @@ p {
 	top: 20px;
 	left: -5vw;
 	background-color: rgb(130, 230, 236);
-	height:120px;
-	width: 120px;
+	height:8vw;
+	width: 8vw;
+}
+
+.form-lvl-p {
+	position: relative;
+	top: 40px;
+	font-size: 1.30vw;
+	text-align: center;
 }
 
 .description {
 	position: relative;
 	left: -1vw;
-	top: -3vw;
-	width: 41vw;
-	height: 41vw;
+	top: -4vw;
+	width: 38vw;
+	height: 38vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: solid 3px grey;
+	overflow: auto;
 }
 
 .st {
