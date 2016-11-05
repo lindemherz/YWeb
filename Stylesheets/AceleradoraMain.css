@@ -97,6 +97,7 @@ p {
 }
 
 .description {
+	overflow: auto;
 	position: relative;
 	left: -1vw;
 	top: -4vw;
@@ -106,7 +107,6 @@ p {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: solid 3px grey;
-	overflow: auto;
 }
 
 .title {
@@ -122,11 +122,15 @@ p {
 	width:35vw;
 }
 
-.txt {
-	width: 35vw;
-	top:8vw;
-	left: 1.5vw;
+.overflow {
+	position: relative;
+	height: 15vw;
+	width: 30vw;
+	left: 4vw;
+	top: 7vw;
+	overflow: auto;
 }
+
 
 .sphere{
 	position: relative;
