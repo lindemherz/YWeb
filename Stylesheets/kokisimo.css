@@ -1,19 +1,24 @@
 #background {
-	background: url(../Contents/fotos/ACELERADORA_vanesa_rubina.png);
+	background: url(../Contents/fotos/ACELERADORA_brenda_herrera.png);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+}
+
+#logo {
+	width: 31vw;
+	height: 31vw;
 }
 
 .logo {
 	height: 25%;
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 27%;
 }
 
 .quote {
 	position: relative;
-	top: 13vw;
+	top: 11vw;
 }
 
 .video {

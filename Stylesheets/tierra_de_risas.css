@@ -5,6 +5,12 @@
 	background-repeat: no-repeat;
 }
 
+#logo {
+	left: 26vw;
+	height: 28vw;
+	width: 28vw;
+}
+
 .logo {
 	position: absolute;
 	top: 40%;

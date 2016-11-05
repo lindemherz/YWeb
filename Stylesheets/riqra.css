@@ -7,14 +7,14 @@
 .logo {
 	height: 25%;
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 27%;
 }
 
 .quote {
 	font-size: 16px;
 	position: relative;
-	top: 13vw;
+	top: 11vw;
 }
 
 .video {

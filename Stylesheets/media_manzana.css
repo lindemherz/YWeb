@@ -4,16 +4,21 @@
 	background-repeat: no-repeat;
 }
 
+#logo {
+	height: 32vw;
+	width: 32vw;
+}
+
 .logo {
 	height: 25%;
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 27%;
 }
 
 .quote {
 	position: relative;
-	top: 13vw;
+	top: 12vw;
 }
 
 .video {

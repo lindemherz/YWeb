@@ -4,6 +4,10 @@
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
+#logo {
+	height: 31vw;
+	width: 31vw;
+}
 
 .logo {
 	height: 25%;
