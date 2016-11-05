@@ -99,7 +99,7 @@ p {
 .description{
 	overflow:auto;
 	position: relative;
-	left: 7vw;
+	left: 4vw;
 	top: -6vw;
 	width: 37vw;
 	height: 37vw;
@@ -131,8 +131,6 @@ p {
 	overflow: auto;
 }
 
-
-
 .sphere{
 	position: relative;
 	height: 60px;
@@ -142,13 +140,53 @@ p {
 	border-radius: 50%;
 }
 
-#como_nuevo {
-	background-image: url(Contents/logos&botones/MENU_logo_rodolfo_pozo.png)
+.sphere {
+	background-size: 100% 100%;
+	height: 8vw;
+	width: 8vw;
 }
+
+#como_nuevo {
+	background: url(../Contents/fotos/MENU_rodolfo_pozo.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 5vw;
+	left: 43vw;
+}
+
+#como_nuevo:active, #como_nuevo:hover {
+	background: url(../Contents/logos&botones/MENU_logo_rodolfo_pozo.png);
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+
 #my_bump {
-	background-image: url(Contents/logos&botones/MENU_logo_Luciana_Rey.png)
+	background: url(../Contents/fotos/MENU_Luciana_Rey.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 15vw;
+	left: 53vw;
+}
+
+
+#my_bump:active, #my_bump:hover {
+	background: url(../Contents/logos&botones/MENU_logo_Luciana_Rey.png);
+	background-size: 100% 100%;
+	position: absolute;
 }
 
 #spray_wash {
-	background-image: url(Contents/logos&botones/perfil_logo_Ricardo_Armas.png)
+	background: url(../Contents/fotos/MENU_ricardo_armas_samuel.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 25vw;
+	left: 45vw;
+}
+
+#spray_wash:active, #spray_wash:hover {
+	background: url(../Contents/logos&botones/MENU_logo_Ricardo_Armas.png);
+	background-size: 100% 100%;
+	position: absolute;
 }
