@@ -1,0 +1,44 @@
+#background {
+	background: url(../Contents/fotos/ACELERADORA_gonzalo_rossello.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	height: 25%;
+	position: absolute;
+	top: 20%;
+	left: 27%;
+}
+
+.quote {
+
+	position: relative;
+	top: 13vw;
+}
+
+.video {
+	top: 1vw;
+}
+
+.story {
+	top: 4vw;
+}
+
+.story p {
+	color: white;
+}
+
+.contact {
+	top: 23vw;
+}
+
+.In-logo{
+	height: 35px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: relative;
+	top:-50px;
+	left: 20px;
+}
