@@ -64,8 +64,8 @@ p {
 
 .formamos {
 	background-color: rgb(23, 171, 236);
-	height:90px;
-	width:90px;
+	height:6vw;
+	width:6vw;
 	position: relative;
 	top: 40px;
 	left:-10vw;
@@ -75,16 +75,9 @@ p {
 	position: relative;
 	top: 35%;
 	color: white;
-	font-size: 16px;
+	font-size: 1.10vw;
 	text-align: center;
 
-}
-
-.form-lvl-p {
-	position: relative;
-	top: 40px;
-	font-size: 20px;
-	text-align: center;
 }
 
 .asesorias {
@@ -92,14 +85,22 @@ p {
 	top: 20px;
 	left: -5vw;
 	background-color: rgb(130, 230, 236);
-	height:120px;
-	width: 120px;
+	height:8vw;
+	width: 8vw;
+}
+
+.form-lvl-p {
+	position: relative;
+	top: 40px;
+	font-size: 1.30vw;
+	text-align: center;
 }
 
 .description{
+	overflow:auto;
 	position: relative;
-	left: 15vw;
-	top: -5vw;
+	left: 7vw;
+	top: -6vw;
 	width: 37vw;
 	height: 37vw;
 	-moz-border-radius: 50%;
@@ -108,32 +109,28 @@ p {
 	border: solid 3px grey;
 }
 
-.description-corp {
-	position: relative;
-	left: 28vw;
-	top: -50vw;
-	width: 40vw;
-	height: 40vw;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	border: solid 3px grey;
+.title {
+	top:4.5vw;
 }
 
 .st {
 	font-weight: bold;
 	position: relative;
-	top: 2vw;
+	top: 4vw;
 	font-size: 20px;
 	width: 80%;
-	left: 45px;
+	left: 4vw;
 }
 
-.txt {
-	width: 90%;
-	top:2vw;
-	left: 25px;
+.overflow {
+	position: relative;
+	height: 15vw;
+	width: 30vw;
+	left: 4vw;
+	top: 6vw;
+	overflow: auto;
 }
+
 
 
 .sphere{

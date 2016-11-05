@@ -64,10 +64,10 @@ p {
 
 .formamos {
 	background-color: rgb(23, 171, 236);
-	height:90px;
-	width:90px;
+	height:6vw;
+	width:6vw;
 	position: relative;
-	top: 40px;
+	top: 1vw;
 	left:-10vw;
 }
 
@@ -75,31 +75,30 @@ p {
 	position: relative;
 	top: 35%;
 	color: white;
-	font-size: 16px;
+	font-size: 1.10vw;
 	text-align: center;
 
+}
+
+.incubadora {
+	position: relative;
+	left: -5vw;
+	background-color: rgb(130, 230, 236);
+	height:8vw;
+	width: 8vw;
 }
 
 .form-lvl-p {
 	position: relative;
 	top: 40px;
-	font-size: 20px;
+	font-size: 1.30vw;
 	text-align: center;
 }
 
-.incubadora {
-	position: relative;
-	top: 20px;
-	left: -5vw;
-	background-color: rgb(130, 230, 236);
-	height:120px;
-	width: 120px;
-}
-
 .description{
+	overflow: auto;
 	position: relative;
 	left: -8vw;
-	top: 1vw;
 	width: 36vw;
 	height: 36vw;
 	-moz-border-radius: 50%;
@@ -109,15 +108,27 @@ p {
 }
 
 .description-corp {
+	overflow: auto;
 	position: relative;
 	left: 28vw;
 	top: -50vw;
-	width: 42vw;
-	height: 42vw;
+	width: 36vw;
+	height: 36vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: solid 3px grey;
+}
+
+.title {
+	top:4.5vw;
+	width: 30vw;
+}
+
+.title-2 {
+	top:4.5vw;
+	width: 26vw;
+	left:5vw;
 }
 
 .st {
@@ -127,16 +138,13 @@ p {
 	font-size: 20px;
 }
 
-.txt {
-	width: 90%;
-	top:6vw;
-	left: 25px;
-}
-
-.txt-2{
-	width: 85%;
-	top:6vw;
-	left: 40px;
+.overflow {
+	position: relative;
+	height: 15vw;
+	width: 30vw;
+	left: 3vw;
+	top: 6vw;
+	overflow: auto;
 }
 
 .sphere{
