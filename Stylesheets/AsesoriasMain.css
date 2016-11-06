@@ -131,7 +131,14 @@ p {
 	overflow: auto;
 }
 
+<<<<<<< HEAD
+.sphere {
+=======
 .sphere{
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;

@@ -67,7 +67,7 @@ p {
 	height:6vw;
 	width:6vw;
 	position: relative;
-	top: 40px;
+	top: 3vw;
 	left:-10vw;
 }
 
@@ -82,8 +82,8 @@ p {
 
 .aceleradora {
 	position: relative;
-	top: 20px;
-	left: -5vw;
+	top: 1vw;
+	left: -6vw;
 	background-color: rgb(130, 230, 236);
 	height:8vw;
 	width: 8vw;
@@ -99,8 +99,8 @@ p {
 .description {
 	overflow: auto;
 	position: relative;
-	left: -1vw;
-	top: -4vw;
+	left: -2vw;
+	top: -5vw;
 	width: 38vw;
 	height: 38vw;
 	-moz-border-radius: 50%;
@@ -133,122 +133,321 @@ p {
 
 
 .sphere{
-	position: relative;
-	height: 60px;
-	width: 60px;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
+	background-size: 100% 100%;
+	height: 8vw;
+	width: 8vw;
 }
 
 #Asociacion_Taller_Ninos {
-	background-image: url(../Contents/logos&botones/MENU_logo_Sara_Cifuentes.png)
+		background: url(../Contents/fotos/MENU_sara_cifuentes.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 5vw;
+	left: 30vw;
+
+}
+
+#Asociacion_Taller_Ninos:hover, #Asociacion_Taller_Ninos:active {
+	background: url(../Contents/logos&botones/MENU_logo_Sara_Cifuentes.png);
+	background-size: 100% 100%;
 }
 
 #Atomika {
-	background-image: url(../Contents/logos&botones/MENU_logo_erika_pavletich.png)
+		background: url(../Contents/fotos/MENU_ericka_pavletich.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 10vw;
+	left: 40vw;
+}
+
+#Atomika:hover, #Atomika:active {
+	background: url(../Contents/logos&botones/MENU_logo_erika_pavletich.png);
+	background-size: 100% 100%;
 }
 
 #Bederr {
-	background-image: url(../Contents/logos&botones/MENU_logo_mario_gil.png)
+	background: url(../Contents/fotos/MENU_mario_gil.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 5vw;
+	left: 50vw;
+}
+
+#Bederr:hover, #Bederr:active {
+	background: url(../Contents/logos&botones/MENU_logo_mario_gil.png);
+	background-size: 100% 100%;
 }
 
 #Bocadio {
-	background-image: url(../Contents/logos&botones/MENU_logo_diego_echecopar.png)
+	background: url(../Contents/fotos/MENU_diego_echecopar.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 10vw;
+	left: 60vw;
+}
+
+#Bocadio:hover, #Bocadio:active {
+	background: url(../Contents/logos&botones/MENU_logo_diego_echecopar.png);
+	background-size: 100% 100%;
 }
 
 #Diloo {
-	background-image: url(../Contents/logos&botones/MENU_logo_jose_ignacio_bernal.png)
+	background: url(../Contents/fotos/MENU_jose_ignacio_bernal.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20vw;
+	left: 37vw;
+}
+
+#Diloo:hover, #Dillo:active {
+	background: url(../Contents/logos&botones/MENU_logo_jose_ignacio_bernal.png);
+	background-size: 100% 100%;
 }
 
 #Doktuz {
-	background-image: url(../Contents/logos&botones/MENU_logo_abraham_abramovitz.png)
+	background: url(../Contents/fotos/MENU_abraham_abramovitz.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 15vw;
+	left: 50vw;
+}
+
+#Doktuz:hover, #Doktuz:active {
+	background: url(../Contents/logos&botones/MENU_logo_abraham_abramovitz.png);
+	background-size: 100% 100%;
 }
 
 #Donante_Pendiente {
-	background-image: url(../Contents/logos&botones/MENU_logo_vanessa_vasquez.png)
+	background: url(../Contents/fotos/MENU_vanessa_vargas.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 21vw;
+	left:58vw;
+}
+
+#Donante_Pendiente:hover, #Donante_Pendiente:active {
+	background: url(../Contents/logos&botones/MENU_logo_vanessa_vasquez.png);
+	background-size: 100% 100%;
 }
 
 #Equus_Corporation {
-	background-image: url(../Contents/logos&botones/MENU_logo_paola_quintana.png)
+	background: url(../Contents/fotos/MENU_paola_quintana.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 25vw;
+	left: 47vw;
+}
+
+#Equus_Corporation:hover, #Equus_Corporation:active {
+	background: url(../Contents/logos&botones/MENU_logo_paola_quintana.png);
+	background-size: 100% 100%;
 }
 
 #Health_Coaches {
-	background-image: url(../Contents/logos&botones/MENU_logo_ericka_echegaray.png)
+	background: url(../Contents/fotos/MENU_erika_echegaray.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 32vw;
+	left: 38vw;
+}
+
+#Health_Coaches:hover, #Health_Coaches:active {
+	background: url(../Contents/logos&botones/MENU_logo_ericka_echegaray.png);
+	background-size: 100% 100%;
 }
 
 #Infusion {
-	background-image: url(../Contents/logos&botones/MENU_logo_blythe_muro.png)
+	background: url(../Contents/fotos/MENU_blythe.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 30vw;
+	left: 55vw;
+}
+
+#Infusion:hover, #Infusion:active {
+	background: url(../Contents/logos&botones/MENU_logo_blythe_muro.png);
+	background-size: 100% 100%;
 }
 
 #Kallku {
-	background-image: url(../Contents/logos&botones/MENU_logo_vanesa_rubina.png)
+	background: url(../Contents/fotos/MENU_vanesa_rubina.png);
+	background-size: 100% 100%;
+}
+
+#Kallku:hover, #Kallku:active {
+	background: url(../Contents/logos&botones/MENU_logo_vanesa_rubina.png);
+	background-size: 100% 100%;
 }
 
 #Kokisimo {
-	background-image: url(../Contents/logos&botones/MENU_logo_Brenda_Herrera.png)
+	background: url(../Contents/fotos/MENU_brenda_herrera.png);
+	background-size: 100% 100%;
+}
+
+#Kokisimo:hover, #Kokisimo:active {
+	background-image: url(../Contents/logos&botones/MENU_logo_Brenda_Herrera.png);
+	background-size: 100% 100%;
 }
 
 #Lulipa {
-	background-image: url(../Contents/logos&botones/MENU_logo_nati_agois.png)
+	background: url(../Contents/fotos/MENU_nati_agois.png);
+	background-size: 100% 100%;
+}
+
+#Lulipa:hover, #Lulipa:active {
+	background: url(../Contents/logos&botones/MENU_logo_nati_agois.png);
+	background-size: 100% 100%;
 }
 
 #Mi_Media_Manzana {
-	background-image: url(../Contents/logos&botones/MENU_logo_Pedro_Neira.png)
+	background: url(../Contents/fotos/MENU_pedro_neira.png);
+	background-size: 100% 100%;
+}
+
+#Mi_Media_Manzana:hover, #Mi_Media_Manzana:active {
+	background: url(../Contents/logos&botones/MENU_logo_Pedro_Neira.png);
+	background-size: 100% 100%;
 }
 
 #Moldes {
-	background-image: url(../Contents/logos&botones/MENU_logo_katia_de_la_cruz.png)
+	background: url(../Contents/fotos/MENU_katia_de_la_cruz.png);
+	background-size: 100% 100%;
+}
+
+#Moldes:hover, #Moldes:active {
+	background: url(../Contents/logos&botones/MENU_logo_katia_de_la_cruz.png);
+	background-size: 100% 100%;
 }
 
 #My_Bump_Ac {
-	background-image: url(../Contents/logos&botones/MENU_logo_Luciana_Rey.png)
+	background: url(../Contents/fotos/MENU_luciana_rey.png);
+	background-size: 100% 100%;
+}
+
+#My_Bump_Ac:hover, #My_Bump_Ac:active {
+	background: url(../Contents/logos&botones/MENU_logo_Luciana_Rey.png);
+	background-size: 100% 100%;
 }
 
 #Peru_Apps {
-	background-image: url(Contents/logos&botones/MENU_logo_julio_ramon.png)
+	background: url(../Contents/fotos/MENU_julio_ramon.png);
+	background-size: 100% 100%;
+}
+
+#Peru_Apps:hover, #Peru_Apps:active {
+	background: url(../Contents/logos&botones/MENU_logo_julio_ramon.png);
+	background-size: 100% 100%;
 }
 
 #PickUp {
-	background-image: url(Contents/logos&botones/MENU_logo_felix_ipanaque.png)
+	background: url(../Contents/fotos/MENU_felix_ipanaque.png);
+	background-size: 100% 100%;
+}
+
+#PickUp:hover, #PickUp:active {
+	background: url(../Contents/logos&botones/MENU_logo_felix_ipanaque.png);
+	background-size: 100% 100%;
 }
 
 #Planeta_Oceano {
-	background-image: url(../Contents/logos&botones/MENU_logo_kerstin_forsberg.png)
+	background: url(../Contents/fotos/MENU_kerstin_forsberg.png);
+	background-size: 100% 100%;
+}
+
+#Planeta_Oceano:hover, #Planeta_Oceano:active {
+	background: url(../Contents/logos&botones/MENU_logo_kerstin_forsberg.png);
+	background-size: 100% 100%;
 }
 
 #Qempo {
-	background-image: url(../Contents/logos&botones/perfil_logo_anson_tou.png)
+	background: url(../Contents/fotos/MENU_anson_tou.png);
+	background-size: 100% 100%;
+}
+
+#Qempo:hover, #Qempo:active {
+	background: url(../Contents/logos&botones/perfil_logo_anson_tou.png);
+	background-size: 100% 100%;
 }
 
 #Riqra {
-	background-image: url(../Contents/logos&botones/MENU_logo_jaime_chiarella.png)
+	background: url(../Contents/fotos/MENU_jaime_chiarella.png);
+	background-size: 100% 100%;
+}
+
+#Riqra:hover, #Riqra:active {
+	background: url(../Contents/logos&botones/MENU_logo_jaime_chiarella.png);
+	background-size: 100% 100%;
 }
 
 #Spray_Wash_Ac {
-	background-image: url(../Contents/logos&botones/MENU_logo_Ricardo_Armas.png)
+	background: url(../Contents/fotos/MENU_ricardo_armas_samuel.png);
+	background-size: 100% 100%;
+}
+
+#Spray_Wash_Ac:active, #Spray_Wash_Ac {
+	background: url(../Contents/logos&botones/MENU_logo_Ricardo_Armas.png);
+	background-size: 100% 100%;
 }
 
 #Turismoi {
-	background-image: url(../Contents/logos&botones/MENU_logo_diego_arbulu.png)
+	background: url(../Contents/fotos/MENU_diego_arbulu.png);
+	background-size: 100% 100%;
+}
+
+#Turismoi:hover, #Turismoi:active {
+	background: url(../Contents/logos&botones/MENU_logo_diego_arbulu.png);
+	background-size: 100% 100%;
 }
 
 #Up_Peru {
-	background-image: url(../Contents/logos&botones/MENU_logo_Amadeus_Malca.png)
+	background: url(../Contents/fotos/MENU_amadeus_malca.png);
+	background-size: 100% 100%;
+}
+
+#Up_Peru:hover, #Up_Peru:active {
+	background: url(../Contents/logos&botones/MENU_logo_Amadeus_Malca.png);
+	background-size: 100% 100%;
 }
 
 #Vecinos360 {
-	background-image: url(../Contents/logos&botones/MENU_logo_gonzalo_rossello.png)
+	background: url(../Contents/fotos/MENU_gonzalo_rossello.png);
+	background-size: 100% 100%;
+}
+
+#Vecinos360:hover, #Vecinos360:active {
+	background: url(../Contents/logos&botones/MENU_logo_gonzalo_rossello.png);
+	background-size: 100% 100%;
 }
 
 #Yaqua {
-	background-image: url(../Contents/logos&botones/MENU_logo_fernando_tamayo.png)
+	background: url(../Contents/fotos/MENU_fernando_tamayo.png);
+	background-size: 100% 100%;
+}
+
+#Yaqua:hover, #Yaqua:active {
+	background: url(../Contents/logos&botones/MENU_logo_fernando_tamayo.png);
+	background-size: 100% 100%;
 }
 
 #Yunta {
-	background-image: url(../Contents/logos&botones/MENU_logo_jose_carrera.png)
+	background: url(../Contents/fotos/MENU_jose_carrera.png);
+	background-size: 100% 100%;
+}
+
+#Yunta:hover, #Yunta:active {
+	background: url(../Contents/logos&botones/MENU_logo_jose_carrera.png);
+	background-size: 100% 100%;
 }
 
 #zenQbar {
-	background-image: url(../Contents/logos&botones/MENU_logo_santiago_sologuren.png)
+	background: url(../Contents/fotos/MENI_santiago_sologuren.png);
+	background-size: 100% 100%;
+}
+
+#zenQbar:hover, #zenQbar:active {
+	background: url(../Contents/logos&botones/MENU_logo_santiago_sologuren.png);
+	background-size: 100% 100%;
 }
