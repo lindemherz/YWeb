@@ -23,12 +23,12 @@ a, ul {
 #sidemenu ul {
 	position: relative;
 	top: -20px;
-	left: -30px;
+	left: -40px;
 }
 
 #menu-front {
 	padding-top: 10px;
-	padding-left: 20%;
+	padding-left: 21%;
 	width: 70px;
 	height: 90px;
 	margin: 10px auto;
@@ -111,7 +111,7 @@ a, ul {
 	background-color: rgb(130, 230, 236);
 	width: 30px;
 	height: 30px;
-	left: 79px;
+	left: 78px;
 	top: -13px;
 }
 
@@ -162,7 +162,7 @@ a, ul {
 	width: 30px;
 	height: 30px;
 	top: -12px;
-	left: 79px;
+	left: 78px;
 }
 
 .menu-txt-9 {
@@ -185,6 +185,14 @@ a, ul {
 	height: 35px;
 	top: -10px;
 	left: 76px;
+}
+
+.menu-txt-1, .menu-txt-2, .menu-txt-6, .menu-txt-9 {
+	text-transform: lowercase;
+}
+
+.menu-formamos, .menu-creamos, .menu-pat {
+	padding-top: 15px;
 }
 
 #social-network {
