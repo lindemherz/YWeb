@@ -96,10 +96,10 @@ p {
 
 .description{
 	position: relative;
-	left: 5vw;
+	left: 8vw;
 	top: 5vw;
-	width: 40vw;
-	height: 40vw;
+	width: 39vw;
+	height: 39vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -109,7 +109,7 @@ p {
 #patriotas-logo {
 	position: relative;
 	top:4vw;
-	left: 10vw;
+	left: 12vw;
 	height: 70px;
 	width: 250px;
 }
@@ -124,7 +124,7 @@ p {
 .txt {
 	width: 90%;
 	top:6vw;
-	left: 25px;
+	left: 2vw;
 }
 
 .txt-2{
@@ -134,10 +134,87 @@ p {
 }
 
 .sphere{
-	position: relative;
-	height: 60px;
-	width: 60px;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
+	background-size: 100% 100%;
+	height: 8vw;
+	width: 8vw;
+}
+
+
+#nf {
+	background: url(../Contents/fotos/MENU_nancy_figueroa.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 5vw;
+	left: -8vw;
+
+}
+
+#jaf {
+	background: url(../Contents/fotos/MENU_Juan_Flores.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 15vw;
+	left: -2vw;
+}
+
+
+#hl {
+	background: url(../Contents/fotos/MENU_Hernan_Lanzara.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 25vw;
+	left: -8vw;
+}
+
+#nm {
+	background: url(../Contents/fotos/MENU_Natalia_Manso.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 35vw;
+	left: -2vw;
+}
+
+#smq {
+	background: url(../Contents/fotos/MENU_Silvia_Miro_Quesada.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 5vw;
+	left: 55vw;
+}
+
+#jm {
+	background: url(../Contents/fotos/MENU_Juan_Montoya.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top:15vw;
+	left:50vw;
+}
+
+#jjt {
+	background: url(../Contents/fotos/MENU_Juan_Jose_Tirado.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 25vw;
+	left: 55vw;
+}
+
+
+#ft {
+	background: url(../Contents/fotos/MENU_Fidel_Torres.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 35vw;
+	left: 50vw;
+}
+
+
+#nf:hover, #nf:active, #jaf:hover, #jaf:active, #hl:hover, #hl:active, #nm:hover, #nm:active, #smq:hover, #smq:active, #jm:hover, #jm:active, #jjt:hover, #jjt:active, #ft:hover, #ft:active {
+	background: url(../Contents/logos&botones/patriotas-logo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 28%;
+	background-position: 10%;
+
 }
