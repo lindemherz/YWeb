@@ -121,3 +121,12 @@ p {
 	top:8vw;
 	left: 25px;
 }
+
+/*Twicks to the side menu */
+#fb-logo {
+	bottom: 0.3vw;
+}
+
+#vimeo-logo {
+	top: -5.3vw !important;
+}

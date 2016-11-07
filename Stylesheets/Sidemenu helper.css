@@ -176,6 +176,10 @@
 	padding-top: 15px;
 }
 
+.menu-formamos, .menu-creamos {
+	text-transform: lowercase;
+}
+
 #social-network {
 	position: relative;
 	left: 10px;
@@ -184,7 +188,7 @@
 	top: 10px;
 }
 
-.fb {
+#sidemenu .fb {
 	float: left;
 	left: 10px;
 	padding: 5px;
@@ -197,7 +201,7 @@
 	border-radius: 30%;
 }
 
-.twitter {
+#sidemenu .twitter {
 	float: left;
 	left: 70px;
 	padding: 5px;
@@ -209,7 +213,7 @@
 	border-radius: 25%;
 }
 
-.vimeo {
+#sidemenu .vimeo {
 	float: left;
 	left: 130px;
 	padding: 5px;
@@ -226,18 +230,18 @@
 	margin: 10 0 10 0;
 }
 
-.contact-info {
+#sidemenu .contact-info {
 	width: 230px;
 }
 
-.phone-num {
+#sidemenu .phone-num {
 	text-align: center;
 	position:relative;
 	top: 20px;
 	right: 40px;
 }
 
-.email-address{
+#sidemenu .email-address{
 	text-align: center;
 	margin-top: -3px;
 	padding: 3%;

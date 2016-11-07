@@ -48,6 +48,7 @@ p {
 	left: 30%;
 	}
 
+
 .bubble {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -67,7 +68,7 @@ p {
 
 .creamos-p {
 	position: relative;
-	top: 30%;
+	top: 35%;
 	color: white;
 	font-size: 1.10vw;
 	text-align: center;
@@ -85,7 +86,7 @@ p {
 
 .cre-lvl-p {
 	position: relative;
-	top: 18px;
+	top: 25px;
 	font-size: 1.30vw;
 	text-align: center;
 	}.cre-lvl-p p{
@@ -124,15 +125,14 @@ p {
 }
 
 /*Twicks to the side menu */
-.menu-list {
+/*.menu-list {
 	top: -2vw !important;
-}
+}*/
 
 #fb-logo {
 	bottom: 0.25vw;
 }
 
 #vimeo-logo {
-	top: -5.1vw !important;
+	top: -5.3vw !important;
 }
-
