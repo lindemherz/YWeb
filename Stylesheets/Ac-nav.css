@@ -1,4 +1,5 @@
-.b-nav {
+.page-wrap {
+	overflow: auto;
 	z-index: -1;
 }
 
