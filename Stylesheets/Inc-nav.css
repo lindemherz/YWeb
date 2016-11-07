@@ -1,0 +1,47 @@
+.nav {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-size: 100% 100%;
+	height: 3.5vw;
+	width: 3.5vw;
+}
+
+#helpingdent {
+	background: url(../Contents/fotos/MENU_jose_francisco_alvarez.png);
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 2vw;
+	left: 38vw;
+}
+
+#helpingdent:hover, #helpingdent:active {
+	background: url(../Contents/logos&botones/MENU_logo_Jose_Francisco_Alvarez.png);
+	background-size: 100% 100%;
+}
+
+#taller_de_los_ninos {
+	background: url(../Contents/fotos/MENU_sara_cifuentes.png);
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 2vw;
+	left: 34vw;
+}
+
+#taller_de_los_ninos:hover, #taller_de_los_ninos:active {
+	background: url(../Contents/logos&botones/MENU_logo_Sara_Cifuentes.png);
+	background-size: 100% 100%;
+}
+
+#tierra_de_risas {
+	background: url(../Contents/fotos/MENU_tatiana_feijoo.png);
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 2vw;
+	left: 42vw;
+}
+
+#tierra_de_risas:hover, #tierras_de_risas:active {
+	background: url(../Contents/logos&botones/MENU_logo_tatiana_feijoo.png);
+	background-size: 100% 100%;
+}

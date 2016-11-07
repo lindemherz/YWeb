@@ -1,0 +1,53 @@
+.nav {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-size: 100% 100%;
+	height: 3.5vw;
+	width: 3.5vw;
+}
+
+#como_nuevo {
+	background: url(../Contents/fotos/MENU_rodolfo_pozo.png);
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 2vw;
+	left: 34vw;
+}
+
+#como_nuevo:active, #como_nuevo:hover {
+	background: url(../Contents/logos&botones/MENU_logo_rodolfo_pozo.png);
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+
+#my_bump {
+	background: url(../Contents/fotos/MENU_Luciana_Rey.png);
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 2vw;
+	left: 38vw;
+}
+
+
+#my_bump:active, #my_bump:hover {
+	background: url(../Contents/logos&botones/MENU_logo_Luciana_Rey.png);
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+#spray_wash {
+	background: url(../Contents/fotos/MENU_ricardo_armas_samuel.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 2vw;
+	left: 42vw;
+}
+
+#spray_wash:active, #spray_wash:hover {
+	background: url(../Contents/logos&botones/MENU_logo_Ricardo_Armas.png);
+	background-size: 100% 100%;
+	position: absolute;
+}
