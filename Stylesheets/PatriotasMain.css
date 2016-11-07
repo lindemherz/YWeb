@@ -96,13 +96,14 @@ a, a:visited {
 	font-size: 20px;
 	position: relative;
 	font: 1.2em/1.8em Nunito, sans-serif;
+	text-align: center;
 }
 
 
 #patriotas-logo {
 	position: relative;
 	top:4vw;
-	left: 12vw;
+	left: 10vw;
 	height: 70px;
 	width: 250px;
 }
@@ -224,4 +225,3 @@ a, a:visited {
 #vimeo-logo {
 	top: -5.1vw !important;
 }
-

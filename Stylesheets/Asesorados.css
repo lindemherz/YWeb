@@ -17,7 +17,7 @@ p {
 	margin-bottom: 10px;
 }
 
-a {
+.contact a {
 	text-decoration: none;
 	color: rgb(130, 230, 236);
 }
@@ -52,7 +52,7 @@ a:visited {
 .formamos-p {
 	position: relative;
 	font-size: 12px;
-	top: 15px;
+	top: 27px;
 	left: 5px;
 	color: white;
 }
@@ -76,7 +76,7 @@ a:visited {
 .asesorias-p {
 	position: relative;
 	font-size: 18px;
-	top: 15px;
+	top: 33px;
 	color: rgb(130, 130, 130);
 }
 
@@ -154,4 +154,3 @@ a:visited {
 	left: -40px;
 
 }
-
