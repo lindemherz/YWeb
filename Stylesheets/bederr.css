@@ -15,7 +15,9 @@
 
 .quote {
 	position: relative;
-	top: 13vw;
+	top: 15vw;
+	left: 2vw;
+	width: 85%;
 }
 
 .story {

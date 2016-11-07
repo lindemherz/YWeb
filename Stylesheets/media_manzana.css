@@ -12,7 +12,7 @@
 .logo {
 	height: 25%;
 	position: absolute;
-	top: 15%;
+	top: 12%;
 	left: 27%;
 }
 
@@ -38,6 +38,6 @@
 }
 
 .twt-logo{
-	top:-50px;
-	left: 30px;
+	top: -1.7vw;
+	left: 3vw;
 }
