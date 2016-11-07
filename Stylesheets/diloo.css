@@ -15,7 +15,8 @@
 
 .quote {
 	position: relative;
-	top: 13vw;
+	top: 23vh;
+	font-size: 2.5vh;
 }
 
 .video {
@@ -28,5 +29,5 @@
 }
 
 .contact {
-	top: 23vw;
+	top: 40vh;
 }

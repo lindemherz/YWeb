@@ -14,7 +14,7 @@
 
 .quote {
 	position: relative;
-	top: 14vw;
+	top: 23vh;
 }
 
 .video {
@@ -22,7 +22,7 @@
 }
 
 .story {
-	top: 2vw;
+	top: 8vh;
 }
 
 .story p {
@@ -30,5 +30,5 @@
 }
 
 .contact {
-	top: 23vw;
+	top: 40vh;
 }

@@ -13,7 +13,7 @@
 
 .quote {
 	position: relative;
-	top: 13vw;
+	top: 23vh;
 }
 
 .video {
@@ -21,8 +21,8 @@
 }
 
 .story {
-	top: 4vw;
-	height: 12vw;
+	top: 8vh;
+	height: 23vh;
 }
 
 .story p {
@@ -30,7 +30,7 @@
 }
 
 .contact {
-	top: 21vw;
+	top: 40vh;
 }
 
 .In-logo{
@@ -39,6 +39,6 @@
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	position: relative;
-	top:-3vw;
-	left: 3vw;
+	left: 0;
+	top: -50px;
 }
