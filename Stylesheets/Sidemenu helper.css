@@ -176,6 +176,10 @@
 	padding-top: 15px;
 }
 
+.menu-formamos, .menu-creamos {
+	text-transform: lowercase;
+}
+
 #social-network {
 	position: relative;
 	left: 10px;
