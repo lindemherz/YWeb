@@ -13,15 +13,7 @@ html, body {
     background: transparent;
 }
 
-body {
-	font-size: 62.5%;
-}
 
-p, li, h1 {
-	font: 1.2em/1.8em Nunito, sans-serif;
-	margin-bottom: 10px;
-	text-align: center;
-}
 
 h1 {
 	text-align: center;
@@ -40,10 +32,6 @@ a, a:visited {
 	color: black;
 }
 
-p {
-	font-size: 20px;
-	position: relative;
-}
 
 #page-wrap {
 	background: white;
@@ -104,7 +92,12 @@ p {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: solid 3px grey;
+	} .description p {
+	font-size: 20px;
+	position: relative;
+	font: 1.2em/1.8em Nunito, sans-serif;
 }
+
 
 #patriotas-logo {
 	position: relative;
@@ -218,3 +211,17 @@ p {
 	background-position: 10%;
 
 }
+
+/*Twicks to the side menu */
+.menu-list {
+	top: 5vw !important;
+}
+
+#fb-logo {
+	bottom: 0.25vw;
+}
+
+#vimeo-logo {
+	top: -5.1vw !important;
+}
+
