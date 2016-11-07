@@ -44,22 +44,22 @@
 	font-weight: 300;
 	} #sidemenu p {
 		text-align: center;
-		font-size: 1.13vw;
-		margin-bottom: 34px;
+		font-size: 1.9vh;
+		margin-bottom: 12.4%;
 	}
 
 #menu-front {
 	position: relative;
-	top: 1.5vw;
-	left: 4.5vw;
-	width: 4vw;
+	top: 4vh;
+	left: 4.2vw;
+	width: 30%;
 }
 
 /* Text and balls */
 
 #sidemenu .menu-list {
 	position: relative;
-	top: 4vw;
+	top: 8vh;
 	left: -1.75vw;
 	} .menu-list p {
 	margin-bottom: 2.5vw;
@@ -93,8 +93,8 @@
 	width: 1.5vw;
 	height: 1.5vw;
 	position: absolute;
-	top: -2vw;
-	left: 7.5vw;
+	top: -5%;
+	left: 45%;
 }
 
 #sidemenu .formamos-bubble {
@@ -102,8 +102,8 @@
 	width: 2.2vw;
 	height: 2.2vw;
 	position: absolute;
-	top: 1.5vw;
-	left: 7.2vw;
+	top: 4.5%;
+	left: 43%;
 
 	/*visibility: hidden;*/
 }
@@ -117,8 +117,8 @@
 	width: 1.5vw;
 	height: 1.5vw;
 	position: absolute;
-	top: 6vw;
-	left: 7.5vw;
+	top: 16.5%;
+	left: 45%;
 }
 
 .menu-creamos {
@@ -130,8 +130,8 @@
 	width: 1.5vw;
 	height: 1.5vw;
 	position: absolute;
-	top: 10vw;
-	left: 7.5vw;
+	top: 27.5%;
+	left: 45%;
 }
 
 #sidemenu .asesoria-bubble {
@@ -139,8 +139,8 @@
 	width: 1.5vw;
 	height: 1.5vw;
 	position: absolute;
-	top: 14vw;
-	left: 7.5vw;
+	top: 38.5%;
+	left: 45%;
 }
 
 #sidemenu .creamos-bubble {
@@ -148,8 +148,8 @@
 	width: 2.2vw;
 	height: 2.2vw;
 	position: absolute;
-	top: 17.4vw;
-	left: 7.2vw;
+	top: 48%;
+	left: 43%;
 
 	/*visibility: hidden;*/
 }
@@ -159,8 +159,8 @@
 	width: 1.5vw;
 	height: 1.5vw;
 	position: absolute;
-	top: 22vw;
-	left: 7.5vw;
+	top: 60%;
+	left: 45%;
 }
 
 #sidemenu .lab-pat-bubble {
@@ -168,8 +168,8 @@
 	width: 1.5vw;
 	height: 1.5vw;
 	position: absolute;
-	top: 27vw;
-	left: 7.5vw;
+	top: 75%;
+	left: 45%;
 }
 
 #sidemenu .patriotas-bubble {
@@ -177,8 +177,8 @@
 	width: 2.2vw;
 	height: 2.2vw;
 	position: absolute;
-	top: 32.1vw;
-	left: 7.2vw;
+	top: 89%;
+	left: 43%;
 }
 
 /*Contact Info */
@@ -187,8 +187,8 @@
 
 #sidemenu #social-network {
 	position: absolute;
-	bottom:-1vw;
-	left: 0.4vw;
+	bottom:-1%;
+	left: 3%;
 }
 
 #sidemenu #fb-logo {
@@ -208,7 +208,7 @@
 	height: 2.5vw;
 	position: relative;
 	left: 5vw;
-	top: -2.8vw;
+	top: -5vh;
 }
 
 #sidemenu #vimeo-logo {
@@ -218,21 +218,21 @@
 	height: 2.5vw;
 	position: relative;
 	left: 8vw;
-	top: -5.7vw;
+	top: -10vh;
 }
 
 /* Phone number and email */
 
 #sidemenu .phone-num {
 	position: absolute;
-	bottom: 2.7vw;
-	left: 2.7vw;
-	font-size: 1vw;
+	bottom: 5%;
+	left: 15%;
+	font-size: 2vh;
 }
 
 #sidemenu .email-address {
 	position: absolute;
-	bottom: 1vw;
-	left: 1vw;
-	font-size: 1vw;
+	bottom: 2%;
+	left: 5%;
+	font-size: 2vh;
 }

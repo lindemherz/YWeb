@@ -9,19 +9,19 @@
 .logo {
 	height: 25%;
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 25%;
 }
 
 .quote {
 	position: relative;
-	top: 15vw;
+	top: 23vh;
 	left: 2vw;
 	width: 85%;
 }
 
 .story {
-	top: 4vw;
+	top: 8vh;
 }
 
 .story p {
@@ -29,5 +29,5 @@
 }
 
 .contact {
-	top: 23vw;
+	top: 40vh;
 }

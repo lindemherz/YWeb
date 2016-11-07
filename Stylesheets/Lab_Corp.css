@@ -125,14 +125,14 @@ p {
 }
 
 /*Twicks to the side menu */
-/*.menu-list {
-	top: -2vw !important;
-}*/
-
 #fb-logo {
-	bottom: 0.25vw;
+	bottom: 1.9vh;
+}
+
+#twitter-logo {
+	top: -6.3vh !important;
 }
 
 #vimeo-logo {
-	top: -5.3vw !important;
+	top: -10.6vh !important;
 }

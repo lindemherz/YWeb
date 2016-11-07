@@ -214,14 +214,14 @@ a, a:visited {
 }
 
 /*Twicks to the side menu */
-.menu-list {
-	top: 5vw !important;
+#fb-logo {
+	bottom: 1.9vh;
 }
 
-#fb-logo {
-	bottom: 0.25vw;
+#twitter-logo {
+	top: -6.3vh !important;
 }
 
 #vimeo-logo {
-	top: -5.4vw !important;
+	top: -10.6vh !important;
 }

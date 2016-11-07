@@ -14,12 +14,12 @@
 
 .quote {
 	position: relative;
-	top: 14vw;
+	top: 23vh;
 }
 
 .story {
-	top: 2vw;
-	height: 14vw;
+	top: 8vh;
+	height: 22vh;
 }
 
 .story p {
@@ -27,5 +27,5 @@
 }
 
 .contact {
-	top: 20vw;
+	top: 36vh;
 }

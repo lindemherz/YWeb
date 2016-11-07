@@ -14,12 +14,12 @@
 }
 
 .story {
-	height: 13vw;
+	height: 22vh;
 }
 
 .quote {
 	position: relative;
-	top: 13vw;
+	top: 23vh;
 }
 
 .video {
@@ -32,5 +32,5 @@
 }
 
 .contact {
-	top: 23vw;
+	top: 40vh;
 }

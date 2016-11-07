@@ -13,18 +13,18 @@
 	height: 25%;
 	position: absolute;
 	top: 20%;
-	left: 25%;
+	left: 15%;
 }
 
 .quote {
 	position: relative;
-	top: 14vw;
+	top: 25vh;
 }
 
 .story p {
 	color: white;
 }
-
+/*
 .contact {
 	top: 23vw;
-}
+}*/

@@ -18,7 +18,7 @@
 
 .quote {
 	position: relative;
-	top: 12vw;
+	top: 21vh;
 }
 
 .video {
@@ -26,7 +26,7 @@
 }
 
 .story {
-	top: 4vw;
+	top: 8vh;
 }
 
 .story p {
@@ -34,10 +34,5 @@
 }
 
 .contact {
-	top: 23vw;
-}
-
-.twt-logo{
-	top:-50px;
-	left: 30px;
+	top: 40vh;
 }
