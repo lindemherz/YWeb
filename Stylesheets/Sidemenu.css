@@ -1,29 +1,32 @@
-*{
+#sidemenu *{
 	margin: 0;
 	padding: 0;
 }
 
-a, ul {
+#sidemenu a, #sidemenu ul {
 	text-decoration: none;
 	list-style: none;
 }
 
-body, ul {
+#sidemenu body, #sidemenu ul {
 	list-style: none;
 	text-decoration: none;
 }
 
-p {
-	margin-bottom: 10px;
-}
-
-a {
+#sidemenu a {
 	text-decoration: none;
 	color: black;
 }
 
-a:visited {
+#sidemenu a:visited {
 	text-decoration: none;
+}
+
+#sidemenu p {
+	top: 0;
+	left: 0;
+	font: 1.13vw 'Nunito', sans-serif;
+	font-weight: 300;
 }
 
 #sidemenu {
@@ -42,18 +45,19 @@ a:visited {
 	} #sidemenu p {
 		text-align: center;
 		font-size: 1.13vw;
+		margin-bottom: 34px;
 	}
 
 #menu-front {
 	position: relative;
-	top: 2vw;
+	top: 1.5vw;
 	left: 4.5vw;
 	width: 4vw;
 }
 
 /* Text and balls */
 
-.menu-list {
+#sidemenu .menu-list {
 	position: relative;
 	top: 4vw;
 	left: -1.75vw;
@@ -62,7 +66,7 @@ a:visited {
 	color: grey;
 }
 
-.ball {
+#sidemenu .ball {
 	width: 2vw;
 	height: 2vw;
 	-moz-border-radius: 50%;
@@ -71,7 +75,7 @@ a:visited {
 	border: solid 1px grey;
 }
 
-.ball2 {
+#sidemenu .ball2 {
 	width: 1vw;
 	height: 1vw;
 	-moz-border-radius: 50%;
@@ -80,7 +84,7 @@ a:visited {
 	border: solid 1px grey;
 }
 
-.hist-bubble {
+#sidemenu .hist-bubble {
 	background-color: #969696;
 	width: 1.5vw;
 	height: 1.5vw;
@@ -89,7 +93,7 @@ a:visited {
 	left: 7.5vw;
 }
 
-.formamos-bubble {
+#sidemenu .formamos-bubble {
 	background-color: rgb(23, 171, 180);
 	width: 1.5vw;
 	height: 1.5vw;
@@ -98,7 +102,7 @@ a:visited {
 	left: 7.5vw;
 }
 
-.incubadora-bubble {
+#sidemenu .incubadora-bubble {
 	background-color: rgb(130, 230, 236);
 	width: 1.5vw;
 	height: 1.5vw;
@@ -107,7 +111,7 @@ a:visited {
 	left: 7.5vw;
 }
 
-.aceleradora-bubble {
+#sidemenu .aceleradora-bubble {
 	background-color: rgb(130, 230, 236);
 	width: 1.5vw;
 	height: 1.5vw;
@@ -116,7 +120,7 @@ a:visited {
 	left: 7.5vw;
 }
 
-.asesoria-bubble {
+#sidemenu .asesoria-bubble {
 	background-color: rgb(130, 230, 236);
 	width: 1.5vw;
 	height: 1.5vw;
@@ -125,7 +129,7 @@ a:visited {
 	left: 7.5vw;
 }
 
-.creamos-bubble {
+#sidemenu .creamos-bubble {
 	background-color: rgb(23, 137, 180);
 	width: 1.5vw;
 	height: 1.5vw;
@@ -134,7 +138,7 @@ a:visited {
 	left: 7.5vw;
 }
 
-.lab-cor-bubble {
+#sidemenu .lab-cor-bubble {
 	background-color: rgb(91, 204, 246);
 	width: 1.5vw;
 	height: 1.5vw;
@@ -143,7 +147,7 @@ a:visited {
 	left: 7.5vw;
 }
 
-.lab-pat-bubble {
+#sidemenu .lab-pat-bubble {
 	background-color: rgb(91, 204, 246);
 	width: 1.5vw;
 	height: 1.5vw;
@@ -152,7 +156,7 @@ a:visited {
 	left: 7.5vw;
 }
 
-.patriotas-bubble {
+#sidemenu .patriotas-bubble {
 	background-color: white;
 	width: 1.5vw;
 	height: 1.5vw;
@@ -165,13 +169,13 @@ a:visited {
 
 /* Social Media */
 
-#social-network {
+#sidemenu #social-network {
 	position: absolute;
 	bottom:-1vw;
 	left: 0.4vw;
 }
 
-#fb-logo {
+#sidemenu #fb-logo {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -181,7 +185,7 @@ a:visited {
 
 }
 
-#twitter-logo {
+#sidemenu #twitter-logo {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -191,26 +195,26 @@ a:visited {
 	top: -2.8vw;
 }
 
-#vimeo-logo {
+#sidemenu #vimeo-logo {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	height: 2.5vw;
 	position: relative;
 	left: 8vw;
-	top: -5.6vw;
+	top: -5.7vw;
 }
 
 /* Phone number and email */
 
-.phone-num {
+#sidemenu .phone-num {
 	position: absolute;
-	bottom: 2vw;
-	left: 2.5vw;
+	bottom: 2.7vw;
+	left: 2.7vw;
 	font-size: 1vw;
 }
 
-.email-address {
+#sidemenu .email-address {
 	position: absolute;
 	bottom: 1vw;
 	left: 1vw;
