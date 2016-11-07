@@ -13,7 +13,7 @@
 
 .quote {
 	position: relative;
-	top: 11vw;
+	top: 13vw;
 }
 
 .video {
@@ -22,7 +22,7 @@
 
 .story {
 	top: 4vw;
-	height: 13vw;
+	height: 12vw;
 }
 
 .story p {
@@ -39,6 +39,6 @@
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	position: relative;
-	top:-50px;
-	left: 20px;
+	top:-1.7vw;
+	left: 3vw;
 }
