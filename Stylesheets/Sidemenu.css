@@ -84,6 +84,10 @@
 	border: solid 1px grey;
 }
 
+.menu-hist {
+	visibility: hidden;
+}
+
 #sidemenu .hist-bubble {
 	background-color: #969696;
 	width: 1.5vw;
@@ -95,11 +99,17 @@
 
 #sidemenu .formamos-bubble {
 	background-color: rgb(23, 171, 180);
-	width: 1.5vw;
-	height: 1.5vw;
+	width: 2.2vw;
+	height: 2.2vw;
 	position: absolute;
-	top: 2vw;
-	left: 7.5vw;
+	top: 1.5vw;
+	left: 7.2vw;
+
+	/*visibility: hidden;*/
+}
+
+.menu-formamos {
+	text-transform: lowercase;
 }
 
 #sidemenu .incubadora-bubble {
@@ -109,6 +119,10 @@
 	position: absolute;
 	top: 6vw;
 	left: 7.5vw;
+}
+
+.menu-creamos {
+	text-transform: lowercase;
 }
 
 #sidemenu .aceleradora-bubble {
@@ -131,11 +145,13 @@
 
 #sidemenu .creamos-bubble {
 	background-color: rgb(23, 137, 180);
-	width: 1.5vw;
-	height: 1.5vw;
+	width: 2.2vw;
+	height: 2.2vw;
 	position: absolute;
-	top: 18vw;
-	left: 7.5vw;
+	top: 17.4vw;
+	left: 7.2vw;
+
+	/*visibility: hidden;*/
 }
 
 #sidemenu .lab-cor-bubble {
@@ -158,11 +174,11 @@
 
 #sidemenu .patriotas-bubble {
 	background-color: white;
-	width: 1.5vw;
-	height: 1.5vw;
+	width: 2.2vw;
+	height: 2.2vw;
 	position: absolute;
-	top: 32.5vw;
-	left: 7.5vw;
+	top: 32.1vw;
+	left: 7.2vw;
 }
 
 /*Contact Info */
