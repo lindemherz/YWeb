@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 a, ul {
 	text-decoration: none;
 	list-style: none;
@@ -16,13 +21,136 @@ a, ul {
 	overflow: hidden;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
-}
+	} #sidemenu p {
+		text-align: center;
+	}
 
 #menu-front {
 	position: relative;
 	top: 2vw;
 	left: 4vw;
 	width: 4vw;
+}
+
+/* Text and balls */
+
+.menu-list {
+	position: relative;
+	top: 4vw;
+	left: -2vw;
+	} .menu-list p {
+	margin-bottom: 2.5vw;
+	color: grey;
+}
+
+.ball {
+	width: 2vw;
+	height: 2vw;
+	-moz-border-radius: 50%;
+	-webkit-border-radius:50%;
+	border-radius: 50%;
+	border: solid 1px grey;
+}
+
+.ball2 {
+	width: 1vw;
+	height: 1vw;
+	-moz-border-radius: 50%;
+	-webkit-border-radius:50%;
+	border-radius: 50%;
+	border: solid 1px grey;
+}
+
+.hist-bubble {
+	background-color: #969696;
+	width: 1.5vw;
+	height: 1.5vw;
+	position: absolute;
+	top: -2vw;
+	left: 7vw;
+}
+
+.formamos-bubble {
+	background-color: rgb(23, 171, 180);
+	width: 1.5vw;
+	height: 1.5vw;
+	position: absolute;
+	top: 2vw;
+	left: 7vw;
+}
+
+.incubadora-bubble {
+	background-color: rgb(130, 230, 236);
+	width: 1.5vw;
+	height: 1.5vw;
+	position: absolute;
+	top: 6vw;
+	left: 7vw;
+}
+
+.aceleradora-bubble {
+	background-color: rgb(130, 230, 236);
+	width: 1.5vw;
+	height: 1.5vw;
+	position: absolute;
+	top: 10vw;
+	left: 7vw;
+}
+
+.asesoria-bubble {
+	background-color: rgb(130, 230, 236);
+	width: 1.5vw;
+	height: 1.5vw;
+	position: absolute;
+	top: 14vw;
+	left: 7vw;
+}
+
+.creamos-bubble {
+	background-color: rgb(23, 137, 180);
+	width: 1.5vw;
+	height: 1.5vw;
+	position: absolute;
+	top: 18vw;
+	left: 7vw;
+}
+
+.lab-cor-bubble {
+	background-color: rgb(91, 204, 246);
+	width: 1.5vw;
+	height: 1.5vw;
+	position: absolute;
+	top: 22vw;
+	left: 7vw;
+}
+
+.lab-pat-bubble {
+	background-color: rgb(91, 204, 246);
+	width: 1.5vw;
+	height: 1.5vw;
+	position: absolute;
+	top: 27vw;
+	left: 7vw;
+}
+
+.patriotas-bubble {
+	background-color: white;
+	width: 1.5vw;
+	height: 1.5vw;
+	position: absolute;
+	top: 32.5vw;
+	left: 7vw;
+}
+
+/*Contact Info */
+
+
+
+/* Social Media */
+
+#social-network {
+	position: absolute;
+	bottom:-1vw;
 }
 
 #fb-logo {
@@ -32,7 +160,7 @@ a, ul {
 	height: 2.5vw;
 	position: relative;
 	left: 2vw;
-	top: ;
+
 }
 
 #twitter-logo {
@@ -53,4 +181,20 @@ a, ul {
 	position: relative;
 	left: 8vw;
 	top: -5.5vw;
+}
+
+/* Phone number and email */
+
+.phone-num {
+	position: absolute;
+	bottom: 2vw;
+	left: 2.5vw;
+	font-size: 1vw;
+}
+
+.email-address {
+	position: absolute;
+	bottom: 1vw;
+	left: 1vw;
+	font-size: 1vw;
 }
