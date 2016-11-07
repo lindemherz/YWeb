@@ -164,9 +164,13 @@ a:visited {
 
 /*Twicks to the side menu */
 #fb-logo {
-	bottom: 0.3vw;
+	bottom: 1.9vh;
+}
+
+#twitter-logo {
+	top: -6.3vh !important;
 }
 
 #vimeo-logo {
-	top: -5.3vw !important;
+	top: -10.6vh !important;
 }

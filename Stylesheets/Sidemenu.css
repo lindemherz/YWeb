@@ -51,7 +51,7 @@
 #menu-front {
 	position: relative;
 	top: 4vh;
-	left: 4.5vw;
+	left: 4.2vw;
 	width: 30%;
 }
 
@@ -208,7 +208,7 @@
 	height: 2.5vw;
 	position: relative;
 	left: 5vw;
-	top: -2.8vw;
+	top: -5vh;
 }
 
 #sidemenu #vimeo-logo {
@@ -218,7 +218,7 @@
 	height: 2.5vw;
 	position: relative;
 	left: 8vw;
-	top: -5.7vw;
+	top: -10vh;
 }
 
 /* Phone number and email */
