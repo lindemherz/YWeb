@@ -46,7 +46,10 @@ p {
 }
 
 #page-wrap {
-	background: white;
+	background: url(../Contents/logos&botones/background2.png);
+	background-size: 130% 70%;
+	background-position: 100% 5%;
+	background-color: white;
 	min-width: 780px;
 	max-width: 1260px;
 	margin: 10px auto;
@@ -106,6 +109,8 @@ p {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: solid 3px grey;
+	background: white;
+	box-shadow: 1px;
 }
 
 .description-corp {
@@ -119,6 +124,7 @@ p {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: solid 3px grey;
+	background: silver;
 }
 
 .title {

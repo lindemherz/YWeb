@@ -46,7 +46,10 @@ p {
 }
 
 #page-wrap {
-	background: white;
+	background: url(../Contents/logos&botones/background2.png);
+	background-size: 125% 70%;
+	background-position: 115% 25%;
+	background-color: white;
 	min-width: 780px;
 	max-width: 1260px;
 	margin: 10px auto;
@@ -97,6 +100,7 @@ p {
 }
 
 .description{
+	background: white;
 	overflow:auto;
 	position: relative;
 	left: 4vw;

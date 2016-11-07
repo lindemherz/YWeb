@@ -46,8 +46,11 @@ p {
 }
 
 #page-wrap {
-	background: white;
+	background: url(../Contents/logos&botones/background2.png);
+	background-size: 100% 10%;
+	background-position: 0% 20%;
 	min-width: 780px;
+	width: 70%;
 	max-width: 1260px;
 	margin: 10px auto;
 	position: fixed;
@@ -82,8 +85,8 @@ p {
 
 .aceleradora {
 	position: relative;
-	top: 1vw;
-	left: -6vw;
+	top: 2vw;
+	left: -5.5vw;
 	background-color: rgb(130, 230, 236);
 	height:8vw;
 	width: 8vw;
@@ -97,6 +100,7 @@ p {
 }
 
 .description {
+	background: white;
 	overflow: auto;
 	position: relative;
 	left: -2vw;
