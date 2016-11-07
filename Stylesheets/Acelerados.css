@@ -56,7 +56,7 @@ a:visited {
 .formamos-p {
 	position: relative;
 	font-size: 12px;
-	top: 15px;
+	top: 27px;
 	left: 5px;
 	color: white;
 }
@@ -80,7 +80,7 @@ a:visited {
 .aceleradora-p {
 	position: relative;
 	font-size: 17px;
-	top: 20px;
+	top: 38px;
 	color: rgb(130, 130, 130);
 }
 
@@ -142,7 +142,7 @@ a:visited {
 .story {
 	position: absolute;
 	overflow: auto;
-	height: 15vw;
+	height: 13vw;
 	top: 5vw;
 }
 
@@ -185,7 +185,8 @@ a:visited {
 	border-radius: 50%;
 	height: 35px;
 	position: relative;
-	left: -40px;
+	left: 0;
+	top: 0.75vw;
 
 }
 
@@ -195,8 +196,9 @@ a:visited {
 	border-radius: 50%;
 	height: 35px;
 	position: relative;
-	left: 20px;
-	top:-50px;
+	left: 3.2vw;
+	top: -1.8vw;
+	-moz-top: -2.2vw;
 }
 
 .twt-logo {
@@ -213,4 +215,3 @@ a:visited {
 .contact a {
 	color: rgb(130, 230, 236)
 }
-
