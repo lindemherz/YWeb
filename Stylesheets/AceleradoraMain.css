@@ -47,7 +47,7 @@ p {
 
 #page-wrap {
 	background: url(../Contents/logos&botones/background2.png);
-	background-size: 100% 10%;
+	background-size: 100% 100%;
 	background-position: 0% 20%;
 	min-width: 780px;
 	width: 70%;
@@ -141,16 +141,17 @@ p {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	background-size: 100% 100%;
-	height: 8vw;
-	width: 8vw;
+	height: 5.5vw;
+	width: 5.5vw;
+	border: 1px solid black;
 }
 
 #Asociacion_Taller_Ninos {
-		background: url(../Contents/fotos/MENU_sara_cifuentes.png);
+	background: url(../Contents/fotos/MENU_sara_cifuentes.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 5vw;
-	left: 30vw;
+	top: 4vw;
+	left: 25vw;
 
 }
 
@@ -163,8 +164,8 @@ p {
 		background: url(../Contents/fotos/MENU_ericka_pavletich.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 10vw;
-	left: 40vw;
+	top: 8vw;
+	left: 32vw;
 }
 
 #Atomika:hover, #Atomika:active {
@@ -176,8 +177,8 @@ p {
 	background: url(../Contents/fotos/MENU_mario_gil.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 5vw;
-	left: 50vw;
+	top: 3vw;
+	left: 37vw;
 }
 
 #Bederr:hover, #Bederr:active {
@@ -189,8 +190,8 @@ p {
 	background: url(../Contents/fotos/MENU_diego_echecopar.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 10vw;
-	left: 60vw;
+	top: 5vw;
+	left: 45vw;
 }
 
 #Bocadio:hover, #Bocadio:active {
@@ -202,8 +203,8 @@ p {
 	background: url(../Contents/fotos/MENU_jose_ignacio_bernal.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 20vw;
-	left: 37vw;
+	top: 3vw;
+	left: 53vw;
 }
 
 #Diloo:hover, #Dillo:active {
@@ -215,8 +216,8 @@ p {
 	background: url(../Contents/fotos/MENU_abraham_abramovitz.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 15vw;
-	left: 50vw;
+	top: 6vw;
+	left: 60vw;
 }
 
 #Doktuz:hover, #Doktuz:active {
@@ -228,8 +229,8 @@ p {
 	background: url(../Contents/fotos/MENU_vanessa_vargas.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 21vw;
-	left:58vw;
+	top: 10vw;
+	left:39vw;
 }
 
 #Donante_Pendiente:hover, #Donante_Pendiente:active {
@@ -241,7 +242,7 @@ p {
 	background: url(../Contents/fotos/MENU_paola_quintana.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 25vw;
+	top: 12vw;
 	left: 47vw;
 }
 
@@ -254,8 +255,8 @@ p {
 	background: url(../Contents/fotos/MENU_erika_echegaray.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 32vw;
-	left: 38vw;
+	top: 10vw;
+	left: 54vw;
 }
 
 #Health_Coaches:hover, #Health_Coaches:active {
@@ -267,8 +268,8 @@ p {
 	background: url(../Contents/fotos/MENU_blythe.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 30vw;
-	left: 55vw;
+	top: 15vw;
+	left: 35vw;
 }
 
 #Infusion:hover, #Infusion:active {
@@ -279,6 +280,9 @@ p {
 #Kallku {
 	background: url(../Contents/fotos/MENU_vanesa_rubina.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 17vw;
+	left: 42vw;
 }
 
 #Kallku:hover, #Kallku:active {
@@ -289,6 +293,9 @@ p {
 #Kokisimo {
 	background: url(../Contents/fotos/MENU_brenda_herrera.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 14vw;
+	left: 60vw;
 }
 
 #Kokisimo:hover, #Kokisimo:active {
@@ -299,6 +306,9 @@ p {
 #Lulipa {
 	background: url(../Contents/fotos/MENU_nati_agois.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 17vw;
+	left: 54vw;
 }
 
 #Lulipa:hover, #Lulipa:active {
@@ -309,6 +319,9 @@ p {
 #Mi_Media_Manzana {
 	background: url(../Contents/fotos/MENU_pedro_neira.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 23vw;
+	left: 38vw;
 }
 
 #Mi_Media_Manzana:hover, #Mi_Media_Manzana:active {
@@ -319,6 +332,9 @@ p {
 #Moldes {
 	background: url(../Contents/fotos/MENU_katia_de_la_cruz.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 19vw;
+	left: 48vw;
 }
 
 #Moldes:hover, #Moldes:active {
@@ -329,6 +345,9 @@ p {
 #My_Bump_Ac {
 	background: url(../Contents/fotos/MENU_luciana_rey.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 21vw;
+	left: 60vw;
 }
 
 #My_Bump_Ac:hover, #My_Bump_Ac:active {
@@ -339,6 +358,9 @@ p {
 #Peru_Apps {
 	background: url(../Contents/fotos/MENU_julio_ramon.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 25vw;
+	left: 45vw;
 }
 
 #Peru_Apps:hover, #Peru_Apps:active {
@@ -346,12 +368,15 @@ p {
 	background-size: 100% 100%;
 }
 
-#PickUp {
+#PickApp {
 	background: url(../Contents/fotos/MENU_felix_ipanaque.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 24vw;
+	left: 53vw;
 }
 
-#PickUp:hover, #PickUp:active {
+#PickApp:hover, #PickApp:active {
 	background: url(../Contents/logos&botones/MENU_logo_felix_ipanaque.png);
 	background-size: 100% 100%;
 }
@@ -359,6 +384,9 @@ p {
 #Planeta_Oceano {
 	background: url(../Contents/fotos/MENU_kerstin_forsberg.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 30vw;
+	left: 40vw;
 }
 
 #Planeta_Oceano:hover, #Planeta_Oceano:active {
@@ -369,6 +397,9 @@ p {
 #Qempo {
 	background: url(../Contents/fotos/MENU_anson_tou.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 30vw;
+	left: 50vw;
 }
 
 #Qempo:hover, #Qempo:active {
@@ -379,6 +410,9 @@ p {
 #Riqra {
 	background: url(../Contents/fotos/MENU_jaime_chiarella.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 28vw;
+	left: 60vw;
 }
 
 #Riqra:hover, #Riqra:active {
@@ -389,9 +423,12 @@ p {
 #Spray_Wash_Ac {
 	background: url(../Contents/fotos/MENU_ricardo_armas_samuel.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 35vw;
+	left: 45vw;
 }
 
-#Spray_Wash_Ac:active, #Spray_Wash_Ac {
+#Spray_Wash_Ac:active, #Spray_Wash_Ac:hover {
 	background: url(../Contents/logos&botones/MENU_logo_Ricardo_Armas.png);
 	background-size: 100% 100%;
 }
@@ -399,6 +436,9 @@ p {
 #Turismoi {
 	background: url(../Contents/fotos/MENU_diego_arbulu.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 34vw;
+	left: 56vw;
 }
 
 #Turismoi:hover, #Turismoi:active {
@@ -409,6 +449,9 @@ p {
 #Up_Peru {
 	background: url(../Contents/fotos/MENU_amadeus_malca.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 38vw;
+	left: 37vw;
 }
 
 #Up_Peru:hover, #Up_Peru:active {
@@ -419,6 +462,9 @@ p {
 #Vecinos360 {
 	background: url(../Contents/fotos/MENU_gonzalo_rossello.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 38vw;
+	left: 51vw;
 }
 
 #Vecinos360:hover, #Vecinos360:active {
@@ -429,6 +475,9 @@ p {
 #Yaqua {
 	background: url(../Contents/fotos/MENU_fernando_tamayo.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 44vw;
+	left: 47vw;
 }
 
 #Yaqua:hover, #Yaqua:active {
@@ -439,6 +488,9 @@ p {
 #Yunta {
 	background: url(../Contents/fotos/MENU_jose_carrera.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 50vw;
+	left: 35vw;
 }
 
 #Yunta:hover, #Yunta:active {
@@ -449,6 +501,9 @@ p {
 #zenQbar {
 	background: url(../Contents/fotos/MENI_santiago_sologuren.png);
 	background-size: 100% 100%;
+	position: absolute;
+	top: 50vw;
+	left:  56vw;
 }
 
 #zenQbar:hover, #zenQbar:active {
