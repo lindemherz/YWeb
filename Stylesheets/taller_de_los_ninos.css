@@ -9,16 +9,9 @@
 	position: absolute;
 	top: 40%;
 	left: 2%;
-}
-
-.story {
-	top: -5vw;
+	width: 90%;
 }
 
 .story p {
 	color: white;
-}
-
-.contact {
-	top: 17vw;
 }

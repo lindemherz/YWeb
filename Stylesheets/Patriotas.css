@@ -108,7 +108,7 @@ a:visited {
 .story {
 	position: absolute;
 	overflow: auto;
-	height: 36vh;
+	height: 32vh;
 	top: 4vh;
 }
 
@@ -140,5 +140,3 @@ a:visited {
 #vimeo-logo {
 	top: -10.6vh !important;
 }
-
-

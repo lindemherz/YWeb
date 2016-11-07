@@ -15,12 +15,9 @@
 	position: absolute;
 	top: 40%;
 	left: 24%;
+	width: 50%;
 }
 
 .story p {
 	color: white;
-}
-
-.contact {
-	top: 18vw;
 }

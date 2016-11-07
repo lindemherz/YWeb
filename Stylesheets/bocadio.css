@@ -5,6 +5,11 @@
 	background-repeat: no-repeat;
 }
 
+#logo {
+	height: 31vw;
+	width: 31vw;
+}
+
 .logo {
 	height: 25%;
 	position: absolute;
@@ -15,11 +20,13 @@
 .quote {
 	position: relative;
 	top: 23vh;
+	width: 96%;
+	left: 2%;
 }
 
 .story {
-	top: 8vh;
-	height: 22vh;
+	top: 4vh;
+	height: 18vh;
 }
 
 .story p {
@@ -27,5 +34,5 @@
 }
 
 .contact {
-	top: 36vh;
+	top: 29vh;
 }
