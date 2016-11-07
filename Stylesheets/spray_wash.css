@@ -11,6 +11,14 @@
 	left: 30%;
 }
 
+#quote {
+	font-size: 2vh;
+}
+
+#name {
+	font-size: 3vh;
+}
+
 .story p {
 	color: white;
 }

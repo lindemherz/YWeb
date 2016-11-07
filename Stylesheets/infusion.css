@@ -26,8 +26,8 @@
 }
 
 .story {
-	top: 8vh;
-	height: 24vh;
+	top: 4vh;
+	height: 18vh;
 }
 
 .story p {
@@ -35,5 +35,5 @@
 }
 
 .contact {
-	top: 40vh;
+	top: 29vh;
 }

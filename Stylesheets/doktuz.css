@@ -14,7 +14,7 @@
 }
 
 .story {
-	height: 22vh;
+	height: 18vh;
 }
 
 .quote {
@@ -29,8 +29,4 @@
 
 .story p {
 	color: white;
-}
-
-.contact {
-	top: 40vh;
 }

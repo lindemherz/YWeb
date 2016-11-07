@@ -115,7 +115,7 @@ a:visited {
 .story {
 	position: absolute;
 	overflow: auto;
-	height: 33vh;
+	height: 24vh;
 	top: -4vh;
 }
 
@@ -133,12 +133,12 @@ a:visited {
 .contact {
 	color: white;
 	position: absolute;
-	top: 32vh;
+	top: 20vh;
 	left: 20%;
 }
 
 #quote {
-	font-size: 3vh;
+	font-size: 2.4vh;
 	font-weight: lighter;
 }
 

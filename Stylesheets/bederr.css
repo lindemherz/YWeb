@@ -21,13 +21,9 @@
 }
 
 .story {
-	top: 8vh;
+	height: 19vh;
 }
 
 .story p {
 	color: white;
-}
-
-.contact {
-	top: 40vh;
 }
