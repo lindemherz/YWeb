@@ -5,6 +5,11 @@
 	background-repeat: no-repeat;
 }
 
+#logo {
+	height: 31vw;
+	width: 31vw;
+}
+
 .logo {
 	height: 25%;
 	position: absolute;
@@ -15,6 +20,8 @@
 .quote {
 	position: relative;
 	top: 23vh;
+	width: 96%;
+	left: 2%;
 }
 
 .story {
