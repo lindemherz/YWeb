@@ -187,7 +187,7 @@
 
 #sidemenu #social-network {
 	position: absolute;
-	bottom:1%;
+	bottom:-1%;
 	left: 3%;
 }
 

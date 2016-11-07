@@ -48,8 +48,8 @@ a:visited {
 	border: 2px solid rgb(130, 130, 130);
 	background-color: rgb(23, 171, 180);
 	position: fixed;
-	left: 17vw;
-	top: 9.5vw;
+	left: 17%;
+	top: 17%;
 
 }
 
@@ -72,8 +72,8 @@ a:visited {
 	z-index: -1;
 	text-align: center;
 	position: fixed;
-	left: 20vw;
-	top: 12vw;
+	left: 21%;
+	top: 21%;
 
 }
 
@@ -142,8 +142,8 @@ a:visited {
 .story {
 	position: absolute;
 	overflow: auto;
-	height: 13vw;
-	top: 5vw;
+	height: 24vh;
+	top: 8vh;
 }
 
 #namecard, .txt, .txt2 {
@@ -160,8 +160,8 @@ a:visited {
 .contact {
 	color: white;
 	position: absolute;
-	top: 20vw;
-	left: 7vw;
+	top: 32vh;
+	left: 20%;
 }
 
 #quote {
