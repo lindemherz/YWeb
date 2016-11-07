@@ -11,19 +11,12 @@ html, body {
 	outline: 0;
     font-size: 100%;
     background: transparent;
-}
-
-body {
-	font-size: 62.5%;
-}
-
-p, li, h1 {
-	font: 1.2em/1.8em Nunito, sans-serif;
-	margin-bottom: 10px;
-	text-align: center;
+    font-family: Nunito, sans-serif;
 }
 
 h1 {
+	font: 1.2em/1.8em Nunito, sans-serif;
+	margin-bottom: 10px;
 	text-align: center;
 	font-weight: bold;
 	position: relative;
@@ -111,7 +104,11 @@ p {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: solid 3px grey;
-}
+	}.description p{
+
+		margin-bottom: 10px;
+		text-align: center;
+	}
 
 .st {
 	font-weight: bold;
@@ -125,3 +122,17 @@ p {
 	width: 80%;
 	left: 60px;
 }
+
+/*Twicks to the side menu */
+.menu-list {
+	top: -2vw !important;
+}
+
+#fb-logo {
+	bottom: 0.25vw;
+}
+
+#vimeo-logo {
+	top: -5.1vw !important;
+}
+
