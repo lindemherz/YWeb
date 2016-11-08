@@ -24,9 +24,6 @@ h1 {
 	font-size: 28px;
 }
 
-img {
-	border: none;
-}
 
 a, a:visited {
 	text-decoration: none;
@@ -39,14 +36,42 @@ p {
 	top: 8vw;
 }
 
+
+#logo {
+	height: 31vw;
+	width: 31vw;
+}
+
+.logo {
+	height: 25%;
+	position: absolute;
+	top: 15%;
+	left: 27%;
+}
+
+.quote {
+	position: relative;
+	top: 23vh;
+}
+
+.video {
+	top: 1vw;
+}
+
+.story p {
+	color: white;
+}
+
+
 #page-wrap {
-	background: white;
-	min-width: 780px;
-	max-width: 1260px;
-	margin: 10px auto;
+	background: url(../Contents/fotos/LAB_CORP_BBVA.png);
+	width: 87%;
 	position: fixed;
-	left: 30%;
-	}
+	left: 13%;
+	height: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
 
 
 .bubble {
@@ -62,8 +87,8 @@ p {
 	height:5vw;
 	width:5vw;
 	position: relative;
-	top: 40px;
-	left:-10vw;
+	top: 7vw;
+	left:5vw;
 }
 
 .creamos-p {
@@ -77,11 +102,12 @@ p {
 
 .lab-corporativo {
 	position: relative;
-	top: 1vw;
-	left:-3vw;
+	top: 4vw;
+	left:8vw;
 	background-color: rgb(91, 204, 246);
 	height:8vw;
 	width: 8vw;
+	z-index: -1;
 }
 
 .cre-lvl-p {
@@ -97,31 +123,26 @@ p {
 
 .description {
 	position: relative;
-	left: 10vw;
-	top: -7vw;
+	left: 4vw;
+	top: 8vw;
 	width: 40vw;
 	height: 40vw;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	border: solid 3px grey;
 	}.description p{
-
+		color: white;
 		margin-bottom: 10px;
-		text-align: center;
 	}
 
 .st {
+	color: white;
 	font-weight: bold;
 	position: relative;
 	top: 6vw;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .txt {
+	color: white;
 	top: 7vw;
-	width: 80%;
-	left: 60px;
 }
 
 /*Twicks to the side menu */

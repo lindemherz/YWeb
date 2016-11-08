@@ -1,0 +1,53 @@
+Scripts for webpage:
+
+	What we need to make happen on the webpage:
+		.Bottom navigation automatic scroll with mouse
+		.About-us scroll animation.
+		.Movement of balls when you access second level
+		.Make balls bigger when mouse on top -> can be made on css, dimish loading times
+		.Make creamos y formamos go bigger on main menu
+		.Transition between main and 2nd level (and the other way around)
+		.Transition between 2nd level and 3rd level (and the other way around)
+		.Make external liks open in separate page
+		.Lines between elements on second level
+		.See more option
+		.Loading animation
+		.Connected cloud of Acelerados -> when created add a button in front of the bottom navigation thingy to access it 
+										directly (Must be fixed so you can always access it)
+		.Make and or add arrows to move around inside About-us
+		.Add animations to side menu so balls will move when clicked, or to show where inside there you are
+		.Add animations to main page to make it prettier and more user friendly
+		.Add video links and embeds
+		.Add embeds to about-us
+		.Add floating moving balls on the main menu
+		.Animations in Los Patriotas to make it cool looking
+		.Change labs to make them look way cooler (We have them backgrounds, it can be done)
+
+
+	Numbers indicate order of priority (time it takes to make it happen may influence order):
+		Priorities: 
+			1.Add video links and embeds
+			2.Make creamos y formamos go bigger on main menu
+			3.Bottom navigation automatic scroll with mouse
+			
+		Important but no so much:
+			1.Make external liks open in separate page
+			2.See more option
+			3.Add embeds to about-us
+			4.About-us scroll animation.
+			5.Make and or add arrows to move around inside About-us
+			6.Movement of balls when you access second level
+			
+		Would be good:
+			1.Change labs to make them look way cooler (We have them backgrounds, it can be done)
+			2.Lines between elements on second level
+			3.Transition between main and 2nd level (and the other way around)
+			4.Transition between 2nd level and 3rd level (and the other way around)
+			5.Connected cloud of Acelerados -> when created add a button in front of the bottom navigation thingy to access 									it directly (Must be fixed so you can always access it)
+		Just because it'll be cool:
+			1.Make balls bigger when mouse on top -> can be made on css, dimish loading times
+			2.Add animations to main page to make it prettier and more user friendly
+			3.Animations in Los Patriotas to make it cool looking
+			4.Add floating moving balls on the main menu
+			5.Loading animation
+
