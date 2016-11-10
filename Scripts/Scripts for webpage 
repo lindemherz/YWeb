@@ -26,17 +26,16 @@ Scripts for webpage:
 
 	Numbers indicate order of priority (time it takes to make it happen may influence order):
 		Priorities: 
-			1.Add video links and embeds
-			2.Make creamos y formamos go bigger on main menu
-			3.Bottom navigation automatic scroll with mouse
+			1.Make creamos y formamos go bigger on main menu
+			2.Bottom navigation automatic scroll with mouse
+			3.Add video links and embeds
 			
 		Important but no so much:
-			1.Make external liks open in separate page
-			2.See more option
-			3.Add embeds to about-us
-			4.About-us scroll animation.
-			5.Make and or add arrows to move around inside About-us
-			6.Movement of balls when you access second level
+			1.See more option
+			2.Add embeds to about-us
+			3.About-us scroll animation.
+			4.Make and or add arrows to move around inside About-us
+			5.Movement of balls when you access second level
 			
 		Would be good:
 			1.Change labs to make them look way cooler (We have them backgrounds, it can be done)
@@ -50,4 +49,15 @@ Scripts for webpage:
 			3.Animations in Los Patriotas to make it cool looking
 			4.Add floating moving balls on the main menu
 			5.Loading animation
+
+
+		Done stuff:
+			Priorities (0/3):
+
+			Important but no so much (0/5):
+
+			Would be good (1/5):
+				1.Change labs to make them look way cooler (We have them backgrounds, it can be done)
+
+			Just cause (0/5):
 
