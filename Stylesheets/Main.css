@@ -34,17 +34,17 @@ a:visited {
 
 #page-wrap {
 	min-width: 780px;
-	max-width: 1260px;
+	max-width: 1632px;
 	overflow-y: hidden;
 	overflow-x: hidden;
 	background-color: white;
 	background: url("../Contents/logos&botones/ybackground.png");
 	background-repeat: no-repeat;
-	background-position: left 60% top 20%;
+	background-position: right 13.1vw top;
 	background-attachment: fixed;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	background-size: contain;
+	-webkit-background-size: 59vw auto;
+	-moz-background-size: 59vw auto;
+	background-size: 59vw auto;
 	position: relative;
 	left: 15%;
 	width: 100%;
@@ -62,8 +62,8 @@ a:visited {
 /* Elements of main page */
 
 #img.ybackground.png {
-	width: 90%;
-	height: 90%;
+	width: 100%;
+	height: 100%;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -71,21 +71,20 @@ a:visited {
 
 .center {
 	position: fixed;
-	top:20vw;
-	left: 46vw;
+	top: 34.6vh;
+	right: 38vw;
 	z-index: 1;
 }
 
 .center-img {
-	width: 15vw;
-	height: 20%;
+	width: 9.2vw;
 }
 
 /*Floating bubbles*/
 
 .bubble, .bubble2, .formamos-before, .creamos-before, .patriotas-before {
-	width: 150px;
-	height: 150px;
+	width: 16.2vh;
+	height: 16.2vh;
 }
 
 .formamos-before {
@@ -351,35 +350,40 @@ a:visited {
 
 .patriotas-before {
 	position: fixed;
-	top: 8vw;
-	left: 37vw;
-	width: 150px;
-	height: 150px;
+	top: 8.1vh;
+	left: 37.9vw;
+	width: 16.2vh;
+	height: 16.2vh;
 
 	-moz-border-radius: 50%;
-	-webkit-border-radius: 5;
+	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 10px solid rgb(238, 238, 238);
+	border: 0.92vh solid #d1d2d4;
+	background-color: #d1d2d4;
 }
 
 .patriotas {
 	position: relative;
-	top:-0.25vw;
-	left: -0.25vw;
+	width: 15.1vh;
+	height: 15.1vh;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 4px solid black;
-	background-color: white;
+	border: 0.64vh solid #58585b;
+	background-color: #fafafb;
 	font-family: 'Nunito' sans-serif;
-	font-size: 22px;
 	vertical-align: middle;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .patriotas-p {
-	font-weight: bold;
 	position: absolute;
-	top: 25%;
-	left: 20%;
+	top: 4.4vh;
+	width: 100%;
+	font-weight: lighter;
+	font-size: 2.4vh;
+	line-height: 2.59vh;
+	text-transform: uppercase;
+	color: #231f20;
 }
