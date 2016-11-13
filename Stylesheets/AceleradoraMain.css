@@ -46,7 +46,7 @@ p {
 }
 
 #page-wrap {
-	background: url(../Contents/logos&botones/background2.png);
+	background: url(../Contents/logos-botones/background2.png);
 	background-size: 100% 100%;
 	background-position: 0% 20%;
 	min-width: 780px;
@@ -57,6 +57,7 @@ p {
 	left: 30%;
 	}
 
+
 .bubble {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -65,52 +66,72 @@ p {
 	background-color: rgb(23, 171, 236);
 }
 
+.formamos-before {
+	position: fixed;
+	top: 3.12vh;
+	left: 19.3vw;
+	width: 11.8vh;
+	height: 11.8vh;
+	border: 0.43vh solid #eceded;
+	background-color: #eceded;
+}
+
+
 .formamos {
-	background-color: rgb(23, 171, 236);
-	height:6vw;
-	width:6vw;
 	position: relative;
-	top: 3vw;
-	left:-10vw;
+	top: 0.1vh;
+	left: 0.1vh;
+	height: 10.7vh;
+	width: 10.7vh;
+	border: 0.55vh solid #c7c9c9;
+	background-color: #18afb4;
 }
 
 .formamos-p {
 	position: relative;
-	top: 35%;
+	top: 4.1vh;
+	width: 100%;
 	color: white;
-	font-size: 1.10vw;
+	font-size: 1.50vh;
+	font-weight: bold;
 	text-align: center;
+	text-transform: uppercase;
 
 }
 
 .aceleradora {
-	position: relative;
-	top: 2vw;
-	left: -5.5vw;
-	background-color: rgb(130, 230, 236);
-	height:8vw;
-	width: 8vw;
+	position: fixed;
+	top: 17.3vh;
+	left: 14.4vw;
+	height: 23vh;
+	width: 23vh;
+	border: solid 0.74vh #6d6e70;
+	background-color: #63bfbd;
 }
 
 .form-lvl-p {
 	position: relative;
-	top: 40px;
-	font-size: 1.30vw;
+	top: 7.8vh;
+	width: 100%;
+	color: white;
+	font-size: 3.8vh;
+	font-weight: lighter;
 	text-align: center;
+	text-transform: lowercase;
 }
 
 .description {
-	background: white;
+	background: #f1f2f2;
 	overflow: auto;
-	position: relative;
-	left: -2vw;
-	top: -5vw;
-	width: 38vw;
-	height: 38vw;
+	position: fixed;
+	left: 26.8vw;
+	top: 31.3vh;
+	width: 65.6vh;
+	height: 65.6vh;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: solid 3px grey;
+	border: solid 0.5vh #6d6e70;
 }
 
 .title {
@@ -118,21 +139,29 @@ p {
 }
 
 .st {
-	font-weight: bold;
 	position: relative;
-	left: 1.5vw;
-	top: 6vw;
-	font-size: 20px;
-	width:35vw;
+	left: 10%;
+	top: 16vh;
+	width: 80%;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2.4vh;
+	line-height: 3.2vh;
 }
 
 .overflow {
 	position: relative;
-	height: 15vw;
-	width: 30vw;
-	left: 4vw;
-	top: 6vw;
+	height: 25vh;
+	width: 80%;
+	left: 10%;
+	top: 19vh;
 	overflow: auto;
+}
+
+.txt {
+	font-weight: lighter;
+	font-size: 2.3vh;
+	line-height: 3.2vh;
 }
 
 
@@ -141,22 +170,25 @@ p {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	background-size: 100% 100%;
-	height: 5.5vw;
-	width: 5.5vw;
-	border: 1px solid black;
+	height: 9.7vh;
+	width: 9.7vh;
+	border: 0.2vh solid #6d6e70;
+	transition: background 0.4s;
+} .sphere:hover{
+	transition: background 0.4s;
 }
 
 #Asociacion_Taller_Ninos {
 	background: url(../Contents/fotos/MENU_sara_cifuentes.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 47vw;
+	top: 83.5vh;
 	left: 38vw;
 
 }
 
 #Asociacion_Taller_Ninos:hover, #Asociacion_Taller_Ninos:active {
-	background: url(../Contents/logos&botones/MENU_logo_Sara_Cifuentes.png);
+	background: url(../Contents/logos-botones/MENU_logo_Sara_Cifuentes.png);
 	background-size: 100% 100%;
 }
 
@@ -164,12 +196,12 @@ p {
 	background: url(../Contents/fotos/MENU_ericka_pavletich.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 8vw;
+	top: 14.2vh;
 	left: 34vw;
 }
 
 #Atomika:hover, #Atomika:active {
-	background: url(../Contents/logos&botones/MENU_logo_erika_pavletich.png);
+	background: url(../Contents/logos-botones/MENU_logo_erika_pavletich.png);
 	background-size: 100% 100%;
 }
 
@@ -177,12 +209,12 @@ p {
 	background: url(../Contents/fotos/MENU_mario_gil.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 4vw;
+	top: 4.1vw;
 	left: 40vw;
 }
 
 #Bederr:hover, #Bederr:active {
-	background: url(../Contents/logos&botones/MENU_logo_mario_gil.png);
+	background: url(../Contents/logos-botones/MENU_logo_mario_gil.png);
 	background-size: 100% 100%;
 }
 
@@ -190,12 +222,12 @@ p {
 	background: url(../Contents/fotos/MENU_diego_echecopar.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 6.5vw;
+	top: 11.5vh;
 	left: 47.5vw;
 }
 
 #Bocadio:hover, #Bocadio:active {
-	background: url(../Contents/logos&botones/MENU_logo_diego_echecopar.png);
+	background: url(../Contents/logos-botones/MENU_logo_diego_echecopar.png);
 	background-size: 100% 100%;
 }
 
@@ -203,12 +235,12 @@ p {
 	background: url(../Contents/fotos/MENU_jose_ignacio_bernal.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 5vw;
+	top: 8.8vh;
 	left: 60vw;
 }
 
 #Diloo:hover, #Dillo:active {
-	background: url(../Contents/logos&botones/MENU_logo_jose_ignacio_bernal.png);
+	background: url(../Contents/logos-botones/MENU_logo_jose_ignacio_bernal.png);
 	background-size: 100% 100%;
 }
 
@@ -216,12 +248,12 @@ p {
 	background: url(../Contents/fotos/MENU_abraham_abramovitz.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 9vw;
+	top: 16vh;
 	left: 54vw;
 }
 
 #Doktuz:hover, #Doktuz:active {
-	background: url(../Contents/logos&botones/MENU_logo_abraham_abramovitz.png);
+	background: url(../Contents/logos-botones/MENU_logo_abraham_abramovitz.png);
 	background-size: 100% 100%;
 }
 
@@ -229,12 +261,12 @@ p {
 	background: url(../Contents/fotos/MENU_vanessa_vargas.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 11vw;
+	top: 19.5vh;
 	left:42vw;
 }
 
 #Donante_Pendiente:hover, #Donante_Pendiente:active {
-	background: url(../Contents/logos&botones/MENU_logo_vanessa_vasquez.png);
+	background: url(../Contents/logos-botones/MENU_logo_vanessa_vasquez.png);
 	background-size: 100% 100%;
 }
 
@@ -242,12 +274,12 @@ p {
 	background: url(../Contents/fotos/MENU_paola_quintana.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 14vw;
+	top: 24.8vh;
 	left: 48.5vw;
 }
 
 #Equus_Corporation:hover, #Equus_Corporation:active {
-	background: url(../Contents/logos&botones/MENU_logo_paola_quintana.png);
+	background: url(../Contents/logos-botones/MENU_logo_paola_quintana.png);
 	background-size: 100% 100%;
 }
 
@@ -255,12 +287,12 @@ p {
 	background: url(../Contents/fotos/MENU_erika_echegaray.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 12.5vw;
+	top: 22.2vh;
 	left: 61vw;
 }
 
 #Health_Coaches:hover, #Health_Coaches:active {
-	background: url(../Contents/logos&botones/MENU_logo_ericka_echegaray.png);
+	background: url(../Contents/logos-botones/MENU_logo_ericka_echegaray.png);
 	background-size: 100% 100%;
 }
 
@@ -268,12 +300,12 @@ p {
 	background: url(../Contents/fotos/MENU_blythe.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 15vw;
+	top: 26.6vh;
 	left: 36vw;
 }
 
 #Infusion:hover, #Infusion:active {
-	background: url(../Contents/logos&botones/MENU_logo_blythe_muro.png);
+	background: url(../Contents/logos-botones/MENU_logo_blythe_muro.png);
 	background-size: 100% 100%;
 }
 
@@ -281,12 +313,12 @@ p {
 	background: url(../Contents/fotos/MENU_vanesa_rubina.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 18vw;
+	top: 32vh;
 	left: 43vw;
 }
 
 #Kallku:hover, #Kallku:active {
-	background: url(../Contents/logos&botones/MENU_logo_vanesa_rubina.png);
+	background: url(../Contents/logos-botones/MENU_logo_vanesa_rubina.png);
 	background-size: 100% 100%;
 }
 
@@ -294,12 +326,12 @@ p {
 	background: url(../Contents/fotos/MENU_brenda_herrera.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 17vw;
+	top: 30.2vh;
 	left: 55vw;
 }
 
 #Kokisimo:hover, #Kokisimo:active {
-	background-image: url(../Contents/logos&botones/MENU_logo_Brenda_Herrera.png);
+	background-image: url(../Contents/logos-botones/MENU_logo_Brenda_Herrera.png);
 	background-size: 100% 100%;
 }
 
@@ -307,12 +339,12 @@ p {
 	background: url(../Contents/fotos/MENU_nati_agois.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 22vw;
+	top: 39.1vh;
 	left: 49vw;
 }
 
 #Lulipa:hover, #Lulipa:active {
-	background: url(../Contents/logos&botones/MENU_logo_nati_agois.png);
+	background: url(../Contents/logos-botones/MENU_logo_nati_agois.png);
 	background-size: 100% 100%;
 }
 
@@ -320,12 +352,12 @@ p {
 	background: url(../Contents/fotos/MENU_pedro_neira.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 23vw;
+	top: 40.8vh;
 	left: 38vw;
 }
 
 #Mi_Media_Manzana:hover, #Mi_Media_Manzana:active {
-	background: url(../Contents/logos&botones/MENU_logo_Pedro_Neira.png);
+	background: url(../Contents/logos-botones/MENU_logo_Pedro_Neira.png);
 	background-size: 100% 100%;
 }
 
@@ -333,12 +365,12 @@ p {
 	background: url(../Contents/fotos/MENU_katia_de_la_cruz.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 21vw;
+	top: 37.3vh;
 	left: 62.5vw;
 }
 
 #Moldes:hover, #Moldes:active {
-	background: url(../Contents/logos&botones/MENU_logo_katia_de_la_cruz.png);
+	background: url(../Contents/logos-botones/MENU_logo_katia_de_la_cruz.png);
 	background-size: 100% 100%;
 }
 
@@ -346,12 +378,12 @@ p {
 	background: url(../Contents/fotos/MENU_luciana_rey.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 25vw;
+	top: 44.4vh;
 	left: 56vw;
 }
 
 #My_Bump_Ac:hover, #My_Bump_Ac:active {
-	background: url(../Contents/logos&botones/MENU_logo_Luciana_Rey.png);
+	background: url(../Contents/logos-botones/MENU_logo_Luciana_Rey.png);
 	background-size: 100% 100%;
 }
 
@@ -359,12 +391,12 @@ p {
 	background: url(../Contents/fotos/MENU_julio_ramon.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 27vw;
+	top: 48vh;
 	left: 44vw;
 }
 
 #Peru_Apps:hover, #Peru_Apps:active {
-	background: url(../Contents/logos&botones/MENU_logo_julio_ramon.png);
+	background: url(../Contents/logos-botones/MENU_logo_julio_ramon.png);
 	background-size: 100% 100%;
 }
 
@@ -372,12 +404,12 @@ p {
 	background: url(../Contents/fotos/MENU_felix_ipanaque.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 31vw;
+	top: 55.1vh;
 	left: 51vw;
 }
 
 #PickApp:hover, #PickApp:active {
-	background: url(../Contents/logos&botones/MENU_logo_felix_ipanaque.png);
+	background: url(../Contents/logos-botones/MENU_logo_felix_ipanaque.png);
 	background-size: 100% 100%;
 }
 
@@ -385,12 +417,12 @@ p {
 	background: url(../Contents/fotos/MENU_kerstin_forsberg.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 32vw;
+	top: 56.8vh;
 	left: 38vw;
 }
 
 #Planeta_Oceano:hover, #Planeta_Oceano:active {
-	background: url(../Contents/logos&botones/MENU_logo_kerstin_forsberg.png);
+	background: url(../Contents/logos-botones/MENU_logo_kerstin_forsberg.png);
 	background-size: 100% 100%;
 }
 
@@ -398,13 +430,13 @@ p {
 	background: url(../Contents/fotos/MENU_anson_tou.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 35vw;
+	top: 62.2vh;
 	left: 57vw;
 }
 
 #Qempo:hover, #Qempo:active {
-	background: url(../Contents/logos&botones/perfil_logo_anson_tou.png);
-	background-size: 100% 60%;
+	background: url(../Contents/logos-botones/MENU_logo_anson_tou.png);
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-color: white;
 }
@@ -413,12 +445,12 @@ p {
 	background: url(../Contents/fotos/MENU_jaime_chiarella.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 30vw;
+	top: 53.3vh;
 	left: 62vw;
 }
 
 #Riqra:hover, #Riqra:active {
-	background: url(../Contents/logos&botones/MENU_logo_jaime_chiarella.png);
+	background: url(../Contents/logos-botones/MENU_logo_jaime_chiarella.png);
 	background-size: 100% 100%;
 }
 
@@ -426,12 +458,12 @@ p {
 	background: url(../Contents/fotos/MENU_ricardo_armas_samuel.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 35vw;
+	top: 62.2vh;
 	left: 45vw;
 }
 
 #Spray_Wash_Ac:active, #Spray_Wash_Ac:hover {
-	background: url(../Contents/logos&botones/MENU_logo_Ricardo_Armas.png);
+	background: url(../Contents/logos-botones/MENU_logo_Ricardo_Armas.png);
 	background-size: 100% 100%;
 }
 
@@ -439,12 +471,12 @@ p {
 	background: url(../Contents/fotos/MENU_diego_arbulu.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 40vw;
+	top: 71.1vh;
 	left: 52vw;
 }
 
 #Turismoi:hover, #Turismoi:active {
-	background: url(../Contents/logos&botones/MENU_logo_diego_arbulu.png);
+	background: url(../Contents/logos-botones/MENU_logo_diego_arbulu.png);
 	background-size: 100% 100%;
 }
 
@@ -452,12 +484,12 @@ p {
 	background: url(../Contents/fotos/MENU_amadeus_malca.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 39vw;
+	top: 69.3vh;
 	left: 35vw;
 }
 
 #Up_Peru:hover, #Up_Peru:active {
-	background: url(../Contents/logos&botones/MENU_logo_Amadeus_Malca.png);
+	background: url(../Contents/logos-botones/MENU_logo_Amadeus_Malca.png);
 	background-size: 100% 100%;
 }
 
@@ -465,12 +497,12 @@ p {
 	background: url(../Contents/fotos/MENU_gonzalo_rossello.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 46vw;
+	top: 81.7vh;
 	left: 48vw;
 }
 
 #Vecinos360:hover, #Vecinos360:active {
-	background: url(../Contents/logos&botones/MENU_logo_gonzalo_rossello.png);
+	background: url(../Contents/logos-botones/MENU_logo_gonzalo_rossello.png);
 	background-size: 100% 100%;
 }
 
@@ -478,12 +510,12 @@ p {
 	background: url(../Contents/fotos/MENU_fernando_tamayo.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 42vw;
+	top: 74.6vh;
 	left: 60vw;
 }
 
 #Yaqua:hover, #Yaqua:active {
-	background: url(../Contents/logos&botones/MENU_logo_fernando_tamayo.png);
+	background: url(../Contents/logos-botones/MENU_logo_fernando_tamayo.png);
 	background-size: 100% 100%;
 }
 
@@ -491,12 +523,12 @@ p {
 	background: url(../Contents/fotos/MENU_jose_carrera.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 41vw;
+	top: 72.8vh;
 	left: 42vw;
 }
 
 #Yunta:hover, #Yunta:active {
-	background: url(../Contents/logos&botones/MENU_logo_jose_carrera.png);
+	background: url(../Contents/logos-botones/MENU_logo_jose_carrera.png);
 	background-size: 100% 100%;
 }
 
@@ -504,12 +536,12 @@ p {
 	background: url(../Contents/fotos/MENI_santiago_sologuren.png);
 	background-size: 100% 100%;
 	position: absolute;
-	top: 48vw;
+	top: 85.3vh;
 	left:  56vw;
 }
 
 #zenQbar:hover, #zenQbar:active {
-	background: url(../Contents/logos&botones/MENU_logo_santiago_sologuren.png);
+	background: url(../Contents/logos-botones/MENU_logo_santiago_sologuren.png);
 	background-size: 100% 100%;
 }
 

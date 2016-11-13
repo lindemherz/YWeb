@@ -5,6 +5,7 @@
 	left: 20vw;
 	height: 100%;
 	overflow: auto;
+	display: none;
 }
 
 .nav {
@@ -25,7 +26,7 @@
 }
 
 #Asociacion_Taller_Ninos:hover, #Asociacion_Taller_Ninos:active {
-	background: url(../Contents/logos&botones/MENU_logo_Sara_Cifuentes.png);
+	background: url(../Contents/logos-botones/MENU_logo_Sara_Cifuentes.png);
 	background-size: 100% 100%;
 }
 
@@ -38,7 +39,7 @@
 }
 
 #Atomika:hover, #Atomika:active {
-	background: url(../Contents/logos&botones/MENU_logo_erika_pavletich.png);
+	background: url(../Contents/logos-botones/MENU_logo_erika_pavletich.png);
 	background-size: 100% 100%;
 }
 
@@ -51,7 +52,7 @@
 }
 
 #Bederr:hover, #Bederr:active {
-	background: url(../Contents/logos&botones/MENU_logo_mario_gil.png);
+	background: url(../Contents/logos-botones/MENU_logo_mario_gil.png);
 	background-size: 100% 100%;
 }
 
@@ -64,7 +65,7 @@
 }
 
 #Bocadio:hover, #Bocadio:active {
-	background: url(../Contents/logos&botones/MENU_logo_diego_echecopar.png);
+	background: url(../Contents/logos-botones/MENU_logo_diego_echecopar.png);
 	background-size: 100% 100%;
 }
 
@@ -77,7 +78,7 @@
 }
 
 #Diloo:hover, #Dillo:active {
-	background: url(../Contents/logos&botones/MENU_logo_jose_ignacio_bernal.png);
+	background: url(../Contents/logos-botones/MENU_logo_jose_ignacio_bernal.png);
 	background-size: 100% 100%;
 }
 
@@ -90,7 +91,7 @@
 }
 
 #Doktuz:hover, #Doktuz:active {
-	background: url(../Contents/logos&botones/MENU_logo_abraham_abramovitz.png);
+	background: url(../Contents/logos-botones/MENU_logo_abraham_abramovitz.png);
 	background-size: 100% 100%;
 }
 
@@ -103,7 +104,7 @@
 }
 
 #Donante_Pendiente:hover, #Donante_Pendiente:active {
-	background: url(../Contents/logos&botones/MENU_logo_vanessa_vasquez.png);
+	background: url(../Contents/logos-botones/MENU_logo_vanessa_vasquez.png);
 	background-size: 100% 100%;
 }
 
@@ -116,7 +117,7 @@
 }
 
 #Equus_Corporation:hover, #Equus_Corporation:active {
-	background: url(../Contents/logos&botones/MENU_logo_paola_quintana.png);
+	background: url(../Contents/logos-botones/MENU_logo_paola_quintana.png);
 	background-size: 100% 100%;
 }
 
@@ -129,7 +130,7 @@
 }
 
 #Health_Coaches:hover, #Health_Coaches:active {
-	background: url(../Contents/logos&botones/MENU_logo_ericka_echegaray.png);
+	background: url(../Contents/logos-botones/MENU_logo_ericka_echegaray.png);
 	background-size: 100% 100%;
 }
 
@@ -142,7 +143,7 @@
 }
 
 #Infusion:hover, #Infusion:active {
-	background: url(../Contents/logos&botones/MENU_logo_blythe_muro.png);
+	background: url(../Contents/logos-botones/MENU_logo_blythe_muro.png);
 	background-size: 100% 100%;
 }
 
@@ -155,7 +156,7 @@
 }
 
 #Kallku:hover, #Kallku:active {
-	background: url(../Contents/logos&botones/MENU_logo_vanesa_rubina.png);
+	background: url(../Contents/logos-botones/MENU_logo_vanesa_rubina.png);
 	background-size: 100% 100%;
 }
 
@@ -168,7 +169,7 @@
 }
 
 #Kokisimo:hover, #Kokisimo:active {
-	background-image: url(../Contents/logos&botones/MENU_logo_Brenda_Herrera.png);
+	background-image: url(../Contents/logos-botones/MENU_logo_Brenda_Herrera.png);
 	background-size: 100% 100%;
 }
 
@@ -181,7 +182,7 @@
 }
 
 #Lulipa:hover, #Lulipa:active {
-	background: url(../Contents/logos&botones/MENU_logo_nati_agois.png);
+	background: url(../Contents/logos-botones/MENU_logo_nati_agois.png);
 	background-size: 100% 100%;
 }
 
@@ -194,7 +195,7 @@
 }
 
 #Mi_Media_Manzana:hover, #Mi_Media_Manzana:active {
-	background: url(../Contents/logos&botones/MENU_logo_Pedro_Neira.png);
+	background: url(../Contents/logos-botones/MENU_logo_Pedro_Neira.png);
 	background-size: 100% 100%;
 }
 
@@ -207,7 +208,7 @@
 }
 
 #Moldes:hover, #Moldes:active {
-	background: url(../Contents/logos&botones/MENU_logo_katia_de_la_cruz.png);
+	background: url(../Contents/logos-botones/MENU_logo_katia_de_la_cruz.png);
 	background-size: 100% 100%;
 }
 
@@ -220,7 +221,7 @@
 }
 
 #My_Bump_Ac:hover, #My_Bump_Ac:active {
-	background: url(../Contents/logos&botones/MENU_logo_Luciana_Rey.png);
+	background: url(../Contents/logos-botones/MENU_logo_Luciana_Rey.png);
 	background-size: 100% 100%;
 }
 
@@ -233,7 +234,7 @@
 }
 
 #Peru_Apps:hover, #Peru_Apps:active {
-	background: url(../Contents/logos&botones/MENU_logo_julio_ramon.png);
+	background: url(../Contents/logos-botones/MENU_logo_julio_ramon.png);
 	background-size: 100% 100%;
 }
 
@@ -246,7 +247,7 @@
 }
 
 #PickApp:hover, #PickApp:active {
-	background: url(../Contents/logos&botones/MENU_logo_felix_ipanaque.png);
+	background: url(../Contents/logos-botones/MENU_logo_felix_ipanaque.png);
 	background-size: 100% 100%;
 }
 
@@ -259,7 +260,7 @@
 }
 
 #Planeta_Oceano:hover, #Planeta_Oceano:active {
-	background: url(../Contents/logos&botones/MENU_logo_kerstin_forsberg.png);
+	background: url(../Contents/logos-botones/MENU_logo_kerstin_forsberg.png);
 	background-size: 100% 100%;
 }
 
@@ -272,7 +273,7 @@
 }
 
 #Qempo:hover, #Qempo:active {
-	background: url(../Contents/logos&botones/perfil_logo_anson_tou.png);
+	background: url(../Contents/logos-botones/perfil_logo_anson_tou.png);
 	background-size: 100% 70%;
 	background-repeat: no-repeat;
 	background-color: white;
@@ -287,7 +288,7 @@
 }
 
 #Riqra:hover, #Riqra:active {
-	background: url(../Contents/logos&botones/MENU_logo_jaime_chiarella.png);
+	background: url(../Contents/logos-botones/MENU_logo_jaime_chiarella.png);
 	background-size: 100% 100%;
 }
 
@@ -300,7 +301,7 @@
 }
 
 #Spray_Wash_Ac:active, #Spray_Wash_Ac:hover {
-	background: url(../Contents/logos&botones/perfil_logo_Ricardo_Armas.png);
+	background: url(../Contents/logos-botones/perfil_logo_Ricardo_Armas.png);
 	background-size: 100% 100%;
 }
 
@@ -313,7 +314,7 @@
 }
 
 #Turismoi:hover, #Turismoi:active {
-	background: url(../Contents/logos&botones/MENU_logo_diego_arbulu.png);
+	background: url(../Contents/logos-botones/MENU_logo_diego_arbulu.png);
 	background-size: 100% 100%;
 }
 
@@ -326,7 +327,7 @@
 }
 
 #Up_Peru:hover, #Up_Peru:active {
-	background: url(../Contents/logos&botones/MENU_logo_Amadeus_Malca.png);
+	background: url(../Contents/logos-botones/MENU_logo_Amadeus_Malca.png);
 	background-size: 100% 100%;
 }
 
@@ -339,7 +340,7 @@
 }
 
 #Vecinos360:hover, #Vecinos360:active {
-	background: url(../Contents/logos&botones/MENU_logo_gonzalo_rossello.png);
+	background: url(../Contents/logos-botones/MENU_logo_gonzalo_rossello.png);
 	background-size: 100% 100%;
 }
 
@@ -352,7 +353,7 @@
 }
 
 #Yaqua:hover, #Yaqua:active {
-	background: url(../Contents/logos&botones/MENU_logo_fernando_tamayo.png);
+	background: url(../Contents/logos-botones/MENU_logo_fernando_tamayo.png);
 	background-size: 100% 100%;
 }
 
@@ -365,7 +366,7 @@
 }
 
 #Yunta:hover, #Yunta:active {
-	background: url(../Contents/logos&botones/MENU_logo_jose_carrera.png);
+	background: url(../Contents/logos-botones/MENU_logo_jose_carrera.png);
 	background-size: 100% 100%;
 }
 
@@ -378,6 +379,6 @@
 }
 
 #zenQbar:hover, #zenQbar:active {
-	background: url(../Contents/logos&botones/MENU_logo_santiago_sologuren.png);
+	background: url(../Contents/logos-botones/MENU_logo_santiago_sologuren.png);
 	background-size: 100% 100%;
 }

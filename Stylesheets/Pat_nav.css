@@ -5,6 +5,7 @@
 	background-size: 100% 100%;
 	height: 3.5vw;
 	width: 3.5vw;
+	display: none;
 }
 
 
@@ -77,7 +78,7 @@
 
 
 #nf:hover, #nf:active, #jaf:hover, #jaf:active, #hl:hover, #hl:active, #nm:hover, #nm:active, #smq:hover, #smq:active, #jm:hover, #jm:active, #jjt:hover, #jjt:active, #ft:hover, #ft:active {
-	background: url(../Contents/logos&botones/patriotas-logo.jpg);
+	background: url(../Contents/logos-botones/patriotas-logo.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 28%;
 	background-position: 10%;
