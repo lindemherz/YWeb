@@ -69,7 +69,7 @@ p {
 .formamos-before {
 	position: fixed;
 	top: 3.12vh;
-	left: 19.3vw;
+	left: 20.7vw;
 	width: 11.8vh;
 	height: 11.8vh;
 	border: 0.43vh solid #eceded;
@@ -79,8 +79,8 @@ p {
 
 .formamos {
 	position: relative;
-	top: 0.1vh;
-	left: 0.1vh;
+	top: 0.05vh;
+	left: 0.05vh;
 	height: 10.7vh;
 	width: 10.7vh;
 	border: 0.55vh solid #c7c9c9;
@@ -145,23 +145,23 @@ p {
 	width: 80%;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 2.4vh;
-	line-height: 3.2vh;
+	font-size: 2.8vh;
+	line-height: 3.5vh;
 }
 
 .overflow {
 	position: relative;
-	height: 25vh;
-	width: 80%;
-	left: 10%;
+	height: 27vh;
+	width: 85%;
+	left: 7.5%;
 	top: 19vh;
 	overflow: auto;
 }
 
 .txt {
 	font-weight: lighter;
-	font-size: 2.3vh;
-	line-height: 3.2vh;
+	font-size: 2.6vh;
+	line-height: 3.5vh;
 }
 
 
@@ -173,9 +173,9 @@ p {
 	height: 9.7vh;
 	width: 9.7vh;
 	border: 0.2vh solid #6d6e70;
-	transition: background 0.4s;
+	transition: background 0.2s;
 } .sphere:hover{
-	transition: background 0.4s;
+	transition: background 0.2s;
 }
 
 #Asociacion_Taller_Ninos {
