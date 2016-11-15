@@ -33,7 +33,6 @@ a, a:visited {
 p {
 	font-size: 20px;
 	position: relative;
-	top: 8vw;
 }
 
 
@@ -73,7 +72,6 @@ p {
 	background-repeat: no-repeat;
 }
 
-
 .bubble {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -82,67 +80,98 @@ p {
 	background-color: rgb(23, 171, 236);
 }
 
+.creamos-before {
+	position: fixed;
+	top: 8.14vh;
+	left: 22.4vw;
+	width: 11.8vh;
+	height: 11.8vh;
+	border: 0.43vh solid #eceded;
+	background-color: #eceded;
+}
+
 .creamos {
-	background-color: rgb(23, 137, 180);
-	height:5vw;
-	width:5vw;
 	position: relative;
-	top: 7vw;
-	left:5vw;
+	top: 0.05vh;
+	left: 0.05vh;
+	height: 10.7vh;
+	width: 10.7vh;
+	border: 0.55vh solid #c7c9c9;
+	background-color: #1d8ab1;
 }
 
 .creamos-p {
 	position: relative;
-	top: 35%;
+	top: 4.1vh;
+	width: 100%;
 	color: white;
-	font-size: 1.10vw;
+	font-size: 1.50vh;
+	font-weight: bold;
 	text-align: center;
-
+	text-transform: uppercase;
 }
 
 .lab-corporativo {
-	position: relative;
-	top: 4vw;
-	left:8vw;
-	background-color: rgb(91, 204, 246);
-	height:8vw;
-	width: 8vw;
-	z-index: -1;
+	position: fixed;
+	top: 0.6vh;
+	left: 33vw;
+	height: 23vh;
+	width: 23vh;
+	border: solid 0.74vh #6d6e70;
+	background-color: #32c1d8;
 }
 
 .cre-lvl-p {
 	position: relative;
-	top: 25px;
-	font-size: 1.30vw;
+	top: 7.0vh;
+	width: 100%;
+	color: white;
+	font-size: 3.8vh;
+	font-weight: lighter;
 	text-align: center;
-	}.cre-lvl-p p{
-		padding-bottom: 5px;
-		padding-top: 5px;
-		margin-bottom: 5px;
-	}
+	text-transform: capitalize;
+	line-height: 3.9vh
+}
 
 .description {
-	position: relative;
-	left: 4vw;
-	top: 8vw;
-	width: 40vw;
-	height: 40vw;
-	}.description p{
-		color: white;
-		margin-bottom: 10px;
-	}
+	background: #f1f2f2;
+	overflow: auto;
+	position: fixed;
+	left: 26.8vw;
+	top: 31.3vh;
+	width: 65.6vh;
+	height: 65.6vh;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: solid 0.5vh #6d6e70;
+	text-align: center;
+}
 
 .st {
-	color: white;
-	font-weight: bold;
 	position: relative;
-	top: 6vw;
-	font-size: 22px;
+	left: 10%;
+	top: 12vh;
+	width: 80%;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2.8vh;
+	line-height: 3.5vh;
+}
+
+.overflow {
+	position: relative;
+	left: 7.5%;
+	top: 17vh;
+	height: 27vh;
+	width: 85%;
+	/*overflow: auto;*/
 }
 
 .txt {
-	color: white;
-	top: 7vw;
+	font-weight: lighter;
+	font-size: 2.6vh;
+	line-height: 3.5vh;
 }
 
 /*Twicks to the side menu */

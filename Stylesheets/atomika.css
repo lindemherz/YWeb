@@ -6,17 +6,21 @@
 }
 
 .logo {
-	height: 25%;
+	/*height: 25%;
 	position: absolute;
 	top: 15%;
-	left: 25%;
+	left: 25%;*/
 }
 
 .quote {
-	position: relative;
-	top: 23vh;
+	/*position: relative;
+	top: 23vh;*/
 }
 
-.story p {
-	color: white;
+.video {
+	/*top: 1wv;*/
+}
+
+.story {
+	/*color: white;*/
 }

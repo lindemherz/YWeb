@@ -53,7 +53,7 @@ p {
 	height: 100%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	}
+}
 
 .bubble {
 	-moz-border-radius: 50%;
@@ -63,60 +63,98 @@ p {
 	background-color: rgb(23, 171, 236);
 }
 
+.creamos-before {
+	position: fixed;
+	top: 8.14vh;
+	left: 22.4vw;
+	width: 11.8vh;
+	height: 11.8vh;
+	border: 0.43vh solid #eceded;
+	background-color: #eceded;
+}
+
 .creamos {
-	background-color: rgb(23, 137, 180);
-	height:5vw;
-	width:5vw;
 	position: relative;
-	top: 7vw;
-	left: 5vw;
+	top: 0.05vh;
+	left: 0.05vh;
+	height: 10.7vh;
+	width: 10.7vh;
+	border: 0.55vh solid #c7c9c9;
+	background-color: #1d8ab1;
 }
 
 .creamos-p {
 	position: relative;
-	top: 30%;
+	top: 4.1vh;
+	width: 100%;
 	color: white;
-	font-size: 1.10vw;
+	font-size: 1.50vh;
+	font-weight: bold;
 	text-align: center;
-
+	text-transform: uppercase;
 }
 
 .lab-patriota {
-	position: relative;
-	left: 8vw;
-	top: 4.5vw;
-	background-color: rgb(91, 204, 246);
-	height:8vw;
-	width: 8vw;
+	position: fixed;
+	top: 27vh;
+	left: 16vw;
+	height: 23vh;
+	width: 23vh;
+	border: solid 0.74vh #6d6e70;
+	background-color: #32c1d8;
 }
 
 .cre-lvl-p {
 	position: relative;
-	top: 18px;
-	font-size: 1.30vw;
+	top: 7.0vh;
+	width: 100%;
+	color: white;
+	font-size: 3.8vh;
+	font-weight: lighter;
 	text-align: center;
+	text-transform: capitalize;
+	line-height: 3.9vh
 }
 
 .description {
-	position: relative;
-	left: 3vw;
-	top: 5vw;
-	width: 40vw;
-	height: 40vw;
+	background: #f1f2f2;
+	overflow: auto;
+	position: fixed;
+	left: 28vw;
+	top: 29vh;
+	width: 65.6vh;
+	height: 65.6vh;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: solid 0.5vh #6d6e70;
+	text-align: center;
 }
 
 .st {
-	font-weight: bold;
 	position: relative;
-	top: 6vw;
-	font-size: 22px;
-	color: white;
+	left: 10%;
+	top: 19vh;
+	width: 80%;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2.8vh;
+	line-height: 3.5vh;
 }
 
+.overflow {
+	position: relative;
+	top: 22vh;
+	height: 27vh;
+	width: 85%;
+	left: 7.5%;
+	/*overflow: auto;*/
+}
 
 .txt {
-	top:8vw;
-	color: white;
+	font-weight: lighter;
+	font-size: 2.6vh;
+	line-height: 3.5vh;
 }
 
 /*Twicks to the side menu */

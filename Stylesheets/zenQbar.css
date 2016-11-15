@@ -5,22 +5,23 @@
 }
 
 .logo {
-	height: 25%;
+	/*height: 25%;
 	position: absolute;
-	top: 20%;
-	left: 27%;
+	top: 15%;
+	left: 25%;*/
 }
 
 .quote {
-	font-size: 2.1vh;
-	position: relative;
-	top: 23vh;
+	/*position: relative;
+	top: 23vh;*/
+	font-size: 2.3vh;
+	line-height: 3.2vh;
 }
 
 .video {
-	top: 1vw;
+	/*top: 1wv;*/
 }
 
-.story p {
-	color: white;
+.story {
+	/*color: white;*/
 }

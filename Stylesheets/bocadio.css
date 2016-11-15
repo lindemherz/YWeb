@@ -5,34 +5,22 @@
 	background-repeat: no-repeat;
 }
 
-#logo {
-	height: 31vw;
-	width: 31vw;
-}
-
 .logo {
-	height: 25%;
+	/*height: 25%;
 	position: absolute;
-	top: 20%;
-	left: 25%;
+	top: 15%;
+	left: 25%;*/
 }
 
 .quote {
-	position: relative;
-	top: 23vh;
-	width: 96%;
-	left: 2%;
+	/*position: relative;
+	top: 23vh;*/
+}
+
+.video {
+	/*top: 1wv;*/
 }
 
 .story {
-	top: 4vh;
-	height: 18vh;
-}
-
-.story p {
-	color: white;
-}
-
-.contact {
-	top: 29vh;
+	/*color: white;*/
 }
