@@ -135,17 +135,12 @@ a:visited {
 
 .contact {
 	position: absolute;
-	top: 20vh;
+	top: 25vh;
 	left: 6.72vw;
 	font-size: 2.4vh;
 	font-weight: lighter;
 	line-height: 1vh;
 	color: white;
-
-	/*color: white;
-	position: absolute;
-	top: 20vh;
-	left: 20%;*/
 }
 
 .email, .web {

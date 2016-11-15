@@ -38,64 +38,69 @@ a:visited {
 
 }
 
-
-.formamos {
-	width: 70px;
-	height: 70px;
+.bubble, .bubble2 {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 2px solid rgb(130, 130, 130);
-	background-color: rgb(23, 171, 180);
+	border: solid 3px grey;
+	background-color: rgb(23, 171, 236);
+}
+
+.formamos {
 	position: fixed;
-	left: 17%;
-	top: 17%;
+	top: 2.4vh;
+	left: 15.7vw;
+	height: 8.6vh;
+	width: 8.6vh;
+	border: 0.55vh solid #c7c9c9;
+	background-color: #18afb4;
 
 }
 
 .formamos-p {
 	position: relative;
-	font-size: 12px;
-	top: 15px;
-	left: 5px;
+	top: 2.2vh;
+	width: 100%;
 	color: white;
+	font-size: 1.3vh;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .incubadora {
-	width: 90px;
-	height: 90px;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	border: 2px solid #8c8c8c;
-	background-color: rgb(130, 230, 236);
-	z-index: -1;
-	text-align: center;
 	position: fixed;
-	left: 21%;
-	top: 21%;
-
+	top: 5.74vh;
+	left: 17.4vw;
+	height: 14.4vh;
+	width: 14.4vh;
+	border: solid 0.55vh #6d6e70;
+	background-color: #63bfbd;
+	z-index: -1;
 }
 
 .incubadora-p {
 	position: relative;
-	font-size: 17px;
-	top: 20px;
-	color: rgb(130, 130, 130);
-	text-decoration: none;
+	top: 3.1vh;
+	width: 100%;
+	color: white;
+	font-size: 2.6vh;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: lowercase;
 }
 
 #logo {
 	position: absolute;
-	top: -10vw;
-	left: 25vw;
+	top: -10vh;
+	left: 24vw;
 	-moz-border-radius: 50%;
-	-webkit-border-radius: 5;
+	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: solid 4px rgb(130, 130, 130);
 	background-color: white;
-	height: 30vw;
-	width: 30vw;
+	height: 45vh;
+	width: 45vh;
 	text-align: center;
 	z-index: -1;
 }
@@ -105,11 +110,9 @@ a:visited {
 	width: 40vw;
 	height: 20vw;
 	position: fixed;
-	top: 23vw;
+	top: 25vw;
 	left: 16vw;
-	}
-
-#info .story {
+	}#info .story {
 		margin: 20px 20px 0px 20px;
 		padding-top: 10px;
 		padding-bottom: 20px;
@@ -120,24 +123,7 @@ a:visited {
 	overflow: auto;
 	height: 24vh;
 	top: -4vh;
-}
-
-#namecard, .txt, .txt2 {
 	color: white;
-}
-
-#namecard {
-	font-weight: bold;
-	font-size: 22px;
-	position: relative;
-	top: -15px;
-}
-
-.contact {
-	color: white;
-	position: absolute;
-	top: 26vh;
-	left: 20%;
 }
 
 #quote {
@@ -145,13 +131,23 @@ a:visited {
 	font-weight: lighter;
 }
 
-.email, .web {
-	padding-left: 0;
-}
-
-
 #name {
 	font-size: 3.3vh;
+	font-weight: lighter;
+}
+
+.contact {
+	position: absolute;
+	top: 25vh;
+	left: 6.72vw;
+	font-size: 2.4vh;
+	font-weight: lighter;
+	line-height: 1vh;
+	color: white;
+}
+
+.email, .web {
+	padding-left: 0;
 }
 
 .facebook-logo {
@@ -160,6 +156,7 @@ a:visited {
 	position: relative;
 	left: -40px;
 
+	visibility: hidden;
 }
 
 /*Twicks to the side menu */
