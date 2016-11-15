@@ -17,7 +17,7 @@
 }
 
 #helpingdent:hover, #helpingdent:active {
-	background: url(../Contents/logos-botones/MENU_logo_Jose_Francisco_Alvarez.png);
+	background: url(../Contents/logos&botones/MENU_logo_Jose_Francisco_Alvarez.png);
 	background-size: 100% 100%;
 }
 
@@ -30,7 +30,7 @@
 }
 
 #taller_de_los_ninos:hover, #taller_de_los_ninos:active {
-	background: url(../Contents/logos-botones/MENU_logo_Sara_Cifuentes.png);
+	background: url(../Contents/logos&botones/MENU_logo_Sara_Cifuentes.png);
 	background-size: 100% 100%;
 }
 
@@ -43,6 +43,6 @@
 }
 
 #tierra_de_risas:hover, #tierras_de_risas:active {
-	background: url(../Contents/logos-botones/MENU_logo_tatiana_feijoo.png);
+	background: url(../Contents/logos&botones/MENU_logo_tatiana_feijoo.png);
 	background-size: 100% 100%;
 }

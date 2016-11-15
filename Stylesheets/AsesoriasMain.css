@@ -46,7 +46,7 @@ p {
 }
 
 #page-wrap {
-	background: url(../Contents/logos-botones/background2.png);
+	background: url(../Contents/logos&botones/background2.png);
 	background-size: 125% 70%;
 	background-position: 115% 25%;
 	background-color: white;
@@ -186,7 +186,7 @@ p {
 }
 
 #como_nuevo:active, #como_nuevo:hover {
-	background: url(../Contents/logos-botones/MENU_logo_rodolfo_pozo.png);
+	background: url(../Contents/logos&botones/MENU_logo_rodolfo_pozo.png);
 	background-size: 100% 100%;
 	position: fixed;
 }
@@ -202,7 +202,7 @@ p {
 
 
 #my_bump:active, #my_bump:hover {
-	background: url(../Contents/logos-botones/MENU_logo_Luciana_Rey.png);
+	background: url(../Contents/logos&botones/MENU_logo_Luciana_Rey.png);
 	background-size: 100% 100%;
 	position: fixed;
 }
@@ -217,7 +217,7 @@ p {
 }
 
 #spray_wash:active, #spray_wash:hover {
-	background: url(../Contents/logos-botones/MENU_logo_Ricardo_Armas.png);
+	background: url(../Contents/logos&botones/MENU_logo_Ricardo_Armas.png);
 	background-size: 100% 100%;
 	position: fixed;
 }
