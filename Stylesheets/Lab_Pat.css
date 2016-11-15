@@ -96,8 +96,8 @@ p {
 
 .lab-patriota {
 	position: fixed;
-	top: 0.6vh;
-	left: 33vw;
+	top: 27vh;
+	left: 16vw;
 	height: 23vh;
 	width: 23vh;
 	border: solid 0.74vh #6d6e70;
@@ -120,8 +120,8 @@ p {
 	background: #f1f2f2;
 	overflow: auto;
 	position: fixed;
-	left: 26.8vw;
-	top: 31.3vh;
+	left: 28vw;
+	top: 29vh;
 	width: 65.6vh;
 	height: 65.6vh;
 	-moz-border-radius: 50%;

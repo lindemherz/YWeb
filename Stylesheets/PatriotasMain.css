@@ -49,7 +49,7 @@ a, a:visited {
 	border: solid 3px grey;
 }
 
-.formamos {
+/*.formamos {
 	background-color: rgb(23, 171, 236);
 	height:90px;
 	width:90px;
@@ -72,7 +72,7 @@ a, a:visited {
 	top: 40px;
 	font-size: 20px;
 	text-align: center;
-}
+}*/
 
 .patriotas {
 	position: relative;
@@ -91,21 +91,20 @@ a, a:visited {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: solid 3px grey;
-	} .description p {
+	border: solid 0.5vh #6d6e70;
+	} /*.description p {
 	font-size: 20px;
 	position: relative;
 	font: 1.2em/1.8em Nunito, sans-serif;
 	text-align: center;
-}
+}*/
 
 
 #patriotas-logo {
 	position: relative;
-	top:4vw;
-	left: 10vw;
-	height: 70px;
-	width: 250px;
+	top:10vh;
+	left: 15%;
+	width: 70%;
 }
 
 .st {
@@ -116,9 +115,15 @@ a, a:visited {
 }
 
 .txt {
-	width: 90%;
-	top:6vw;
-	left: 2vw;
+	top:16vh;
+	position: relative;
+	width: 85%;
+	left: 7.5%;
+	font-family: Nunito, sans-serif;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 2.6vh;
+	line-height: 3.5vh;
 }
 
 .txt-2{
@@ -132,8 +137,12 @@ a, a:visited {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	background-size: 100% 100%;
-	height: 8vw;
-	width: 8vw;
+	height: 14.2vh;
+	width: 14.2vh;
+	border: 0.2vh solid #6d6e70;
+	transition: background 0.4s;
+} .sphere:hover{
+	transition: background 0.4s;
 }
 
 
@@ -206,9 +215,9 @@ a, a:visited {
 
 
 #nf:hover, #nf:active, #jaf:hover, #jaf:active, #hl:hover, #hl:active, #nm:hover, #nm:active, #smq:hover, #smq:active, #jm:hover, #jm:active, #jjt:hover, #jjt:active, #ft:hover, #ft:active {
-	background: url(../Contents/logos-botones/patriotas-logo.jpg);
+	background: url(../Contents/logos-botones/MENU_patriotas-logo.png);
 	background-repeat: no-repeat;
-	background-size: 100% 28%;
+	background-size: 100% 100%;
 	background-position: 10%;
 
 }
