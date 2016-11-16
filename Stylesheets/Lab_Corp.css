@@ -72,6 +72,16 @@ p {
 	background-repeat: no-repeat;
 }
 
+.background {
+	/*position: fixed;
+	top: -30vh;
+	left: 16.37vw;
+	height: 54.395vh;
+	width: 56.649vh;
+	background: url("../Contents/logos&botones/bkgSpheresMain1080.png");
+	background-size: contain;*/
+}
+
 .bubble {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;

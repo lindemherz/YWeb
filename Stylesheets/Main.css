@@ -33,43 +33,35 @@ a:visited {
 }
 
 #page-wrap {
+	position: relative;
+	left: 11.92vw;
+	width: 100%;
+	height: 100%;
 	min-width: 780px;
-	max-width: 1632px;
+	max-width: 1693px;
 	overflow-y: hidden;
 	overflow-x: hidden;
 	background-color: white;
-	background: url("../Contents/logos&botones/ybackground.png");
+	background: url("../Contents/logos&botones/backgroundClear1080.png");
 	background-repeat: no-repeat;
-	background-position: right 13.1vw top;
-	/*for 1366x645
-	background-position: right 13.1vw top -6vh;
-	*/
+	background-position: left 11.92vw top 0;
 	background-attachment: fixed;
-	-webkit-background-size: 59vw auto;
-	-moz-background-size: 59vw auto;
-	background-size: 59vw auto;
-	position: relative;
-	left: 15%;
-	width: 100%;
-	height: 100%;
-	padding: 0;
-	margin: 0;
-	}
-	#page-wrap #inside {
-		margin: 10px 10px 0px 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
+	-webkit-background-size: auto auto;
+	-moz-background-size: auto auto;
+	background-size: auto auto;
+}
 
 
 /* Elements of main page */
 
-#img.ybackground.png {
-	width: 100%;
-	height: 100%;
-	position: relative;
-	top: 0;
-	left: 0;
+.background {
+	position: fixed;
+	top: -6.40vh;
+	left: 27.28vw;
+	height: 101.94vh;
+	width: 105.83vh;
+	background: url("../Contents/logos&botones/bkgSpheresMain1080.png");
+	background-size: contain;
 }
 
 .center {
