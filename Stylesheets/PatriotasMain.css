@@ -32,15 +32,29 @@ a, a:visited {
 	color: black;
 }
 
-
 #page-wrap {
-	background: white;
+	position: relative;
+	left: 11.92vw;
+	width: 100%;
+	height: 100%;
 	min-width: 780px;
-	max-width: 1260px;
-	margin: 10px auto;
+	max-width: 1693px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background-color: white;
+	background: url("../Contents/logos&botones/backgroundClear1080.png");
+	background-repeat: no-repeat;
+	background-position: left 11.92vw top 0;
+	background-attachment: fixed;
+	-webkit-background-size: auto auto;
+	-moz-background-size: auto auto;
+	background-size: auto auto;
+}
+
+#inside {
 	position: fixed;
 	left: 30%;
-	}
+}
 
 .bubble {
 	-moz-border-radius: 50%;
@@ -48,31 +62,6 @@ a, a:visited {
 	border-radius: 50%;
 	border: solid 3px grey;
 }
-
-/*.formamos {
-	background-color: rgb(23, 171, 236);
-	height:90px;
-	width:90px;
-	position: relative;
-	top: 40px;
-	left:-10vw;
-}
-
-.formamos-p {
-	position: relative;
-	top: 35%;
-	color: white;
-	font-size: 16px;
-	text-align: center;
-
-}
-
-.form-lvl-p {
-	position: relative;
-	top: 40px;
-	font-size: 20px;
-	text-align: center;
-}*/
 
 .patriotas {
 	position: relative;
@@ -92,12 +81,7 @@ a, a:visited {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: solid 0.5vh #6d6e70;
-	} /*.description p {
-	font-size: 20px;
-	position: relative;
-	font: 1.2em/1.8em Nunito, sans-serif;
-	text-align: center;
-}*/
+}
 
 
 #patriotas-logo {
