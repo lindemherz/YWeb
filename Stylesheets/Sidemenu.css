@@ -23,10 +23,10 @@
 }
 
 #sidemenu p {
-	top: 0;
+	/*top: 0;
 	left: 0;
 	font: 1.13vw 'Nunito', sans-serif;
-	font-weight: 300;
+	font-weight: 300;*/
 }
 
 #sidemenu {
@@ -40,197 +40,322 @@
 	overflow: hidden;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
-	} #sidemenu p {
-		text-align: center;
-		font-size: 1.9vh;
-		margin-bottom: 12.4%;
-	}
+}
+
+#sidemenu .u-nav {
+	position: absolute;
+	top: 2.037vh;
+	left: 2.73vw;
+}
 
 #menu-front {
-	position: relative;
-	top: 4vh;
-	left: 4.2vw;
-	width: 30%;
+	height: 14.136vh;
 }
 
+/******************/
 /* Text and balls */
+/******************/
 
 #sidemenu .menu-list {
-	position: relative;
-	top: 8vh;
-	left: -1.75vw;
-	} .menu-list p {
-	margin-bottom: 2.5vw;
-	color: grey;
-}
-
-#sidemenu .ball {
-	width: 2vw;
-	height: 2vw;
-	-moz-border-radius: 50%;
-	-webkit-border-radius:50%;
-	border-radius: 50%;
-	border: solid 1px grey;
-}
-
-#sidemenu .ball2 {
-	width: 1vw;
-	height: 1vw;
-	-moz-border-radius: 50%;
-	-webkit-border-radius:50%;
-	border-radius: 50%;
-	border: solid 1px grey;
-}
-
-.menu-hist {
-	visibility: hidden;
-}
-
-#sidemenu .hist-bubble {
-	background-color: #969696;
-	width: 1.5vw;
-	height: 1.5vw;
 	position: absolute;
-	top: -5%;
-	left: 45%;
+	top: 15.5vh;
+}
+
+/**************************/
+/* Separator General Style*/
+/**************************/
+
+#sidemenu .separator {
+	position: absolute;
+	left: 4.05vh;
+	width: 0.68vh;
+	background-color: #58585b;
+}
+
+#sidemenu .separator-ball {
+	top: -0.567vh;
+	width: 1.2vh;
+	height: 1.2vh;
+	left: -0.26vh;
+
+	-moz-border-radius: 50%;
+	-webkit-border-radius:50%;
+	border-radius: 50%;
+}
+
+/********************/
+/* Header separator */
+/********************/
+
+#sidemenu #separator-header {
+	top: 0.567vh;
+	height: 3vh;
+}
+
+/******************************/
+/* Balls - Text General Style */
+/******************************/
+
+#sidemenu .menu-header, #sidemenu .menu-item {
+	color: black;
+}
+
+#sidemenu .menu-header {
+	position: absolute;
+} #sidemenu .menu-header p {
+	font-size: 1.49vh;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#sidemenu .ball-header {
+	position: relative;
+	left: 1.4vh;
+	width: 5vh;
+	height: 5vh;
+
+	-moz-border-radius: 50%;
+	-webkit-border-radius:50%;
+	border-radius: 50%;
+	border: solid 0.4vh #58585b;
+}
+
+#sidemenu .menu-wrapper {
+	position: absolute;
+}
+
+#sidemenu .menu-item {
+	position: absolute;
+	display: inline-block;
+}
+
+#sidemenu .ball-item {
+	position: absolute;
+	width: 3.3vh;
+	height: 3.3vh;
+	-moz-border-radius: 50%;
+	-webkit-border-radius:50%;
+	border-radius: 50%;
+	border: solid 0.4vh #58585b;
+}
+
+#sidemenu .menu-txt-item p{
+	position: relative;
+	top: 0vh;
+	left: 6.94vh;
+	font-size: 1.6vh;
+	font-weight: lighter;
+	text-align: left;
+}
+
+/************/
+/* Formamos */
+/************/
+
+#sidemenu #separator-formamos {
+	position: absolute;
+	top: 6.5vh;
+	height: 24.45vh;
+}
+
+#sidemenu #formamos {
+	top: 4.15vh;
+	width: 8.9vh;
 }
 
 #sidemenu .formamos-bubble {
-	background-color: rgb(23, 171, 180);
-	width: 2.2vw;
-	height: 2.2vw;
-	position: absolute;
-	top: 4.5%;
-	left: 43%;
-
-	/*visibility: hidden;*/
+	background-color: #18afb4;
 }
 
-.menu-formamos {
+#sidemenu .incubadora-bubble, #sidemenu .aceleradora-bubble, #sidemenu .asesoria-bubble {
+	left: 2.31vh;
+	background-color: #63bfbd;
+}
+
+#sidemenu #menu-incu {
+	top: 13.62vh;
+}
+
+#sidemenu #menu-acele {
+	top: 19.27vh;
+}
+
+#sidemenu #menu-aseso {
+	top: 25.01vh;
+}
+
+#sidemenu #link-txt-incu, #sidemenu #link-txt-acele, #sidemenu #link-txt-aseso {
+	position: absolute;
+	top: 1vh;
 	text-transform: lowercase;
 }
 
-#sidemenu .incubadora-bubble {
-	background-color: rgb(130, 230, 236);
-	width: 1.5vw;
-	height: 1.5vw;
+/***********/
+/* Creamos */
+/***********/
+
+#sidemenu #separator-creamos {
 	position: absolute;
-	top: 16.5%;
-	left: 45%;
+	top: 34.56vh;
+	height: 18.2vh;
 }
 
-.menu-creamos {
-	text-transform: lowercase;
-}
-
-#sidemenu .aceleradora-bubble {
-	background-color: rgb(130, 230, 236);
-	width: 1.5vw;
-	height: 1.5vw;
-	position: absolute;
-	top: 27.5%;
-	left: 45%;
-}
-
-#sidemenu .asesoria-bubble {
-	background-color: rgb(130, 230, 236);
-	width: 1.5vw;
-	height: 1.5vw;
-	position: absolute;
-	top: 38.5%;
-	left: 45%;
+#sidemenu #creamos {
+	top: 32.25vh;
+	width: 8.9vh;
 }
 
 #sidemenu .creamos-bubble {
-	background-color: rgb(23, 137, 180);
-	width: 2.2vw;
-	height: 2.2vw;
-	position: absolute;
-	top: 48%;
-	left: 43%;
-
-	/*visibility: hidden;*/
+	background-color: #1d8ab1;
 }
 
-#sidemenu .lab-cor-bubble {
-	background-color: rgb(91, 204, 246);
-	width: 1.5vw;
-	height: 1.5vw;
-	position: absolute;
-	top: 60%;
-	left: 45%;
+#sidemenu .lab-cor-bubble,  #sidemenu .lab-pat-bubble{
+	left: 2.31vh;
+	background-color: #32c1d8;
 }
 
-#sidemenu .lab-pat-bubble {
-	background-color: rgb(91, 204, 246);
-	width: 1.5vw;
-	height: 1.5vw;
+#sidemenu #menu-lab-cor {
+	top: 41.509vh;
+}
+
+#sidemenu #menu-lab-pat {
+	top: 47.111vh;
+}
+
+#sidemenu #link-txt-lab-cor , #sidemenu #link-txt-lab-pat {
 	position: absolute;
-	top: 75%;
-	left: 45%;
+	top: 0vh;
+}
+
+#sidemenu #link-txt-lab-cor p, #sidemenu #link-txt-lab-pat p{
+	position: absolute;
+	top: 0vh;
+	text-transform: capitalize;
+}
+
+
+/*****************/
+/* Los Patriotas */
+/*****************/
+
+#sidemenu #patriotas {
+	top: 54.28vh;
+	width: 8.9vh;
 }
 
 #sidemenu .patriotas-bubble {
-	background-color: white;
-	width: 2.2vw;
-	height: 2.2vw;
-	position: absolute;
-	top: 89%;
-	left: 43%;
+	background-color: #f1f1f2;
 }
 
+
+/********************/
+/* Footer Separator */
+/********************/
+
+#sidemenu #separator-footer {
+	top: 59.71vh;
+	height: 6.98vh;
+}
+
+#sidemenu #separator-ball-footer {
+	top: 6.413vh;
+}
+
+
+/***************/
+/* Back Button */
+/***************/
+
+#sidemenu #back-button {
+	display: none;
+	top: 65.63vh;
+	width: 8.9vh;
+} #sidemenu #back-button p {
+	text-transform: lowercase;
+}
+
+#sidemenu .back-bubble {
+	position: relative;
+	left: 2.7vh;
+	height: 3.148vh;
+	width: 3.148vh;
+	background-color: #58585b;
+
+	-moz-border-radius: 50%;
+	-webkit-border-radius:50%;
+	border-radius: 50%;
+}
+
+#sidemenu .back-triangle {
+	position: relative;
+	top: 0.65vh;
+	left: 0.65vh;
+	height: 0;
+	width: 0;
+
+	border-top: 1vh solid transparent;
+	border-bottom: 1vh solid transparent;
+
+	border-right: 1.48vh solid white;
+}
+
+
+/***************/
 /*Contact Info */
+/***************/
 
 /* Social Media */
 
 #sidemenu #social-network {
-	position: absolute;
-	bottom:-1%;
-	left: 3%;
 }
 
-#sidemenu #fb-logo {
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	height: 2.5vw;
-	position: relative;
-	left: 2vw;
-
+#sidemenu .sm-button{
+	display: inline-block;
+	margin-right: 1.5vh;
 }
 
-#sidemenu #twitter-logo {
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	height: 2.5vw;
-	position: relative;
-	left: 5vw;
-	top: -5vh;
+#sidemenu .sm-icon{
+	width: 3.51vh;
+	height: 3.51vh;
+	background-size: contain;
+	transition: background-image 0.2s;
+} #sidemenu .sm-icon:hover {
+	transition: background-image 0.2s;
 }
 
-#sidemenu #vimeo-logo {
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	height: 2.5vw;
-	position: relative;
-	left: 8vw;
-	top: -10vh;
+#sidemenu #fb-icon {
+	background-image: url(../Contents/logos&botones/sidemenu_sm_fb.png);
+} #sidemenu #fb-icon:hover {
+	background-image: url(../Contents/logos&botones/sidemenu_sm_fb_active.png);
+} #sidemenu #fb-icon:active {
+	background-image: url(../Contents/logos&botones/sidemenu_sm_fb_active.png);
+}
+
+#sidemenu #twitter-icon {
+	background-image: url(../Contents/logos&botones/sidemenu_sm_twitter.png);
+} #sidemenu #twitter-icon:hover {
+	background-image: url(../Contents/logos&botones/sidemenu_sm_twitter_active.png);
+} #sidemenu #twitter-icon:active {
+	background-image: url(../Contents/logos&botones/sidemenu_sm_twitter_active.png);
+}
+
+#sidemenu #vimeo-icon {
+	background-image: url(../Contents/logos&botones/sidemenu_sm_vimeo.png);
+} #sidemenu #vimeo-icon:hover {
+	background-image: url(../Contents/logos&botones/sidemenu_sm_vimeo_active.png);
+} #sidemenu #vimeo-icon:active {
+	background-image: url(../Contents/logos&botones/sidemenu_sm_vimeo_active.png);
 }
 
 /* Phone number and email */
 
-#sidemenu .phone-num {
+#sidemenu .contact-info {
 	position: absolute;
-	bottom: 5%;
-	left: 15%;
-	font-size: 2vh;
+	bottom: 2vh;
+	left: 2.31vh;
 }
 
 #sidemenu .email-address {
-	position: absolute;
-	bottom: 2%;
-	left: 5%;
-	font-size: 2vh;
+	font-size: 1.5vh;
 }

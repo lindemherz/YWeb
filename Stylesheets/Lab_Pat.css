@@ -17,12 +17,6 @@ body {
 	font-size: 62.5%;
 }
 
-p, li, h1 {
-	font: 1.2em/1.8em Nunito, sans-serif;
-	margin-bottom: 10px;
-
-}
-
 h1 {
 	text-align: center;
 	font-weight: bold;
@@ -40,11 +34,6 @@ a, a:visited {
 	color: black;
 }
 
-p {
-	font-size: 20px;
-	position: relative;
-}
-
 #page-wrap {
 	background: url(../Contents/fotos/LAB_POLITICO.png);
 	width: 87%;
@@ -53,6 +42,9 @@ p {
 	height: 100%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+
+	font: 1.2em/1.8em Nunito, sans-serif;
+	margin-bottom: 10px;
 }
 
 .bubble {
@@ -155,17 +147,4 @@ p {
 	font-weight: lighter;
 	font-size: 2.6vh;
 	line-height: 3.5vh;
-}
-
-/*Twicks to the side menu */
-#fb-logo {
-	bottom: 1.9vh;
-}
-
-#twitter-logo {
-	top: -6.3vh !important;
-}
-
-#vimeo-logo {
-	top: -10.6vh !important;
 }
