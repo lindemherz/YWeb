@@ -18,9 +18,6 @@ body {
 }
 
 p, li, h1 {
-	font: 1.2em/1.8em Nunito, sans-serif;
-	margin-bottom: 10px;
-	text-align: center;
 }
 
 h1 {
@@ -40,11 +37,6 @@ a, a:visited {
 	color: black;
 }
 
-p {
-	font-size: 20px;
-	position: relative;
-}
-
 #page-wrap {
 	position: relative;
 	left: 11.92vw;
@@ -62,6 +54,10 @@ p {
 	-webkit-background-size: auto auto;
 	-moz-background-size: auto auto;
 	background-size: auto auto;
+
+	font: 1.2em/1.8em Nunito, sans-serif;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 .background {
@@ -127,7 +123,7 @@ p {
 
 .form-lvl-p {
 	position: relative;
-	top: 7.8vh;
+	top: 9.8vh;
 	width: 100%;
 	color: white;
 	font-size: 3.8vh;

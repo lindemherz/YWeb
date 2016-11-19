@@ -73,89 +73,110 @@
 		<!--Code for side menu-->
 		<div id="sidemenu">
 			<nav class="u-nav">
-				<ul>
-					<a href="http://losynnovadores.com/" class="menu-front"> <img src="Contents/logos&botones/Logo Ynnovadores PGN.png" id="menu-front"> </a>
-					<div class="menu-list">
-						<li>
-							<div class="menu-hist">
-								<a href="nuestra_historia.html" class="menu-txt-1"><p>Nosotros</p>
-								<div class="hist-bubble ball"></div></a>
-							</div>
-						</li>
+				<a href="http://losynnovadores.com/" class="menu-front"> <img src="Contents/logos&botones/Logo Ynnovadores PGN.png" id="menu-front"> </a>
 
+				<div class="menu-list">
+					<ul>
 						<li>
-							<div class="menu-formamos">
+							<div class="separator" id="separator-header">
+								<div class="separator separator-ball" id="separator-ball-header"></div>
+							</div>
+						</li>
+						<div class ="separator" id="separator-formamos"></div>
+						<li>
+							<div class="menu-header" id="formamos">
 								<!--a href="formamos" class="menu-txt-2"--><p>Formamos</p>
-								<div class="formamos-bubble ball"></div>
+								<div class="formamos-bubble ball-header"></div>
 							</div>
 						</li>
 						<li>
-							<div class="menu-incu">
-								<a href="Formamos/incubadora.html" class="menu-txt-3"><p>Incubadora</p>
-								<div class="incubadora-bubble ball2"></div></a>
+							<div class="menu-wrapper" id="menu-incu">
+								<a href="Formamos/incubadora.html" class="menu-item" id="link-incu"><div class="incubadora-bubble ball-item"></div></a>
+								<a href="Formamos/incubadora.html" class="menu-txt-item" id="link-txt-incu"><p>Incubadora</p></a>
 							</div>
 						</li>
 						<li>
-							<div class="menu-acele">
-								<a href="Formamos/aceleradora.html" class="menu-txt-4"><p>Aceleradora</p>
-								<div class="aceleradora-bubble ball2"></div></a>
+							<div class="menu-wrapper" id="menu-acele">
+								<a href="Formamos/aceleradora.html" class="menu-item" id="link-acele"><div class="aceleradora-bubble ball-item"></div></a>
+								<a href="Formamos/aceleradora.html" class="menu-txt-item" id="link-txt-acele"><p>Aceleradora</p></a>
 							</div>
 						</li>
 						<li>
-							<div class="menu-aseso">
-								<a href="Formamos/asesorias.html" class="menu-txt-5"><p>Asesoria</p>
-								<div class="asesoria-bubble ball2"></div></a>
+							<div class="menu-wrapper" id="menu-aseso">
+								<a href="Formamos/asesorias.html" class="menu-item" id="link-aseso"><div class="asesoria-bubble ball-item"></div></a>
+								<a href="Formamos/asesorias.html" class="menu-txt-item" id="link-txt-aseso"><p>Asesorías</p></a>
 							</div>
 						</li>
+						<div class ="separator" id="separator-creamos"></div>
 						<li>
-							<div class="menu-creamos">
+							<div class="menu-header" id="creamos">
 								<!--a href="/Creamos" class="menu-txt-6"--><p>Creamos</p>
-								<div class="creamos-bubble ball"></div>
+								<div class="creamos-bubble ball-header"></div>
 							</div>
 						</li>
 						<li>
-							<div class="menu-lab-cor">
-								<a href="Creamos/laboratorio_corporativo.html" class="menu-txt-7"><p>LAB<br />Corporativo</p>
-								<div class="lab-cor-bubble ball2"></div></a>
+							<div class="menu-header" id="menu-lab-cor">
+								<a href="Creamos/laboratorio_corporativo.html" class="menu-item" id="link-lab-cor"><div class="lab-cor-bubble ball-item"></div></a>
+								<a href="Creamos/laboratorio_corporativo.html" class="menu-txt-item" id="link-txt-lab-cor"><p>Lab<br />Corporativo</p></a>
 							</div>
 						</li>
 						<li>
-							<div class="menu-lab-pat">
-								<a href="Creamos/laboratorio_patriota.html" class="menu-txt-8"><p>LAB<br />Patriota</p>
-								<div class="lab-pat-bubble ball2"></div></a>
+							<div class="menu-header" id="menu-lab-pat">
+								<a href="Creamos/laboratorio_patriota.html" class="menu-item" id="link-lab-pat"><div class="lab-pat-bubble ball-item"></div></a>
+								<a href="Creamos/laboratorio_patriota.html" class="menu-txt-item" id="link-txt-lab-pat"><p>Lab<br />Patriota</p></a>
 							</div>
 						</li>
+						<div class="separator" id="separator-footer">
+							<div class="separator separator-ball" id="separator-ball-footer"></div>
+						</div>
 						<li>
-							<div class="menu-pat">
+							<div class="menu-header" id="patriotas">
 								<a href="los_patriotas.html" class="menu-txt-9"><p>Los Patriotas</p>
-								<div class="patriotas-bubble ball"></div></a>
+								<div class="patriotas-bubble ball-header"></div></a>
 							</div>
 						</li>
-					</div>
-				</ul>
+						<li>
+							<div class="menu-header" id="back-button">
+								<a href="Ynnovadores.html">
+									<div class="back-bubble">
+										<div class="back-triangle"></div>
+									</div>
+									<p>anterior</p>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+
 			</nav>
 
+			<!-- Code for contact section -->
 			<section class="contact-info">
 				<div id="social-network">
 					<!--Facebook-->
-					<ul class="fb"> <a href="https://www.facebook.com/ynnovadoresperu/" class="tint">
-						<img src="Contents/logos&botones/FB-f-Logo__blue_57.png"  id="fb-logo">
-					</a> </ul>
+					<ul class="sm-button">
+						<a href="https://www.facebook.com/ynnovadoresperu/">
+							<div class="sm-icon" id="fb-icon"></div>
+						</a>
+					</ul>
 					<!--Twitter-->
-					<ul class="twitter"> <a href="https://twitter.com/Ynnovadores">
-						<img src="Contents/logos&botones/Twitter_Logo_White_On_Blue.png" id="twitter-logo" class="tint">
-					</a> </ul>
+					<ul class="sm-button">
+						<a href="https://twitter.com/Ynnovadores">
+							<div class="sm-icon" id="twitter-icon"></div>
+						</a>
+					</ul>
 					<!--Vimeo-->
-					<ul class="vimeo"> <a href="https://vimeo.com/user31764736">
-						<img src="Contents/logos&botones/vimeo_icon_white_on_blue_rounded.png" id="vimeo-logo" class="tint">
-					</a> </ul>
+					<ul class="sm-button">
+						<a href="https://vimeo.com/user31764736">
+							<div class="sm-icon" id="vimeo-icon"></div>
+						</a>
+					</ul>
 				</div>
-			<!--Phone Number-->
-				<ul class="phone-num">(+511) 496-4662</ul>
-			<!--Email-->
-				<a class="email-address" href='mailto:info@losynnovadores.com'>info@losynnovadores.com</a>
+				<!--Email-->
+				<a class="email-address" href='mailto:contacto@losynnovadores.com'><p>contacto<br />@losynnovadores.com</p></a>
 			</section>
 		</div>
+
 
 		<!-- Code for central frontpage-->
 		<div id="page-wrap">

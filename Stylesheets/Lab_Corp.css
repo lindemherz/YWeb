@@ -30,11 +30,6 @@ a, a:visited {
 	color: black;
 }
 
-p {
-	font-size: 20px;
-	position: relative;
-}
-
 
 #logo {
 	height: 31vw;
@@ -182,17 +177,4 @@ p {
 	font-weight: lighter;
 	font-size: 2.6vh;
 	line-height: 3.5vh;
-}
-
-/*Twicks to the side menu */
-#fb-logo {
-	bottom: 1.9vh;
-}
-
-#twitter-logo {
-	top: -6.3vh !important;
-}
-
-#vimeo-logo {
-	top: -10.6vh !important;
 }

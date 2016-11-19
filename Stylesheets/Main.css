@@ -327,3 +327,9 @@ a:visited {
 	line-height: 2.59vh;
 	text-transform: uppercase;
 }
+
+
+/*Tweaks to the side menu */
+#sidemenu #back-button {
+	display: none;
+}
