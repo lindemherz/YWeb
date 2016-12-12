@@ -209,6 +209,10 @@ a:visited {
 	text-transform: uppercase;
 }
 
+.creamos-txt, .formamos-txt {
+	visibility: hidden;
+}
+
 .creamos-level {
 	position: relative;
 	height: 12.8vh;

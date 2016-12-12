@@ -252,3 +252,31 @@ a:visited {
 #vimeo-logo {
 	top: -10.6vh !important;
 }
+
+/*Bottom Nav*/
+.nav-parent {
+	position: absolute;
+	width: 60%;
+	left: 20vw;
+	overflow: auto;
+	display: none;
+}
+
+.nav-container {
+	position:relative;
+  	overflow:hidden;
+  	background:#444;
+  	width:100%;
+  	height:262px;
+  	white-space:nowrap;
+}
+
+.nav {
+	vertical-align: middle;
+ 	 height: 260px;
+ 	 display:inline;
+  	margin-left:-4px;
+}
+
+
+
