@@ -56,12 +56,32 @@ a:visited {
 
 .background {
 	position: fixed;
-	top: -6.40vh;
-	left: 27.28vw;
+	top: -4vh;
+	left: 28.66vw;
 	height: 101.94vh;
-	width: 105.83vh;
-	background: url("../Contents/logos&botones/bkgSpheresMain1080.png");
+	width: 101.94vh;
+	/*background: url("../Contents/logos&botones/bkgSpheresMain1080.png");*/
+	/*transform: rotate(360deg);*/
+}
+
+#bkgLayer1{
+	background: url("../Contents/logos&botones/bkgSpheresLayer1-1080.png");
 	background-size: contain;
+	transition-duration: 600s;
+
+}
+
+#bkgLayer2{
+	background: url("../Contents/logos&botones/bkgSpheresLayer2-1080.png");
+	background-size: contain;
+	transition-duration: 594s;
+
+}
+
+#bkgLayer3{
+	background: url("../Contents/logos&botones/bkgSpheresLayer3-1080.png");
+	background-size: contain;
+	transition-duration: 606s;
 }
 
 .center {
@@ -82,6 +102,10 @@ a:visited {
 	height: 16.2vh;
 }
 
+.formamos, .formamos-level {
+	transition: 0.3s;
+}
+
 .formamos-before {
 	position: fixed;
 	top: 55vh;
@@ -92,6 +116,9 @@ a:visited {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
+	border: 0.92vh solid #eceff1;
+	background-color: #eceff1;
+} .formamos-before:hover, .formamos-before.jqHover, .formamos-before:active, .formamos-before.jqActive {
 	border: 0.92vh solid #eceded;
 	background-color: #eceded;
 }
@@ -104,11 +131,15 @@ a:visited {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: 0.64vh solid #c7c9c9;
-	background-color: #18afb4;
+	background-color: #92D3D1;
 	font-family: 'Nunito', sans-serif;
 	vertical-align: middle;
 	text-align: center;
 	text-transform: uppercase;
+	transition: background-color 0.5s;
+} .formamos:hover, .formamos.jqHover, .formamos:active, .formamos.jqActive {
+	background-color: #18afb4;
+	transition: background-color 0.5s;
 }
 
 
@@ -131,31 +162,24 @@ a:visited {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 0.4vh solid #c7c9c9;
-	background-color: #63bfbd;
-	/*border: 0.4vh solid #dddede;
-	background-color: #fafafa;*/
+	border: 0.4vh solid #dddede;
+	background-color: #fafafa;
 	font-family: 'Nunito', sans-serif;
 	font-weight: lighter;
 	font-size: 20px;
 	vertical-align: middle;
 	text-align: center;
 	text-transform: lowercase;
-	color: white;
-	/*color: #ccc;*/
+	color: #ccc;
 	transition: background-color 0.5s;
-} /*.formamos-level:hover {
+} .formamos-level:hover, .formamos-level.jqHctive, .formamos-level:active, .formamos-level.jqActive {
 	border: 0.4vh solid #c7c9c9;
 	background-color: #63bfbd;
 	color: white;
 	transition: background-color 0.5s;
-} .formamos-level:active {
-	border: 0.4vh solid #c7c9c9;
-	background-color: #63bfbd;
-	color: white;
-}*/
+}
 
-.asesorias-before {
+.asesorias-container {
 	position: fixed;
 	top: 71.5vh;
 	left: 28.2vw;
@@ -168,13 +192,13 @@ a:visited {
 	font-size: 2.1vh;
 }
 
-.aceleradora-before {
+.aceleradora-container {
 	position: fixed;
 	top: 81vh;
 	left: 37.1vw;
 }
 
-.incubadora-before {
+.incubadora-container {
 	position: fixed;
 	top: 78.2vh;
 	left: 47.1vw;
@@ -190,6 +214,9 @@ a:visited {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
+	border: 0.92vh solid #eceff1;
+	background-color: #eceff1;
+} .creamos-before:hover, .creamos-before.jqHover, .creamos-before:active, .creamos-before.jqActive {
 	border: 0.92vh solid #eceded;
 	background-color: #eceded;
 }
@@ -202,11 +229,15 @@ a:visited {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: 0.64vh solid #c7c9c9;
-	background-color: #1d8ab1;
+	background-color: #7dc9db;
 	font-family: 'Nunito', sans-serif;
 	vertical-align: middle;
 	text-align: center;
 	text-transform: uppercase;
+	transition: background-color 0.5s;
+} .creamos:hover, .creamos.jqHover, .creamos:active, .creamos.jqActive {
+	background-color: #1d8ab1;
+	transition: background-color 0.5s;
 }
 
 .creamos-txt, .formamos-txt {
@@ -220,29 +251,22 @@ a:visited {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 0.4vh solid #c7c9c9;
-	background-color: #32c1d8;
-	/*border: 0.4vh solid #dddede;
-	background-color: #fafafa;*/
+	border: 0.4vh solid #dddede;
+	background-color: #fafafa;
 	font-family: 'Nunito', sans-serif;
 	font-weight: lighter;
 	font-size: 20px;
 	vertical-align: middle;
 	text-align: center;
 	text-transform: capitalize;
-	color:white;
-	/*color: #ccc;*/
+	color: #ccc;
 	transition: background-color 0.5s;
-} /*.creamos-level:hover {
+} .creamos-level:hover, .creamos-level.jqHover, .creamos-level:active, .creamos-level.jqActive {
 	border: 0.4vh solid #c7c9c9;
 	background-color: #32c1d8;
 	color: white;
 	transition: background-color 0.5s;
-} .creamos-level:active {
-	border: 0.4vh solid #c7c9c9;
-	background-color: #32c1d8;
-	color: white;
-}*/
+}
 
 .lab-corp-p, .lab-pat-p {
 	position: absolute;
@@ -251,13 +275,13 @@ a:visited {
 	font-size: 2.1vh;
 	line-height: 2.1vh;
 }
-.lab-corp-before  {
+.lab-corp-container {
 	position: fixed;
 	top: 38.15vh;
 	left: 85.2vw;
 }
 
-.lab-pat-before{
+.lab-pat-container {
 	position: fixed;
 	top: 57vh;
 	left: 82.9vw;
@@ -279,19 +303,14 @@ a:visited {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 0.92vh solid #d1d2d4;
-	background-color: #d1d2d4;
-	/*border: 0.92vh solid #eceff1;
-	background-color: #eceff1;*/
+	border: 0.92vh solid #eceff1;
+	background-color: #eceff1;
 	transition: background-color 0.5s, border 0.5s;
-} /*.patriotas-before:hover{
+} .patriotas-before:hover, .patriotas-before.jqHover, .patriotas-before:active, .patriotas-before.jqActive  {
 	border: 0.92vh solid #d1d2d4;
 	background-color: #d1d2d4;
 	transition: background-color 0.5s, border 0.5s;
-} .patriotas-before:active{
-	border: 0.92vh solid #d1d2d4;
-	background-color: #d1d2d4;
-}*/
+}
 
 .patriotas {
 	position: relative;
@@ -300,27 +319,20 @@ a:visited {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 0.64vh solid #58585b;
-	background-color: #fafafb;
-	/*border: 0.64vh solid #dfdfdf;
-	background-color: #fdfdfd;*/
+	border: 0.64vh solid #dfdfdf;
+	background-color: #fdfdfd;
 	font-family: 'Nunito' sans-serif;
 	vertical-align: middle;
 	text-align: center;
 	text-transform: uppercase;
-	color: #231f20;
-	/*color: #cbcbcb;*/
+	color: #cbcbcb;
 	transition: background-color 0.5s, border 0.5s;
-} /*.patriotas:hover{
+} .patriotas:hover, .patriotas-jqHover, .patriotas:active, .patriotas-jqActive {
 	border: 0.64vh solid #58585b;
-	background-color: #fafafb;
+	background-color: #fffafa;
 	color: #231f20;
 	transition: background-color 0.5s, border 0.5s;
-}.patriotas:active{
-	border: 0.64vh solid #58585b;
-	background-color: #fafafb;
-	color: #231f20;
-}*/
+}
 
 .patriotas-p {
 	position: absolute;

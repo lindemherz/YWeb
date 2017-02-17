@@ -6,25 +6,24 @@ $('.page-wrap, .sidemenu').hide();
 $logoIntro.fadeIn('slow', 4000).animate(
 	);
 
-//Gets the right width for the background
-
-// Animations and stuff when page is loaded
-
 $(document).ready(function() {
+//Gets the right width for the background
 	var $docHeight = $(window).height();
 	var $docWidth = $(window).width();
 	var $ratio = ($docWidth / $docHeight).toFixed(2);
-	$ratio = (27.28 * $ratio) / 1.77;
+	$ratio = (28.66 * $ratio) / 1.77;
 	$ratio = $ratio.toFixed(2);
 	var $vwString = $ratio+"vw"
 	$('.background').css({
 		'left': $vwString
 	});
 
-	//$('.video').active();
+// Animations and stuff when page is loaded
+
 	$('.page-wrap').fadeOut('slow', 5000);
-	bubbles();
-	balls();
+	$('.background').css({
+		'transform': 'rotate(720deg)'
+	});
 
 });
 

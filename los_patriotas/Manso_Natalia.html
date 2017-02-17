@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="../Stylesheets/style-ie.css" />
 	<link rel="stylesheet" type="text/css" href="../Stylesheets/Pat_nav.css" />
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="../Scripts/Sidemenu.js"></script>
 	<script src="../Scripts/Navigation.js"></script>
 	<script src="../Scripts/Patriotas.js"></script>
@@ -33,57 +34,70 @@
 							<div class="separator separator-ball" id="separator-ball-header"></div>
 						</div>
 					</li>
-					<div class ="separator" id="separator-formamos"></div>
 					<li>
+						<div class ="separator" id="separator-formamos"></div>
 						<div class="menu-header" id="formamos">
 							<!--a href="formamos" class="menu-txt-2"--><p>Formamos</p>
-							<div class="formamos-bubble ball-header"></div>
+							<div class="ball-header formamos-bubble" id="formamos-header-bubble"></div>
 						</div>
-					</li>
-					<li>
 						<div class="menu-wrapper" id="menu-incu">
-							<a href="../Formamos/incubadora.html" class="menu-item" id="link-incu"><div class="incubadora-bubble ball-item"></div></a>
-							<a href="../Formamos/incubadora.html" class="menu-txt-item" id="link-txt-incu"><p>Incubadora</p></a>
+							<a href="../Formamos/incubadora.html" class="menu-item" id="link-incu">
+								<div class="ball-item formamos-sub-bubble" id="incubadora-bubble"></div>
+							</a>
+							<a href="../Formamos/incubadora.html">
+								<p class="menu-txt-item" id="link-txt-incu">Incubadora</p>
+							</a>
 						</div>
-					</li>
-					<li>
 						<div class="menu-wrapper" id="menu-acele">
-							<a href="../Formamos/aceleradora.html" class="menu-item" id="link-acele"><div class="aceleradora-bubble ball-item"></div></a>
-							<a href="../Formamos/aceleradora.html" class="menu-txt-item" id="link-txt-acele"><p>Aceleradora</p></a>
+							<a href="../Formamos/aceleradora.html" class="menu-item" id="link-acele">
+								<div class="ball-item formamos-sub-bubble" id="aceleradora-bubble"></div>
+							</a>
+							<a href="../Formamos/aceleradora.html">
+								<p class="menu-txt-item" id="link-txt-acele">Aceleradora</p>
+							</a>
 						</div>
-					</li>
-					<li>
 						<div class="menu-wrapper" id="menu-aseso">
-							<a href="../Formamos/asesorias.html" class="menu-item" id="link-aseso"><div class="asesoria-bubble ball-item"></div></a>
-							<a href="../Formamos/asesorias.html" class="menu-txt-item" id="link-txt-aseso"><p>Asesorías</p></a>
+							<a href="../Formamos/asesorias.html" class="menu-item" id="link-aseso">
+								<div class="ball-item formamos-sub-bubble" id="asesoria-bubble"></div>
+							</a>
+							<a href="../Formamos/asesorias.html">
+								<p class="menu-txt-item" id="link-txt-aseso">Asesorías</p>
+							</a>
 						</div>
 					</li>
-					<div class ="separator" id="separator-creamos"></div>
 					<li>
+						<div class ="separator" id="separator-creamos"></div>
 						<div class="menu-header" id="creamos">
 							<!--a href="/Creamos" class="menu-txt-6"--><p>Creamos</p>
-							<div class="creamos-bubble ball-header"></div>
+							<div class="ball-header creamos-bubble" id="creamos-header-bubble"></div>
+						</div>
+						<div class="menu-wrapper" id="menu-lab-cor">
+							<a href="../Creamos/laboratorio_corporativo.html" class="menu-item" id="link-lab-cor">
+								<div class="ball-item creamos-sub-bubble" id="lab-cor-bubble"></div>
+							</a>
+							<a href="../Creamos/laboratorio_corporativo.html">
+								<p class="menu-txt-item" id="link-txt-lab-cor">Lab<br />Corporativo</p>
+							</a>
+						</div>
+						<div class="menu-wrapper" id="menu-lab-pat">
+							<a href="../Creamos/laboratorio_patriota.html" class="menu-item" id="link-lab-pat">
+								<div class="ball-item creamos-sub-bubble" id="lab-pat-bubble">
+								</div>
+							</a>
+							<a href="../Creamos/laboratorio_patriota.html">
+								<p class="menu-txt-item" id="link-txt-lab-pat">Lab<br />Patriota</p>
+							</a>
 						</div>
 					</li>
 					<li>
-						<div class="menu-header" id="menu-lab-cor">
-							<a href="../Creamos/laboratorio_corporativo.html" class="menu-item" id="link-lab-cor"><div class="lab-cor-bubble ball-item"></div></a>
-							<a href="../Creamos/laboratorio_corporativo.html" class="menu-txt-item" id="link-txt-lab-cor"><p>Lab<br />Corporativo</p></a>
+						<div class="separator" id="separator-footer">
+							<div class="separator separator-ball" id="separator-ball-footer"></div>
 						</div>
-					</li>
-					<li>
-						<div class="menu-header" id="menu-lab-pat">
-							<a href="../Creamos/laboratorio_patriota.html" class="menu-item" id="link-lab-pat"><div class="lab-pat-bubble ball-item"></div></a>
-							<a href="../Creamos/laboratorio_patriota.html" class="menu-txt-item" id="link-txt-lab-pat"><p>Lab<br />Patriota</p></a>
-						</div>
-					</li>
-					<div class="separator" id="separator-footer">
-						<div class="separator separator-ball" id="separator-ball-footer"></div>
-					</div>
-					<li>
-						<div class="menu-header" id="patriotas">
-							<a href="../los_patriotas.html" class="menu-txt-9"><p>Los Patriotas</p>
-							<div class="patriotas-bubble ball-header"></div></a>
+						<div class="menu-header" id="patriotas-section">
+							<a href="../los_patriotas.html" class="menu-txt-9">
+								<p>Los Patriotas</p>
+								<div class="patriotas-bubble ball-header" id="patriotas"></div>
+							</a>
 						</div>
 					</li>
 					<li>
@@ -128,6 +142,7 @@
 		</section>
 	</div>
 
+	<div class="patriotas-page" id="page-wrap">
 		<div id="background">
 				<div class="patriotas-before">
 					<div class="bubble patriotas">
@@ -162,5 +177,5 @@
 				<a href="Torres_Fidel.html"><div id="ft" class="nav"></div></a>
 			</div>
 		</div>
-
+	</div>
 </body>
