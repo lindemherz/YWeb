@@ -1,6 +1,7 @@
 #sidemenu *{
 	margin: 0;
 	padding: 0;
+	transition: 0.2s;
 }
 
 #sidemenu a, #sidemenu ul {
@@ -30,7 +31,7 @@
 }
 
 #sidemenu {
-	width: 15vw;
+	width: 17vw;
 	height: 100%;
 	border: none;
 	padding:0;
@@ -140,13 +141,18 @@
 	border: solid 0.4vh #58585b;
 }
 
-#sidemenu .menu-txt-item p{
+#sidemenu .menu-txt-item{
 	position: relative;
 	top: 0vh;
 	left: 6.94vh;
 	font-size: 1.6vh;
 	font-weight: lighter;
 	text-align: left;
+	color: #999;
+} #sidemenu .menu-txt-item:hover, #sidemenu .menu-txt-item.jqHover {
+	color: black;
+} #sidemenu .menu-txt-item:active, #sidemenu .menu-txt-item.jqActive {
+	color: black;
 }
 
 /************/
@@ -165,11 +171,21 @@
 }
 
 #sidemenu .formamos-bubble {
+	background-color: #92D3D1;
+	z-index: 999;
+} #sidemenu .formamos-bubble:hover,  #sidemenu .formamos-bubble.jqHover {
+	background-color: #18afb4;
+} #sidemenu .formamos-bubble:active, #sidemenu .formamos-bubble.jqActive {
 	background-color: #18afb4;
 }
 
-#sidemenu .incubadora-bubble, #sidemenu .aceleradora-bubble, #sidemenu .asesoria-bubble {
+#sidemenu .formamos-sub-bubble {
 	left: 2.31vh;
+	background-color: #e4f7f5;
+	z-index: 999;
+} #sidemenu .formamos-sub-bubble:hover, #sidemenu .formamos-sub-bubble.jqHover {
+	background-color: #63bfbd;
+} #sidemenu .formamos-sub-bubble:active, #sidemenu .formamos-sub-bubble.jqActive {
 	background-color: #63bfbd;
 }
 
@@ -207,11 +223,20 @@
 }
 
 #sidemenu .creamos-bubble {
+	background-color: #7dc9db;
+	z-index: 999;
+} #sidemenu .creamos-bubble:hover, #sidemenu .creamos-bubble.jqHover {
+	background-color: #1d8ab1;
+} #sidemenu .creamos-bubble:active, #sidemenu .creamos-bubble.jqActive {
 	background-color: #1d8ab1;
 }
 
-#sidemenu .lab-cor-bubble,  #sidemenu .lab-pat-bubble{
+#sidemenu .creamos-sub-bubble {
 	left: 2.31vh;
+	background-color: #bcebef;
+} #sidemenu .creamos-sub-bubble:hover, #sidemenu .creamos-sub-bubble.jqHover {
+	background-color: #32c1d8;
+} #sidemenu .creamos-sub-bubble:active, #sidemenu .creamos-sub-bubble.jqActive {
 	background-color: #32c1d8;
 }
 
@@ -239,13 +264,17 @@
 /* Los Patriotas */
 /*****************/
 
-#sidemenu #patriotas {
+#sidemenu #patriotas-section {
 	top: 54.28vh;
 	width: 8.9vh;
 }
 
 #sidemenu .patriotas-bubble {
 	background-color: #f1f1f2;
+} #sidemenu .patriotas-bubble:hover, #sidemenu .patriotas-bubble.jqHover {
+	background-color: #fff5f5;
+} #sidemenu .patriotas-bubble:active, #sidemenu .patriotas-bubble.jqActive {
+	background-color: #fff5f5;
 }
 
 
@@ -358,4 +387,7 @@
 
 #sidemenu .email-address {
 	font-size: 1.5vh;
+	color: #999;
+} #sidemenu .email-address:hover, #sidemenu .email-address:active {
+	color: black;
 }
