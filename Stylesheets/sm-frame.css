@@ -1,0 +1,12 @@
+#sm-frame {
+	width: 75vw;
+	height: 100%;
+	border: none;
+	padding:0;
+	margin: 0;
+	background-color: rgb(238, 238, 238);
+	position: fixed;
+	overflow: hidden;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+}
