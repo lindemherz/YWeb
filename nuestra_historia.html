@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css"
    		 href="https://fonts.googleapis.com/css?family=Nunito:bold,light, regular">
 	<link rel="stylesheet" type="text/css" href="Stylesheets/About-us.css" />
-	<link rel="stylesheet" type="text/css" href="Stylesheets/Sidemenu.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheets/sm-frame.css">
 	<link rel="stylesheet" type="text/css" href="Stylesheets/Circles.css">
 
 
@@ -19,7 +19,6 @@
 	<script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
 	<script src="Scripts/CircleType-master/js/circletype.min.js"></script>
 	<script src="Scripts/Circletext.js"></script>
-	<script src="Scripts/Sidemenu.js"></script>
 
 </head>
 
@@ -27,226 +26,139 @@
 <body>
 
 		<div id="sidemenu">
-			<nav class="u-nav">
-				<ul> 
-					<a href="http://losynnovadores.com/" class="menu-front"> <img src="Contents/logos&botones/Logo Ynnovadores PGN.png" id="menu-front"> </a> 
+			<iframe src=sidemenu.html id=sm-frame> </iframe>
 
-					<li> 
-						<div class="menu-hist">
-							<a href="nuestra_historia" class="menu-txt-1"><p>Nosotros</p> 
-							<div id="hist-bubble"></div><a>
-						</div>
-					</li>
 
-					<li> 
-						<div class="menu-formamos">
-							<!--a href="/formamos" class="menu-txt-2"--><p>Formamos</p>
-							<div id="formamos-bubble"></div>
-						</div>
-					</li>
-					<li> 
-						<div class="menu-incu">
-							<a href="formamos/incubadora" class="menu-txt-3"><p>Incubadora</p> 
-							<div id="incubadora-bubble"></div></a>
-						</div>
-					</li>
-					<li> 
-						<div class="menu-acele">
-							<a href="formamos/aceleradora" class="menu-txt-4"><p>Aceleradora</p>
-							<div id="aceleradora-bubble"></div></a>
-						</div>
-					</li> 
-					<li> 
-						<div class="menu-aseso">
-							<a href="formamos/asesorias" class="menu-txt-5"><p>Asesoria</p> 
-							<div id="asesoria-bubble"></div></a>
-						</div>
-					</li>
-					<li> 
-						<div class="menu-creamos">
-							<!--a href="/creamos" class="menu-txt-6"--><p>Creamos</p> 
-							<div id="creamos-bubble"></div>
-						</div>
-					</li>
-					<li> 
-						<div class="menu-lab-cor">
-							<a href="creamos/laboratorio_corporativo" class="menu-txt-7"><p>LAB<br />Corporativo</p> 
-							<div id="lab-cor-bubble"></div></a>
-						</div>				
-					</li>
-					<li> 
-						<div class="menu-lab-pat">
-							<a href="creamos/laboratorio_patriota" class="menu-txt-8"><p>LAB<br />Patriota</p>
-							<div id="lab-pat-bubble"></div></a>
-						</div>
-					</li>
-					<li> 
-						<div class="menu-pat">
-							<a href="los_patriotas" class="menu-txt-9"><p>Los Patriotas</p>
-							<div id="patriotas-bubble"></div></a>
-						</div>
-					</li>
+	<div id="page-wrap">
+		<div id="page">
+			<div id="ddc">
+					<h1 class="ddc-tittle">Descubrir, difundir<br> y conectar</h1>
+					<p class="ddc-text1">Ynnovadores es una <a href="/formamos/incubadora">incubadora</a>, una <a href="/formamos/aceleradora">aceleradora</a> y un <a href="/creamos/laboratorio_corporativo">laboratorio de innovación</a> con impacto social que forma emprendedores menores de 35 años y crea soluciones innovadoras a los problemas de la gran empresa y del país.</p> 
+					<p class="ddc-text2"><b><u>Misión:</u></b> Facilitar el relevo generacional en aras de construir un Perú más exitoso y productivo.</p>
+					<p class="ddc-text3"><b><u>Visión:</u></b> Conectar a jóvenes innovadores menores de 35 años con socios o aliados que les permitan seguir emprendiendo de manera sostenible.</p>
+		</p>
+					<img src="Contents/logos&botones/boton_video_negro.png" class="video-button">
+					<div class="popup"> </div>
 
-					<!--<hr id="line" width="5" size="100%">-->
-				</ul>
-			</nav>	
+			</div>
+			<div id="nuestra-historia">
+			<p class="nh-texto">Nuestra<br>Historia</p>
+			</div>
 
-			<!-- Check if they want the email to link directly to email, if so change to nav -->
-			<section class="contact-info">
-				<div id="social-network">
-					<!--Facebook-->
-					<ul class="fb"> <a href="https://www.facebook.com/ynnovadoresperu/" class="tint">
-						<img src="FB-f-Logo__blue_512.png"  id="fb-logo">
-					</a> </ul>
-					<!--Twitter-->
-					<ul class="twitter"> <a href="https://twitter.com/Ynnovadores">
-						<img src="Twitter_Logo_White_On_Blue.png" id="twitter-logo" class="tint">
-					</a> </ul>
-					<!--Vimeo-->
-					<ul class="vimeo"> <a href="https://vimeo.com/user31764736">
-						<img src="vimeo_icon_white_on_blue_rounded.png" id="vimeo-logo" class="tint">
-					</a> </ul>
+			<!--  separations tell of "pages" on the :slide" thingy -->
+
+				<div id="Dec-13"> 
+					<p class="date">Diciembre 2013</p>
+					<p class="white-text-storyline dec-13-text">Juan Alberto Flores empieza a desarrollar Ynnovadores.</p>
+					<img src="Contents/storyline/dic_2013_boton.png" class="ae-dec-13">
 				</div>
-			<!--Phone Number-->
-				<p class="phone-num">(+511) 496 4662</p>
-			<!--Email-->
-				<ul class="email-address" href='mailto:info@losynnovadores.com'>info@losynnovadores.com</ul>
-			
+				<div id="Aug-14"> 
+					<p class="date">Agosto 2014</p>
+					<p class="white-text-storyline aug-14-text">Se lanza la página web de Ynnovadores.</p>
+				</div>
+				<div id="Sep-4-14"> 
+					<p class="date">4 de Septiembre 2014</p>
+					<p class="white-text-storyline sep-4-14-text">Primera aparición pública de Ynnovadores en el Congreso de Innovación INTERCORP.<br> Se presentan los diez primeros <a href="">casos de Ynnovadores</a>.</p>
+					<img src="Contents/storyline/4_set_2014_evento_intercorp_0085_bn.png" class="sep-4-14-1">
+					<img src="Contents/storyline/4_set_2014_evento_intercorp_0098_bn.png" class="sep-4-14-2">
+				</div>
+				<div id="Sep-15-14">
+					<p class="date">15 de Setiembre 2014</p>
+					<p class="black-text-storyline sep-15-14-text">Reportaje en la revista Cosas.</p>
+					<img src="Contents/storyline/15_set_2014_boton.png" class="sep-15-14-img">
+				</div>
 
-			</section>
+				<div id="Sep-25-14"> 
+					<p class="date">25 de Setiembre 2014</p>
+					<p class="white-text-storyline sep-25-14-text">Se funda formalmente <a href="/los_patriotas">LOS PATRIOTAS</a> con la asesoría de <a href="http://www.lazoabogados.com.pe"> Lazo, De Romaña &amp; Gagliuffi Abogados.</a><br>Sus primeros asociados son <a href="/los_patriotas/Flores_Juan%Alberto">Juan Alberto Flores</a>, <a hre="/los_patriotas/Lanzara_Hernan/">Hernán Lanzara</a>, <a href="/los_patriotas/Miro%Quesada_Silvia">Silvia Miró Quesada</a>, <a href="/los_patriotas/Montoya_Juan">Juan Montoya</a> y <a href="/los_patriotas/Torres_Fidel">Fidel Torres</a>. </p>
+					<img src="Contents/storyline/25_set_2014_patriotas.png" class="Sep-25-14-img">
+				</div>
+				<div id="Oct-15-14">
+					<p class="date">15 de Octubre 2014</p>
+					<p class="black-text-storyline oct-15-14-text">Juan Alberto Flores, director ejecutivo de Ynnovadores,<br>participa en el evento PechaKucha Lima 20x20.</p> 
+					<img src="Contents/logos&botones/boton_video_negro.png" class="video-button-1">
+				</div>
+				<div id="Oct-30-14">
+					<p class="date">30 de Octubre 2014</p>
+					<p class="black-text-storyline oct-30-14-text">Ynnovadores participa en el II Foro de Emprendimiento e Innovación de la Alianza del Pacífico – LAB4 + en Cali, Colombia. </p>
+					<img src="Contents/storyline/30_oct_2014_LAB4.png" class="oct-30-14-img">
+				</div>
+				<div id="Nov-9-14"> 
+					<p class="date">9 de Noviembre 2014</p>
+					<p class="white-text-storyline nov-9-14-text">Presencia de Ynnovadores	en CNN en Español. </p>
+					<img src="Contents/storyline/9_nov_logo_CNN_en_Español.png" class="cnn-logo">
+					<img src="Contents/logos&botones/boton_video_blanco.png" class="video-button-2">
+				</div>
+
+				<div id="Nov-15-14">
+					<p class="date">15 de Noviembre 2014</p>
+					<p class="black-text-storyline nov-15-14-text">Nace la <a href="/formamos/incubadora">incubadora</a> de Ynnovadores.</p>
+					<img src="Contents/storyline/15_nov_incubadora.png" class="nov-15-14-img">
+				</div>
+				<div id="Dec-3-14">
+					<p class="date">3 de Diciembre 2014</p>
+					<p class="black-text-storyline dec-3-14-text">Ynnovadores participa en<br> el evento "Emprendimiento en América Latina: <br>Retos y Oportunidades",<br>liderado por la directora gerente del Fondo Monetario Internacional (FMI), Christine Lagarde. </p>
+					<img src="Contents/storyline/3_dic_FMI.png" class="dec-3-14-img">
+				</div>
+				<div id="Aug-15">
+					<p class="date">Agosto 2015</p>
+					<p class="white-text-storyline aug-15-text">Ynnovadores se instala en <a href="http://inkuba.pe/">Inkuba Cowork</a>, espacio que se convierte en su centro de operaciones.</p>
+				 </div>
+				<div id="Sep-15">
+					<p class="date">Setiembre 2015</p>
+					<p class="white-text-storyline sep-15-text">Se lanzan diez nuevos <a href=>casos de Ynnovadores</a> en Canal N.</p>
+					<img src="Contents/logos&botones/boton_video_blanco.png" class="video-button-3">
+				</div>
+
+				<div id="Oct-15"> 
+					<p class="date">Octubre 2015</p>
+					<p class="black-text-storyline oct-15-text"><a href="http://www.transearch.com/index.php">Transearch International</a>,<br> una de las organizaciones de búsqueda de directivos líderes en el mundo, se une a Ynnovadores para afinar su filtro de selección de emprendedores. </p>
+					<img src="Contents/storyline/oct_2015_transearch.png" class="oct-15-img">
+				</div>
+				<div id="Dec-15"> 
+					<p class="date">Diciembre 2015</p>
+					<p class="white-text-storyline dec-15-text">Empiezan las <a href="/formamos/asesorias">asesorías</a>.</p>
+					<img src="Contents/storyline/dic_2015_asesorias.png" class="dec-15-img">
+				</div>
+				<div id="Jan-16"> 
+					<p class="date">Enero 2016</p>
+					<p class="black-text-storyline jan-16-text"><a href="/los_patriotas/Manso_Natalia">Natalia Manso</a> ingresa como asociada de <a href="http://losynnovadores.com/los_patriotas/">LOS PATRIOTAS.</a></p>
+					<img src="Contents/storyline/enero_2016_natalia.png" class="jan-16-img">
+				</div>
+				<div id="Feb-16"> 
+					<p class="date">Febrero 2016</p>
+					<p class="black-text-storyline feb-16-text">Padova Inmobiliaria se convierte en el primer cliente del <a href="creamos/laboratorio_corporativo">laboratorio corporativo</a> de Ynnovadores.</p>
+					<img src="Contents/storyline/feb_2016_padova.png" class="feb-16-img">
+				</div>
+
+				<div id="Mar-16"> 
+					<p class="date">Marzo 2016</p>
+					<p class="white-text-storyline mar-16-text">Nace la <a href="/formamos/incubadora">incubadora corporativa</a> de Ynnovadores con Belcorp como primer cliente</p>
+					<img src="Contents/storyline/marzo_2016_belcorp.png" class="mar-16-img">
+				</div>
+				<div id="Apr-16-1"> 
+					<p class="date">Abril 2016</p>
+					<p class="black-text-storyline apr-16-1-text">Empieza el <a href="/creamos/laboratorio_corporativo">laboratorio corporativo</a> con el BBVA</p>
+					<img src="Contents/storyline/abril_2016_bbva.png" class="apr-16-1-img">
+				</div>
+				<div id="Apr-16-2"> 
+					<p class="date">Abril 2016</p>
+					<!--Picture must be replaced!!-->
+					<p class="black-text-storyline apr-16-2-text"><a href="/los_patriotas/Tirado_Juan%Jose">Juan José Tirado</a> ingresa como asociado de <a href="/los_patriotas">LOS PATRIOTAS</a>.</p>
+					<img src="Contents/fotos/MENU_Juan_Jose_Tirado.png" class="apr-16-2-img">
+				</div>
+				<div id="Aug-16"> 
+					<p class="date">>Agosto 2016</p>
+					<p class="white-text-storyline aug-16-text">Se inaugura el <a href="/creamos/laboratorio_patriota">Laboratorio Patriota</a>.</p>
+					<img src="Contents/storyline/agosto_2016_lab_politico.png" class="aug-16-img-1">
+					<img src="Contents/storyline/agosto_2016_boton.png" class="aug-16-img-2">
+				</div>
+				<div id="Nov-16"> 
+					<p class="date">Noviembre 2016</p>
+					<p class="white-text-storyline nov-16-text">Ynnovadores lanza diez nuevos <a>casos</a> y presenta su renovada página web.</p>
+				</div>
+			</div>	
 		</div>
-
-
-<div id="page-wrap">
-	<div id="page">
-		<div id="ddc">
-				<h1 class="ddc-tittle">Descubrir, difundir<br> y conectar</h1>
-				<p class="ddc-text1">Ynnovadores es una <a href="/formamos/incubadora">incubadora</a>, una <a href="/formamos/aceleradora">aceleradora</a> y un <a href="/creamos/laboratorio_corporativo">laboratorio de innovación</a> con impacto social que forma emprendedores menores de 35 años y crea soluciones innovadoras a los problemas de la gran empresa y del país.</p> 
-				<p class="ddc-text2"><b><u>Misión:</u></b> Facilitar el relevo generacional en aras de construir un Perú más exitoso y productivo.</p>
-				<p class="ddc-text3"><b><u>Visión:</u></b> Conectar a jóvenes innovadores menores de 35 años con socios o aliados que les permitan seguir emprendiendo de manera sostenible.</p>
-	</p>
-				<img src="Contents/logos&botones/boton_video_negro.png" class="video-button">
-				<div class="popup"> </div>
-
-		</div>
-		<div id="nuestra-historia">
-		<p class="nh-texto">Nuestra<br>Historia</p>
-		</div>
-
-		<!--  separations tell of "pages" on the :slide" thingy -->
-
-			<div id="Dec-13"> 
-				<p class="date">Diciembre 2013</p>
-				<p class="white-text-storyline dec-13-text">Juan Alberto Flores empieza a desarrollar Ynnovadores.</p>
-				<img src="Contents/storyline/dic_2013_boton.png" class="ae-dec-13">
-			</div>
-			<div id="Aug-14"> 
-				<p class="date">Agosto 2014</p>
-				<p class="white-text-storyline aug-14-text">Se lanza la página web de Ynnovadores.</p>
-			</div>
-			<div id="Sep-4-14"> 
-				<p class="date">4 de Septiembre 2014</p>
-				<p class="white-text-storyline sep-4-14-text">Primera aparición pública de Ynnovadores en el Congreso de Innovación INTERCORP.<br> Se presentan los diez primeros <a href="">casos de Ynnovadores</a>.</p>
-				<img src="Contents/storyline/4_set_2014_evento_intercorp_0085_bn.png" class="sep-4-14-1">
-				<img src="Contents/storyline/4_set_2014_evento_intercorp_0098_bn.png" class="sep-4-14-2">
-			</div>
-			<div id="Sep-15-14">
-				<p class="date">15 de Setiembre 2014</p>
-				<p class="black-text-storyline sep-15-14-text">Reportaje en la revista Cosas.</p>
-				<img src="Contents/storyline/15_set_2014_boton.png" class="sep-15-14-img">
-			</div>
-
-			<div id="Sep-25-14"> 
-				<p class="date">25 de Setiembre 2014</p>
-				<p class="white-text-storyline sep-25-14-text">Se funda formalmente <a href="/los_patriotas">LOS PATRIOTAS</a> con la asesoría de <a href="http://www.lazoabogados.com.pe"> Lazo, De Romaña &amp; Gagliuffi Abogados.</a><br>Sus primeros asociados son <a href="/los_patriotas/Flores_Juan%Alberto">Juan Alberto Flores</a>, <a hre="/los_patriotas/Lanzara_Hernan/">Hernán Lanzara</a>, <a href="/los_patriotas/Miro%Quesada_Silvia">Silvia Miró Quesada</a>, <a href="/los_patriotas/Montoya_Juan">Juan Montoya</a> y <a href="/los_patriotas/Torres_Fidel">Fidel Torres</a>. </p>
-				<img src="Contents/storyline/25_set_2014_patriotas.png" class="Sep-25-14-img">
-			</div>
-			<div id="Oct-15-14">
-				<p class="date">15 de Octubre 2014</p>
-				<p class="black-text-storyline oct-15-14-text">Juan Alberto Flores, director ejecutivo de Ynnovadores,<br>participa en el evento PechaKucha Lima 20x20.</p> 
-				<img src="Contents/logos&botones/boton_video_negro.png" class="video-button-1">
-			</div>
-			<div id="Oct-30-14">
-				<p class="date">30 de Octubre 2014</p>
-				<p class="black-text-storyline oct-30-14-text">Ynnovadores participa en el II Foro de Emprendimiento e Innovación de la Alianza del Pacífico – LAB4 + en Cali, Colombia. </p>
-				<img src="Contents/storyline/30_oct_2014_LAB4.png" class="oct-30-14-img">
-			</div>
-			<div id="Nov-9-14"> 
-				<p class="date">9 de Noviembre 2014</p>
-				<p class="white-text-storyline nov-9-14-text">Presencia de Ynnovadores	en CNN en Español. </p>
-				<img src="Contents/storyline/9_nov_logo_CNN_en_Español.png" class="cnn-logo">
-				<img src="Contents/logos&botones/boton_video_blanco.png" class="video-button-2">
-			</div>
-
-			<div id="Nov-15-14">
-				<p class="date">15 de Noviembre 2014</p>
-				<p class="black-text-storyline nov-15-14-text">Nace la <a href="/formamos/incubadora">incubadora</a> de Ynnovadores.</p>
-				<img src="Contents/storyline/15_nov_incubadora.png" class="nov-15-14-img">
-			</div>
-			<div id="Dec-3-14">
-				<p class="date">3 de Diciembre 2014</p>
-				<p class="black-text-storyline dec-3-14-text">Ynnovadores participa en<br> el evento "Emprendimiento en América Latina: <br>Retos y Oportunidades",<br>liderado por la directora gerente del Fondo Monetario Internacional (FMI), Christine Lagarde. </p>
-				<img src="Contents/storyline/3_dic_FMI.png" class="dec-3-14-img">
-			</div>
-			<div id="Aug-15">
-				<p class="date">Agosto 2015</p>
-				<p class="white-text-storyline aug-15-text">Ynnovadores se instala en <a href="http://inkuba.pe/">Inkuba Cowork</a>, espacio que se convierte en su centro de operaciones.</p>
-			 </div>
-			<div id="Sep-15">
-				<p class="date">Setiembre 2015</p>
-				<p class="white-text-storyline sep-15-text">Se lanzan diez nuevos <a href=>casos de Ynnovadores</a> en Canal N.</p>
-				<img src="Contents/logos&botones/boton_video_blanco.png" class="video-button-3">
-			</div>
-
-			<div id="Oct-15"> 
-				<p class="date">Octubre 2015</p>
-				<p class="black-text-storyline oct-15-text"><a href="http://www.transearch.com/index.php">Transearch International</a>,<br> una de las organizaciones de búsqueda de directivos líderes en el mundo, se une a Ynnovadores para afinar su filtro de selección de emprendedores. </p>
-				<img src="Contents/storyline/oct_2015_transearch.png" class="oct-15-img">
-			</div>
-			<div id="Dec-15"> 
-				<p class="date">Diciembre 2015</p>
-				<p class="white-text-storyline dec-15-text">Empiezan las <a href="/formamos/asesorias">asesorías</a>.</p>
-				<img src="Contents/storyline/dic_2015_asesorias.png" class="dec-15-img">
-			</div>
-			<div id="Jan-16"> 
-				<p class="date">Enero 2016</p>
-				<p class="black-text-storyline jan-16-text"><a href="/los_patriotas/Manso_Natalia">Natalia Manso</a> ingresa como asociada de <a href="http://losynnovadores.com/los_patriotas/">LOS PATRIOTAS.</a></p>
-				<img src="Contents/storyline/enero_2016_natalia.png" class="jan-16-img">
-			</div>
-			<div id="Feb-16"> 
-				<p class="date">Febrero 2016</p>
-				<p class="black-text-storyline feb-16-text">Padova Inmobiliaria se convierte en el primer cliente del <a href="creamos/laboratorio_corporativo">laboratorio corporativo</a> de Ynnovadores.</p>
-				<img src="Contents/storyline/feb_2016_padova.png" class="feb-16-img">
-			</div>
-
-			<div id="Mar-16"> 
-				<p class="date">Marzo 2016</p>
-				<p class="white-text-storyline mar-16-text">Nace la <a href="/formamos/incubadora">incubadora corporativa</a> de Ynnovadores con Belcorp como primer cliente</p>
-				<img src="Contents/storyline/marzo_2016_belcorp.png" class="mar-16-img">
-			</div>
-			<div id="Apr-16-1"> 
-				<p class="date">Abril 2016</p>
-				<p class="black-text-storyline apr-16-1-text">Empieza el <a href="/creamos/laboratorio_corporativo">laboratorio corporativo</a> con el BBVA</p>
-				<img src="Contents/storyline/abril_2016_bbva.png" class="apr-16-1-img">
-			</div>
-			<div id="Apr-16-2"> 
-				<p class="date">Abril 2016</p>
-				<!--Picture must be replaced!!-->
-				<p class="black-text-storyline apr-16-2-text"><a href="/los_patriotas/Tirado_Juan%Jose">Juan José Tirado</a> ingresa como asociado de <a href="/los_patriotas">LOS PATRIOTAS</a>.</p>
-				<img src="Contents/fotos/MENU_Juan_Jose_Tirado.png" class="apr-16-2-img">
-			</div>
-			<div id="Aug-16"> 
-				<p class="date">>Agosto 2016</p>
-				<p class="white-text-storyline aug-16-text">Se inaugura el <a href="/creamos/laboratorio_patriota">Laboratorio Patriota</a>.</p>
-				<img src="Contents/storyline/agosto_2016_lab_politico.png" class="aug-16-img-1">
-				<img src="Contents/storyline/agosto_2016_boton.png" class="aug-16-img-2">
-			</div>
-			<div id="Nov-16"> 
-				<p class="date">Noviembre 2016</p>
-				<p class="white-text-storyline nov-16-text">Ynnovadores lanza diez nuevos <a>casos</a> y presenta su renovada página web.</p>
-			</div>
-		</div>	
-	</div>
 
 <!--21 div elements that are one for each event in timeline + description bubble ddc + bubble to enter timeline-->
 <!-- images are befores and afters in css -->
