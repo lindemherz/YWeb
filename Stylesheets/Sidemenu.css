@@ -173,9 +173,9 @@
 #sidemenu .formamos-bubble {
 	background-color: #92D3D1;
 	z-index: 999;
-} #sidemenu .formamos-bubble:hover,  #sidemenu .formamos-bubble.jqHover {
+} /*#sidemenu .formamos-bubble:hover,*/  #sidemenu .formamos-bubble.jqHover {
 	background-color: #18afb4;
-} #sidemenu .formamos-bubble:active, #sidemenu .formamos-bubble.jqActive {
+} /*#sidemenu .formamos-bubble:active,*/ #sidemenu .formamos-bubble.jqActive {
 	background-color: #18afb4;
 }
 
@@ -225,9 +225,9 @@
 #sidemenu .creamos-bubble {
 	background-color: #7dc9db;
 	z-index: 999;
-} #sidemenu .creamos-bubble:hover, #sidemenu .creamos-bubble.jqHover {
+} /*#sidemenu .creamos-bubble:hover,*/ #sidemenu .creamos-bubble.jqHover {
 	background-color: #1d8ab1;
-} #sidemenu .creamos-bubble:active, #sidemenu .creamos-bubble.jqActive {
+} /*#sidemenu .creamos-bubble:active,*/ #sidemenu .creamos-bubble.jqActive {
 	background-color: #1d8ab1;
 }
 

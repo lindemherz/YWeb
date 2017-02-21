@@ -54,6 +54,7 @@ $(document).ready(function() {
 
     $txtLabel.addClass('jqHover');
     //if (mainPage) { $ballHeader.addClass('jqHover'); }
+    $ballHeader.addClass('jqHover');
     $ballItem.addClass('jqHover');
   }
 
@@ -66,6 +67,7 @@ $(document).ready(function() {
 
     $txtLabel.removeClass('jqHover');
     //if (mainPage) { $ballHeader.removeClass('jqHover'); }
+    $ballHeader.removeClass('jqHover');
     $ballItem.removeClass('jqHover');
   }
 
