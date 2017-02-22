@@ -1,7 +1,7 @@
-#background {
+#page-background {
 	background: url(../Contents/fotos/ACELERADORA_anson_tou.png);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background-position: 0 50%;
+  background-size: auto 100%;
 }
 
 .logo {
@@ -12,8 +12,8 @@
 }
 
 .quote {
-	/*position: relative;
-	top: 23vh;*/
+	/*position: relative;*/
+	top: 14.5vh;
 	font-size: 2.3vh;
 	line-height: 3.0vh;
 }

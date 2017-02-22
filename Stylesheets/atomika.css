@@ -1,20 +1,19 @@
-#background {
-
+#page-background {
 	background: url(../Contents/fotos/ACELERADORA_ericka_pavletich.png);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background-position: 0 50%;
+  background-size: auto 100%;
 }
 
 .logo {
+	top: 14.8vh;
 	/*height: 25%;
 	position: absolute;
-	top: 15%;
 	left: 25%;*/
 }
 
 .quote {
-	/*position: relative;
-	top: 23vh;*/
+	/*position: relative;*/
+	top: 16.5vh;
 }
 
 .video {

@@ -1,18 +1,3 @@
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-html, body {
-	margin: 0px auto;
-	padding: 0;
-	height: 100%;
-	outline: 0;
-    font-size: 100%;
-    background: transparent;
-}
-
 body {
 	font-size: 62.5%;
 }
@@ -38,25 +23,6 @@ a, a:visited {
 }
 
 #page-wrap {
-	position: relative;
-	left: 11.92vw;
-	width: 100%;
-	height: 100%;
-	min-width: 780px;
-	max-width: 1693px;
-	overflow-y: hidden;
-	overflow-x: hidden;
-	background-color: white;
-	background: url("../Contents/logos&botones/backgroundClear1080.png");
-	background-repeat: no-repeat;
-	background-position: left 11.92vw top 0;
-	background-attachment: fixed;
-	-webkit-background-size: auto auto;
-	-moz-background-size: auto auto;
-	background-size: auto auto;
-
-	font: 1.2em/1.8em Nunito, sans-serif;
-	margin-bottom: 10px;
 	text-align: center;
 }
 
@@ -123,7 +89,7 @@ a, a:visited {
 
 .form-lvl-p {
 	position: relative;
-	top: 9.8vh;
+	top: 8.8vh;
 	width: 100%;
 	color: white;
 	font-size: 3.8vh;
@@ -153,7 +119,7 @@ a, a:visited {
 .st {
 	position: relative;
 	left: 10%;
-	top: 16vh;
+	top: 18vh;
 	width: 80%;
 	font-weight: bold;
 	font-style: italic;
@@ -166,7 +132,7 @@ a, a:visited {
 	height: 27vh;
 	width: 85%;
 	left: 7.5%;
-	top: 19vh;
+	top: 22vh;
 	overflow: auto;
 }
 

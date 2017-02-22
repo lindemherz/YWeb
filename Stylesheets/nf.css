@@ -1,13 +1,12 @@
-#background {
-
+#page-background {
 	background: url(../Contents/fotos/PATRIOTAS_Nancy_Figueroa.png);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background-position: 0 50%;
+  background-size: auto 100%;
 }
 
 .quote {
-	/*position: absolute;
+	position: absolute;
 	top: 40%;
 	left: 8%;
-	width: 85%;*/
+	width: 85%;
 }

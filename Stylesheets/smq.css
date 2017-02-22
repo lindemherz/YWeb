@@ -1,10 +1,9 @@
-#background {
-
+#page-background {
 	background: url(../Contents/fotos/PATRIOTAS_Silvia_Miro_Quesada.png);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background-position: 0 50%;
+  background-size: auto 100%;
 }
 
 .quote {
-	top: 16vh;
+	top: 19vh;
 }
