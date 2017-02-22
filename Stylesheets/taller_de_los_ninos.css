@@ -1,14 +1,13 @@
-#background {
-
+#page-background {
 	background: url(../Contents/fotos/INCUBADORA_sara_cifuentes.png);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background-position: 0 50%;
+  background-size: auto 100%;
 }
 
 .logo {
 	position: absolute;
 	top: 40%;
-	left: 2%;
+	left: 5%;
 	width: 90%;
 }
 

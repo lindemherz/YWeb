@@ -8,15 +8,17 @@
 
 	<link rel="stylesheet" type="text/css"
    		 href="https://fonts.googleapis.com/css?family=Nunito:bold,light,regular">
+	<link rel="stylesheet" type="text/css" href="../../Stylesheets/Shared.css">
 	<link rel="stylesheet" type="text/css" href="../../Stylesheets/Asesorados.css" />
 	<link rel="stylesheet" type="text/css" href="../../Stylesheets/my_bump.css" />
 	<link rel="stylesheet" type="text/css" href="../../Stylesheets/sm-frame.css" />
 	<link rel="stylesheet" type="text/css" href="../../Stylesheets/style-ie.css" />
 	<link rel="stylesheet" type="text/css" href="../../Stylesheets/Ase-nav.css">
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="../../Scripts/Sidemenu.js"></script>
 	<script src="../../Scripts/NavigationAs.js"></script>
-	<script src="../../Scripts/Patriotas.js"></script>
+	<script src="../../Scripts/Asesorados.js"></script>
 
 </head>
 
@@ -24,17 +26,19 @@
 
 	<iframe src=../../sidemenu.html id=sm-frame> </iframe>
 
-		<div id="background">
-				<div class="bubble-back">
+		<div id="page-wrap">
+			<div id="page-background"></div>
+
+			<div class="bubble-back">
 					<div class="bubble formamos">
-						<!--a href="../../Formamos/" title="Formamos"--><p class="formamos-p">Formamos</p>
+						<p class="formamos-p">Formamos</p>
 					</div>
-					<div class="bubble asesorias">
+					<div class="bubble2 asesorias">
 					<a href="../asesorias.html" title="Asesorías"><p class="asesorias-p">Asesorías</p></a>
 					</div>
 				</div>
 
-				<div id="logo">
+			<div id="logo">
 					<a href="www.mybump.com.pe/"><img src="../../Contents/logos&botones/perfil_logo_Luciana_Rey.png" class="logo"></a>
 				</div>
 
@@ -44,17 +48,21 @@
 					<p id="name">Luciana Rey - Gerente General</p>
 				</div>
 				<section class="contact">
-					<!--Name-->
-					<p class="name">Nombre del Contacto: <font color="82E6EC"" >Luciana Rey</font> </p>
+				<!--Name-->
+					<ul class="name">Nombre del Contacto: <font color="82E6EC">Luciana Rey</font>
+					</ul>
 				<!--Email-->
-					<ul class="email">Contacto: <a href="mailto:MyBump@outlook.com.pe">MyBump@outlook.com.pe</a></ul>
+					<ul class="email">Contacto: <a href="mailto:MyBump@outlook.com.pe">MyBump@outlook.com.pe</a>
+					</ul>
 				<!--Webpage-->
-					<ul class="web">Webpage: <a href="http://www.mybump.com.pe/">www.mybump.com.pe/</a></ul>
+					<ul class="web">Webpage: <a href="http://www.mybump.com.pe/">www.mybump.com.pe/</a>
+					</ul>
 				<!--Facebook-->
 					<ul class="facebook"> <a href="http://www.facebook.com/mybump.maternitystyle/">
-						<img src="../../Contents/logos&botones/FB-f-Logo__blue_57.png" class="facebook-logo">
-					</a> </ul>
-
+							<img src="../../Contents/logos&botones/FB-f-Logo__blue_57.png" class="facebook-logo">
+						</a>
+					</ul>
+				</section>
 			</div>
 		</div>
 

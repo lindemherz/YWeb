@@ -1,7 +1,7 @@
-#background {
+#page-background {
 	background: url(../Contents/fotos/ACELERADORA_jaime_chiarella.png);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background-position: 0 50%;
+  background-size: auto 100%;
 }
 
 .logo {

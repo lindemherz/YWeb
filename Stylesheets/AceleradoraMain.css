@@ -1,18 +1,3 @@
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-html, body {
-	margin: 0px auto;
-	padding: 0;
-	height: 100%;
-	outline: 0;
-    font-size: 100%;
-    background: transparent;
-}
-
 body {
 	font-size: 62.5%;
 }
@@ -33,8 +18,9 @@ a, a:visited {
 	text-decoration: none;
 	color: black;
 }
+
 #page-wrap {
-	position: relative;
+	/*position: relative;
 	left: 11.92vw;
 	width: 100%;
 	height: 100%;
@@ -52,7 +38,7 @@ a, a:visited {
 	background-size: auto auto;
 
 	font: 1.2em/1.8em Nunito, sans-serif;
-	margin-bottom: 10px;
+	margin-bottom: 10px;*/
 	text-align: center;
 }
 
@@ -118,7 +104,7 @@ a, a:visited {
 
 .form-lvl-p {
 	position: relative;
-	top: 9.8vh;
+	top: 8.8vh;
 	width: 100%;
 	color: white;
 	font-size: 3.8vh;
@@ -173,6 +159,9 @@ a, a:visited {
 
 .bubble-constellation{
 	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0vh;
 	left: 18vw;
 }
 
