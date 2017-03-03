@@ -16,6 +16,7 @@ a:visited {
 	text-decoration: none;
 }
 
+
 #page-wrap {
 	position: relative;
 	left: 11.92vw;
@@ -39,7 +40,7 @@ a:visited {
 .background {
 	position: fixed;
 	top: -4vh;
-	left: 28.66vw;
+	right: 28.66vw;
 	height: 101.94vh;
 	width: 101.94vh;
 	/*background: url("../Contents/logos&botones/bkgSpheresMain1080.png");*/
@@ -74,7 +75,7 @@ a:visited {
 }
 
 .center-img {
-	width: 9.2vw;
+	width: 16vh;
 }
 
 /*Floating bubbles*/
