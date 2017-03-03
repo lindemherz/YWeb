@@ -23,7 +23,7 @@ $logoIntro.fadeIn('slow', 4000).animate(
 //get sizing for logo then get proportions for the background
 	var $centerWidth = $('.center-img').width();
 	var $backgroundLogoRatio = (101.94/16); // ratio = 6.37
-	var $backgroundWidth = $centerWidth*backgroundLogoRatio;
+	var $backgroundWidth = $centerWidth * backgroundLogoRatio;
 	var $vhString = $backgroundWidth+"vh"
 	$('.background').css({
 		'width': $vhString,
@@ -31,8 +31,8 @@ $logoIntro.fadeIn('slow', 4000).animate(
 	});
 //get logo position and calculate from it the correct possition of background
 	var $centerTop = $('.center-img').top();
-	var $centerLeft = $('center-img').left();
-	
+	var $centerLeft = $('.center-img').left();
+
 
 // Animations and stuff when page is loaded
 
