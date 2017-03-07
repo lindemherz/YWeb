@@ -38,6 +38,9 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="Scripts/main.js"></script>
+		<script type="text/javascript" src="Scripts/width-fix.js"></script>
+
+		</script>
     <!--script type="text/javascript" src="Scripts/menu-bubbles.js"></script-->
 
 		<!-- http://www.losynnovadores.com/-->
@@ -69,6 +72,15 @@
 			</script>
 	<!-- End Google Analytics -->
 
+	<script>
+		function loadDeferredIframe() {
+	        // this function will load the sidemenu into the iframe
+	        var iframe = document.getElementById("sm-frame");
+	        iframe.src = "sidemenu.html"
+	    };
+	    window.onload = loadDeferredIframe;
+	   </script>
+
 	</head>
 
 	<body>
@@ -79,7 +91,7 @@
 		<div class='main-page' id="page-wrap">
 
 			<div id="page-background"></div>
-			
+
 			<div id="inside">
 				<div class="background" id="bkgLayer1"></div>
 				<div class="background" id="bkgLayer2"></div>

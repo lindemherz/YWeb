@@ -1,6 +1,9 @@
 // Sidemenu jQuery, for sidemenu.
-$(document).ready(function() {
+$(window).bind("load", function() {
   console.log('page ready');
+  $('#sidemenu').animate({
+    width: "toggle";
+  })
   var mainPage = $('#page-wrap').hasClass('main-page');
   //NOT IMPLEMENTED YET var formamosPage = $('#page-wrap').hasClass('formamos-page');
   //NOT IMPLEMENTED YET var creamosPage = $('#page-wrap').hasClass('creamos-page');
@@ -23,6 +26,19 @@ $(document).ready(function() {
       $('#patriotas').addClass('jqHover');
     }
   }
+
+
+/***************************/
+/*Animation for entrance*/
+//This was made so the iframe will stop jumping when you load the page
+/***************************/
+
+ function intro(){
+  var $sidemenu = $wrapper.find('#sidemenu');
+  $sidemenu.toggle('slide');
+ };
+
+
 
 /***************************/
 /*Navigation lights methods*/
