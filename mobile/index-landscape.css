@@ -21,11 +21,8 @@ a:visited {
 
 #page-wrap {
 	position: relative;
-	left: 11.92vw;
 	width: 100%;
 	height: 100%;
-	min-width: 780px;
-	max-width: 1693px;
 	overflow-y: hidden;
 	overflow-x: hidden;
 	background-repeat: no-repeat;
@@ -41,10 +38,10 @@ a:visited {
 
 .background {
 	position: fixed;
-	top: -225px;
-	left: -85px;
-	height: 850px;
-	width: 850px;
+	top: -62vh;
+	left: -12.7vw;
+	height: 127vw;
+	width: 127vw;
 
 	/*background: url("../Contents/logos&botones/bkgSpheresMain1080.png");*/
 	transform: rotate(5deg);
@@ -72,13 +69,13 @@ a:visited {
 
 .center {
 	position: fixed;
-	top: 75px;
-	right: 250px;
+	top: 18.7vh;
+	right: 37.5vw;
 	z-index: 1;
 }
 
 .center-img {
-	width: 150px;
+	width: 40vh;
 }
 
 /*Floating bubbles*/
@@ -94,10 +91,10 @@ a:visited {
 
 .formamos-before {
 	position: fixed;
-	top: 230px;
-	left: 80px;
-	width: 160px;
-	height: 160px;
+	top: 61.3vh;
+	left: 21.3vh;
+	width: 42.7vh;
+	height: 42.7vh;
 
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -111,10 +108,10 @@ a:visited {
 
 .formamos {
 	position: relative;
-  top:-2.5px;
-  left: -2.5px;
-	width: 155px;
-	height: 155px;
+  top:-0.7vh;
+  left: -0.7vh;
+	width: 41.3vh;
+	height: 41.3vh;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -133,7 +130,7 @@ a:visited {
 
 .formamos-p, .creamos-p {
 	position: absolute;
-  font-size: 25px
+  font-size: 5vh;
 	width: 100%;
 	line-height: 2.59vh;
 	text-align: center;
@@ -142,21 +139,21 @@ a:visited {
 }
 
 .formamos-p {
-  top: 55px;
-  left: 30px;
+  top: 15vh;
+  left: 0.5vw;
 }
 
 .creamos-p {
-  top: 50px;
-  left: 23px;
+  top: 12vh;
+  left: 0.2vw;
 }
 
 .creamos-before {
 	position: fixed;
-	top: 20px;
-	left: 435px;
-	width: 140px;
-	height: 140px;
+	top: 7vh;
+	left: 65.2vw;
+	width: 37.3vh;
+	height: 37.3vh;
 
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -170,8 +167,8 @@ a:visited {
 
 .creamos {
 	position: relative;
-	width: 130px;
-	height: 130px;
+	width: 34.7vh;
+	height: 34.7vh;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -190,10 +187,10 @@ a:visited {
 
 .patriotas-before {
 	position: fixed;
-	top: 40px;
-	left: 0px;
-	width: 100px;
-	height: 100px;
+	top: 10.7vh;
+  left: 0.5vw;
+	width: 26.7vh;
+	height: 26.7vh;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -203,13 +200,12 @@ a:visited {
 } .patriotas-before:hover, .patriotas-before.jqHover, .patriotas-before:active, .patriotas-before.jqActive  {
 	border: 5px solid #d1d2d4;
 	background-color: #d1d2d4;
-	transition: background-color 0.5s, border 0.5s;
 }
 
 .patriotas {
 	position: relative;
-	width: 90px;
-	height: 90px;
+	width: 24vh;
+	height: 24vh;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -222,17 +218,15 @@ a:visited {
 	color: #cbcbcb;
 	transition: background-color 0.5s, border 0.5s;
 } .patriotas:hover, .patriotas-jqHover, .patriotas:active, .patriotas-jqActive {
-	border: 0.64vh solid #58585b;
+	border-color: #58585b;
 	background-color: #fffafa;
-	color: #231f20;
 	transition: background-color 0.5s, border 0.5s;
 }
 
 .patriotas-p {
 	position: absolute;
-	top: 10px;
+	top: 2vh;
 	width: 100%;
-	font-weight: lighter;
-	font-size: 15px;
+	font-size: 4vh;
 	text-transform: uppercase;
 }
