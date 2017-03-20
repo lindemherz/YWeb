@@ -1,14 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-}
+
 
 body, ul {
 	list-style: none;
@@ -31,15 +21,11 @@ a:visited {
 
 #page-wrap {
 	position: relative;
-	left: 11.92vw;
 	width: 100%;
 	height: 100%;
-	min-width: 780px;
-	max-width: 1693px;
 	overflow-y: hidden;
 	overflow-x: hidden;
-	background-repeat: no-repeat;
-	background-position: left 11.92vw top 0;
+  background-repeat: no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: auto auto;
 	-moz-background-size: auto auto;
@@ -51,12 +37,14 @@ a:visited {
 
 .background {
 	position: fixed;
-	top: -4vh;
-	left: 20vw;
-	height: 101.94vh;
-	width: 101.94vh;
+	top: -13.4vh;
+	left: -65vw;
+	height: 127vh;
+  width: 127vh;
+
+	background-repeat: no-repeat;
 	/*background: url("../Contents/logos&botones/bkgSpheresMain1080.png");*/
-	/*transform: rotate(360deg);*/
+	transform: rotate(5deg);
 }
 
 #bkgLayer1{
@@ -81,13 +69,13 @@ a:visited {
 
 .center {
 	position: fixed;
-	top: 34.6vh;
-	right: 38vw;
+	top: 32vh;
+	right: 30vw;
 	z-index: 1;
 }
 
 .center-img {
-	width: 16vh;
+	width: 40vw;
 }
 
 /*Floating bubbles*/
@@ -103,29 +91,31 @@ a:visited {
 
 .formamos-before {
 	position: fixed;
-	top: 55vh;
-	left: 37.2vw;
-	width: 16.2vh;
-	height: 16.2vh;
+	top: 65vh;
+	left: -7vw;
+	width: 38.5vw;
+	height: 38.5vw;
 
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 0.92vh solid #eceff1;
+	border: 7px solid #eceff1;
 	background-color: #eceff1;
 } .formamos-before:hover, .formamos-before.jqHover, .formamos-before:active, .formamos-before.jqActive {
-	border: 0.92vh solid #eceded;
+	border: 7px solid #eceded;
 	background-color: #eceded;
 }
 
 .formamos {
 	position: relative;
-	width: 15.1vh;
-	height: 15.1vh;
+  top:-2.5px;
+  left: -2.5px;
+	width: 37vw;
+	height: 37vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 0.64vh solid #c7c9c9;
+	border: 5px solid #c7c9c9;
 	background-color: #92D3D1;
 	font-family: 'Nunito', sans-serif;
 	vertical-align: middle;
@@ -140,90 +130,49 @@ a:visited {
 
 .formamos-p, .creamos-p {
 	position: absolute;
-	top: 6.5vh;
+  font-size: 4.4vw;
 	width: 100%;
-	font-weight: bold;
-	font-size: 2vh;
 	line-height: 2.59vh;
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
 }
 
-.formamos-level {
-	position: relative;
-	height: 12.8vh;
-	width: 12.8vh;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	border: 0.4vh solid #dddede;
-	background-color: #fafafa;
-	font-family: 'Nunito', sans-serif;
-	font-weight: lighter;
-	font-size: 20px;
-	vertical-align: middle;
-	text-align: center;
-	text-transform: lowercase;
-	color: #ccc;
-	transition: background-color 0.5s;
-} .formamos-level:hover, .formamos-level.jqHctive, .formamos-level:active, .formamos-level.jqActive {
-	border: 0.4vh solid #c7c9c9;
-	background-color: #63bfbd;
-	color: white;
-	transition: background-color 0.5s;
+.formamos-p {
+  top: 7vh;
+  left: 1vw;
 }
 
-.asesorias-container {
-	position: fixed;
-	top: 71.5vh;
-	left: 28.2vw;
-}
-
-.asesorias-p, .aceleradora-p, .incubadora-p {
-	position: absolute;
-	top: 5vh;
-	width: 100%;
-	font-size: 2.1vh;
-}
-
-.aceleradora-container {
-	position: fixed;
-	top: 81vh;
-	left: 37.1vw;
-}
-
-.incubadora-container {
-	position: fixed;
-	top: 78.2vh;
-	left: 47.1vw;
+.creamos-p {
+  top: 6vh;
+  left: -1vw;
 }
 
 .creamos-before {
 	position: fixed;
-	top: 37.92vh;
-	left: 70.2vw;
-	width: 16.2vh;
-	height: 16.2vh;
+	top: 15vh;
+	left: 69vw;
+	width: 38vw;
+	height: 38vw;
 
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 0.92vh solid #eceff1;
+	border: 5px solid #eceff1;
 	background-color: #eceff1;
 } .creamos-before:hover, .creamos-before.jqHover, .creamos-before:active, .creamos-before.jqActive {
-	border: 0.92vh solid #eceded;
+	border: 5px solid #eceded;
 	background-color: #eceded;
 }
 
 .creamos {
 	position: relative;
-	width: 15.1vh;
-	height: 15.1vh;
+	width: 35vw;
+	height: 35vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 0.64vh solid #c7c9c9;
+	border: 5px solid #c7c9c9;
 	background-color: #7dc9db;
 	font-family: 'Nunito', sans-serif;
 	vertical-align: middle;
@@ -235,88 +184,35 @@ a:visited {
 	transition: background-color 0.5s;
 }
 
-.creamos-txt, .formamos-txt {
-	visibility: hidden;
-}
-
-.creamos-level {
-	position: relative;
-	height: 12.8vh;
-	width: 12.8vh;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	border: 0.4vh solid #dddede;
-	background-color: #fafafa;
-	font-family: 'Nunito', sans-serif;
-	font-weight: lighter;
-	font-size: 20px;
-	vertical-align: middle;
-	text-align: center;
-	text-transform: capitalize;
-	color: #ccc;
-	transition: background-color 0.5s;
-} .creamos-level:hover, .creamos-level.jqHover, .creamos-level:active, .creamos-level.jqActive {
-	border: 0.4vh solid #c7c9c9;
-	background-color: #32c1d8;
-	color: white;
-	transition: background-color 0.5s;
-}
-
-.lab-corp-p, .lab-pat-p {
-	position: absolute;
-	top: 4.1vh;
-	width: 100%;
-	font-size: 2.1vh;
-	line-height: 2.1vh;
-}
-.lab-corp-container {
-	position: fixed;
-	top: 38.15vh;
-	left: 85.2vw;
-}
-
-.lab-pat-container {
-	position: fixed;
-	top: 57vh;
-	left: 82.9vw;
-}
-
-.ynnovamos {
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-
-}
 
 .patriotas-before {
 	position: fixed;
-	top: 8.1vh;
-	left: 37.9vw;
-	width: 16.2vh;
-	height: 16.2vh;
+	top: 10vh;
+	left: 2vw;
+	width: 26.7vw;
+	height: 26.7vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 0.92vh solid #eceff1;
+	border: 5px solid #eceff1;
 	background-color: #eceff1;
 	transition: background-color 0.5s, border 0.5s;
 } .patriotas-before:hover, .patriotas-before.jqHover, .patriotas-before:active, .patriotas-before.jqActive  {
-	border: 0.92vh solid #d1d2d4;
+	border: 5px solid #d1d2d4;
 	background-color: #d1d2d4;
 	transition: background-color 0.5s, border 0.5s;
 }
 
 .patriotas {
 	position: relative;
-	width: 15.1vh;
-	height: 15.1vh;
+	width: 24vw;
+	height: 24vw;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	border: 0.64vh solid #dfdfdf;
+	border: 5px solid #dfdfdf;
 	background-color: #fdfdfd;
-	font-family: 'Nunito' sans-serif;
+  font-family: 'Nunito', sans-serif;
 	vertical-align: middle;
 	text-align: center;
 	text-transform: uppercase;
@@ -331,16 +227,10 @@ a:visited {
 
 .patriotas-p {
 	position: absolute;
-	top: 4.4vh;
+	top: 1.5vh;
 	width: 100%;
 	font-weight: lighter;
-	font-size: 2.4vh;
+	font-size: 4.2vw;
 	line-height: 2.59vh;
 	text-transform: uppercase;
-}
-
-
-/*Tweaks to the side menu */
-#sidemenu #back-button {
-	display: none;
 }

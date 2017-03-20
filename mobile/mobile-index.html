@@ -31,14 +31,12 @@
 
 		<link rel="stylesheet" type="text/css"
      		 href="https://fonts.googleapis.com/css?family=Nunito:bold,light,regular">
-		<link rel="stylesheet" type="text/css" href="Stylesheets/Shared.css">
-		<link rel="stylesheet" type="text/css" href="Stylesheets/Main.css">
-		<link rel="stylesheet" type="text/css" href="Stylesheets/style-ie.css">
-		<link rel="stylesheet" type="text/css" href="Stylesheets/sm-frame.css">
+    <link rel="stylesheet" type="text/css" media="all and (orientation:portrait)" href="mobile-index.css" />
+    <link rel="stylesheet" type="text/css" media="all and (orientation:landscape)" href="index-landscape.css" />
+
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="Scripts/main.js"></script>
-		<script type="text/javascript" src="Scripts/width-fix.js"></script>
+
 
 		</script>
     <!--script type="text/javascript" src="Scripts/menu-bubbles.js"></script-->
@@ -47,7 +45,7 @@
 
 		<meta property="fb:page_id" content="627514807325884">
 		<meta property="og:title" content="Ynnovadores | Descubrir, Difundir y Connectar">
-		<meta property="og:image" content="Logo_Ynnovadores.png">
+		<meta property="og:image" content="Contents/logos&botones/Logo_Ynnovadores.png">
 		<meta property="og:description" content="Comunidad de Ynnovadores peruanos menores de 35 años con iniciativas pequeñas, medianas o grandes; que quieran darse a conocer.">
 		<meta property="og:url" content="http://losynnovadores.com/">
 		<meta property="og:type" content="website">
@@ -57,7 +55,7 @@
 		<meta name="twitter:url" content="https://twitter.com/Ynnovadores">
 		<meta name="twitter:title" content="Ynnovadores">
 		<meta name="twitter:description" content="Comunidad de Ynnovadores peruanos menores de 35 años con iniciativas pequeñas, medianas o grandes; que quieran darse a conocer.">
-		<meta name="twitter:image" content="Logo_Ynnovadores.png">
+		<meta name="twitter:image" content="Contents/logos&botones/Logo_Ynnovadores.png">
 		<meta name="twitter:site" content="">
 
 		<!-- Google Analytics -->
@@ -70,91 +68,46 @@
 			ga('create', 'UA-84929807-1', 'auto');
 			ga('send', 'pageview');
 			</script>
-	<!-- End Google Analytics -->
+	     <!-- End Google Analytics -->
 
-	<script>
-		function loadDeferredIframe() {
-	        // this function will load the sidemenu into the iframe
-	        var iframe = document.getElementById("sm-frame");
-	        iframe.src = "sidemenu.html"
-	    };
-	    window.onload = loadDeferredIframe;
+  	<script>
+  		function loadDeferredIframe() {
+  	        // this function will load the sidemenu into the iframe
+  	        var iframe = document.getElementById("sm-frame");
+  	        iframe.src = "sidemenu.html"
+  	    };
+  	    window.onload = loadDeferredIframe;
 	   </script>
 
 	</head>
 
 	<body>
-		<!--Code for side menu-->
-		<iframe src=sidemenu.html id=sm-frame> </iframe>
 
-		<!-- Code for central frontpage-->
 		<div class='main-page' id="page-wrap">
 
-			<div id="page-background"></div>
-
 			<div id="inside">
+        <!--Background-->
 				<div class="background" id="bkgLayer1"></div>
 				<div class="background" id="bkgLayer2"></div>
 				<div class="background" id="bkgLayer3"></div>
+        <!--Contents-->
 				<div class="center">
-					<a href="nuestra_historia.html"> <img src="Contents/logos&botones/Logo Ynnovadores PGN.png" class="center-img"></a>
+					<a href="nuestra_historia.html"> <img src="../Contents/logos&botones/Logo Ynnovadores PGN.png" class="center-img"></a>
 				</div>
+
 				<div class="wrapper" id="formamos">
 					<div class="formamos-before section">
 						<div class="bubble formamos section">
-							<!--div id="formamos-info">
-									<p class="formamos-txt">En Ynnovadores buscamos emprendedores menores de 35 años interesados en el bien común y en la generación de valor económico.</p><br>
-									<p class="formamos-txt">Desde la incubadora, la aceleradora y las asesorías fortalecemos sus competencias en negociación, sentido de la urgencia, innovación y creatividad, proactividad, empatía, persuasión y manejo de la presión en situaciones de alta exigencia emocional y laboral.</p>
-							</div-->
 							<p class="formamos-p">Formamos</p>
 						</div>
-					</div>
-					<div class="formamos-lvl-before asesorias-container">
-						<a href="Formamos/asesorias.html" >
-							<div class="formamos-level asesorias subsection">
-								<p class="asesorias-p">Asesorías</p>
-							</div>
-						</a>
-					</div>
-					<div class="formamos-lvl-before aceleradora-container">
-						<a href="Formamos/aceleradora.html" >
-							<div class="formamos-level aceleradora subsection">
-								<p class="aceleradora-p">Aceleradora</p>
-							</div>
-						</a>
-					</div>
-					<div class="formamos-lvl-before incubadora-container">
-						<a href="Formamos/incubadora.html" >
-							<div class="formamos-level incubadora subsection">
-								<p class="incubadora-p">Incubadora</p>
-							</div>
-						</a>
 					</div>
 				</div>
 
 				<div class="wrapper" id="creamos">
 					<div class="creamos-before section">
 						<div class="bubble creamos section">
-							<!--div id="creamos-info">
-									<p class="creamos-txt">Planteamos soluciones innovadoras y creativas a los problemas de la gran empresa y del país.</p><br>
-									<p class="creamos-txt">Utilizando nuestra metodología “destruir para construir”, alineamos los intereses de las startups, las grandes corporaciones y las instituciones públicas. Al posibilitar el diálogo entre sus principales actores, generamos espacios colaborativos y procesos de co-creación para implementar soluciones viables. Menos es más.</p>
-							</div-->
 							<p class="creamos-p">Creamos</p>
 						</div>
-					</div>
-					<div class="creamos-lvl-before lab-corp-container">
-						<a href="Creamos/laboratorio_corporativo.html">
-							<div class="creamos-level lab-corporativo subsection">
-								<p class="lab-corp-p">Lab<br />Corporativo</p>
-							</div>
-						</a>
-					</div>
-					<div class="creamos-lvl-before lab-pat-container">
-						<a href="Creamos/laboratorio_patriota.html">
-							<div class="creamos-level lab-patriota subsection">
-								<p class="lab-pat-p">Lab<br />Patriota</p>
-							</div>
-						</a>
 					</div>
 				</div>
 
@@ -165,6 +118,7 @@
 						</div>
 					</a>
 				</div>
+
 			</div>
 		</div>
 	</body>

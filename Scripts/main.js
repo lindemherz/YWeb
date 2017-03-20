@@ -7,16 +7,31 @@ $logoIntro.fadeIn('slow', 4000).animate(
 	);
 
 $(document).ready(function() {
-//Gets the right width for the background
-	var $docHeight = $(window).height();
-	var $docWidth = $(window).width();
-	var $ratio = ($docWidth / $docHeight).toFixed(2);
-	$ratio = (28.66 * $ratio) / 1.77;
-	$ratio = $ratio.toFixed(2);
-	var $vwString = $ratio+"vw"
+//sizing of background
+//get sizing for logo then get proportions for the background
+	var $centerWidth = $('.center-img').width();
+	var $centerHeight = $('.center-img').height();
+	var $backgroundLogoRatio = (101.94/16); // ratio = 6.37
+	var $backgroundWidth = $centerWidth * $backgroundLogoRatio;
+	var $vhString = $backgroundWidth+"vh"
 	$('.background').css({
-		'left': $vwString
+		'width': $vhString,
+		'height': $vhString
 	});
+
+//must add the transition times on jQuery, after positioning and before animation
+//get logo position and calculate from it the correct possition of background
+	var $centerTop = $('.center-img').position().top;
+	var $centerLeft = $('.center-img').position().left;
+	var $backgroundTop = $centerTop + ($centerHeight / 2)
+	var $backgroundTopString = $backgroundTop+"vw"
+	var $backgroundLeft = $centerLeft;
+	var $backgroundLeftString = $backgroundLeft+"vh"
+	$('.backgound').css({
+		'top': $backgroundTopString,
+		'left': $backgroundLeftString
+	});
+
 
 // Animations and stuff when page is loaded
 
