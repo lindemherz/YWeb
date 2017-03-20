@@ -1,0 +1,174 @@
+body, ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #c7c9c9;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+
+/* Elements of main page */
+
+.logo {
+	position: fixed;
+	top: 3vh;
+	left: 6vw;
+	z-index: 1;
+}
+
+.logo-img {
+	width: 7vh;
+}
+
+
+.Andromeda {
+  background: url("../Contents/logos&botones/bkgSpheresMain1080.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	position: fixed;
+  top: -6vh;
+  left: -14vw;
+  height: 30vh;
+  width: 30vh;
+}
+
+.Cygnus{
+  background: url("../Contents/logos&botones/bkgSpheresMain1080.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  opacity: 0.3;
+  top: -50vh;
+  left: -80vw;
+  height: 110vh;
+  width: 110vh;
+  transform: rotate(15deg);
+}
+
+.formamos-before {
+	position: fixed;
+	top: 8vh;
+	left: 10vh;
+	width: 17vh;
+	height: 17vh;
+
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 7px solid #eceff1;
+	background-color: #eceff1;
+} .formamos-before:hover, .formamos-before.jqHover, .formamos-before:active, .formamos-before.jqActive {
+	border: 7px solid #eceded;
+	background-color: #eceded;
+}
+
+.formamos {
+	position: relative;
+  top: 0px;
+  left: 0px;
+	width: 15.75vh;
+	height: 15.75vh;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 7px solid #c7c9c9;
+	background-color: #92D3D1;
+	font-family: 'Nunito', sans-serif;
+	vertical-align: middle;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background-color 0.5s;
+} .formamos:hover, .formamos.jqHover, .formamos:active, .formamos.jqActive {
+	background-color: #18afb4;
+	transition: background-color 0.5s;
+}
+
+.formamos-p {
+	position: absolute;
+  font-size: 2.4vh;
+	width: 100%;
+	line-height: 2.59vh;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+  top: 4vh;
+  left: 0.5vw;
+}
+/*Floating bubbles*/
+
+.formamos-level {
+  position: relative;
+	width: 16.5vh;
+	height: 16.5vh;
+  -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 7px solid #dddede;
+	background-color: #63bfbd;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+	font-size: 5vw;
+	vertical-align: middle;
+	text-align: center;
+	text-transform: lowercase;
+	color: white;
+	transition: background-color 0.5s;
+} .formamos-level:hover, .formamos-level.jqHctive, .formamos-level:active, .formamos-level.jqActive {
+	border: 7px solid #c7c9c9;
+	background-color: #63bfbd;
+	color: white;
+	transition: background-color 0.5s;
+}
+
+.subsection-p {
+  position: absolute;
+  top: 3.5vh;
+}
+
+.asesorias {
+  top: 2vh;
+  left: 63vw;
+}
+
+.asesorias-p {
+  left: 4vw;
+}
+
+.aceleradora {
+  top: 6vh;
+  left: 48vw;
+}
+
+.aceleradora-p {
+  left: 2vw;
+}
+
+.incubadora {
+  top: -3.5vh;
+  left: 6vw;
+}
+
+.incubadora-p {
+  left: 2.5vw;
+}
+
+.formamos, .formamos-level {
+	transition: 0.3s;
+}
+
+.formamos-content {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-family: "Nunito";
+  font-size: 2.5vh;
+}

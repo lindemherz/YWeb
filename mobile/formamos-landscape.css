@@ -1,0 +1,179 @@
+body, ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #c7c9c9;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+
+/* Elements of main page */
+#navigation-wrapper {
+  width: 48vw;
+  overflow: hidden;
+}
+
+.logo {
+	position: fixed;
+	top: 10vh;
+	left: 3vw;
+	z-index: 1;
+}
+
+.logo-img {
+	width: 5.5vw;
+}
+
+.Andromeda {
+  background: url("../Contents/logos&botones/bkgSpheresMain1080.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	position: fixed;
+  top: -7vh;
+  left: -8vw;
+  height: 28vw;
+  width: 28vw;
+}
+
+.Cygnus{
+  background: url("../Contents/logos&botones/bkgSpheresMain1080.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  opacity: 0.3;
+  top: -75vh;
+  left: -45vw;
+  height: 110vw;
+  width: 110vw;
+  transform: rotate(15deg);
+}
+
+.formamos-before {
+	position: fixed;
+	top: 18vh;
+	left: 15vh;
+	width: 16vw;
+	height: 16vw;
+
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 5px solid #eceff1;
+	background-color: #eceff1;
+} .formamos-before:hover, .formamos-before.jqHover, .formamos-before:active, .formamos-before.jqActive {
+	border: 5px solid #eceded;
+	background-color: #eceded;
+}
+
+.formamos {
+	position: relative;
+  top: 0px;
+  left: 0px;
+	width: 15vw;
+	height: 15vw;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 5px solid #c7c9c9;
+	background-color: #92D3D1;
+	font-family: 'Nunito', sans-serif;
+	vertical-align: middle;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background-color 0.5s;
+} .formamos:hover, .formamos.jqHover, .formamos:active, .formamos.jqActive {
+	background-color: #18afb4;
+	transition: background-color 0.5s;
+}
+
+.formamos-p {
+	position: absolute;
+  font-size: 2vw;
+	width: 100%;
+	line-height: 2.59vh;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+  top: 9vh;
+}
+/*Floating bubbles*/
+
+.formamos-level {
+  position: relative;
+	width: 16vw;
+	height: 16vw;
+  -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 0.4vw solid #dddede;
+	background-color: #63bfbd;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+	font-size: 5vh;
+	vertical-align: middle;
+	text-align: center;
+	text-transform: lowercase;
+	color: white;
+	transition: background-color 0.5s;
+} .formamos-level:hover, .formamos-level.jqHctive, .formamos-level:active, .formamos-level.jqActive {
+	border: 0.4vw solid #c7c9c9;
+	background-color: #63bfbd;
+	color: white;
+	transition: background-color 0.5s;
+}
+
+.subsection-p {
+  position: absolute;
+  top: 5vh;
+}
+
+.asesorias {
+  top: 55vh;
+  left: 3vw;
+}
+
+.asesorias-p {
+  left: 2.5vw;
+}
+
+.aceleradora {
+  top: 11vh;
+  left: 25vw;
+}
+
+.aceleradora-p {
+  left: 1vw;
+}
+
+.incubadora {
+  top: -53vh;
+  left: 30vw;
+}
+
+.incubadora-p {
+  left: 1.5vw;
+}
+
+.formamos, .formamos-level {
+	transition: 0.3s;
+}
+
+.formamos-content {
+  text-align: right;
+  font-family: "Nunito";
+  font-size: 2.5vw;
+  margin-right: 10px;
+  left: 48vw;
+  position: absolute;
+  top: 7vh;
+}
