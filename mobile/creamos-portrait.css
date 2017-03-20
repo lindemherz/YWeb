@@ -34,7 +34,6 @@ a:visited {
 	width: 7vh;
 }
 
-
 .Andromeda {
   background: url("../Contents/logos&botones/bkgSpheresMain1080.png");
   background-size: contain;
@@ -99,6 +98,22 @@ a:visited {
   color: white;
   position: relative;
   top: 3.5vh;
+}
+
+.line {
+  width: 10vw;
+  height: 2vh;
+  position: relative;
+  background-color: #c7c9c9;
+}
+.line1 {
+  top: 10vh;
+  left: 10vw;
+}
+
+.line2{
+  top: 10vh;
+  left: 10vw;
 }
 
 .creamos-level {

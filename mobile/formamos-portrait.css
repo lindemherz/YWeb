@@ -74,8 +74,8 @@ a:visited {
 
 .formamos {
 	position: relative;
-  top: 0px;
-  left: 0px;
+  top: -2px;
+  left: -2px;
 	width: 15.75vh;
 	height: 15.75vh;
 	-moz-border-radius: 50%;
@@ -135,6 +135,18 @@ a:visited {
   top: 3.5vh;
 }
 
+.asesorias:before {
+	content: '';
+	position: absolute;
+	top: 12vh;
+	left: -30vw;
+	width: 30vw;
+	height: 1vw;
+	background: #c7c9c9;
+	z-index: -1;
+	transform: rotate(-20deg);
+}
+
 .asesorias {
   top: 2vh;
   left: 63vw;
@@ -144,6 +156,18 @@ a:visited {
   left: 4vw;
 }
 
+.aceleradora:before {
+	content: '';
+	position: absolute;
+	top: 0vh;
+	left: -15vw;
+	width: 30vw;
+	height: 1vw;
+	background: #c7c9c9;
+	z-index: -1;
+	transform: rotate(40deg);
+}
+
 .aceleradora {
   top: 6vh;
   left: 48vw;
@@ -151,6 +175,18 @@ a:visited {
 
 .aceleradora-p {
   left: 2vw;
+}
+
+.incubadora:before {
+	content: '';
+	position: absolute;
+	top: -8vh;
+	left: 5vw;
+	width: 30vw;
+	height: 1vw;
+	background: #c7c9c9;
+	z-index: -1;
+	transform: rotate(110deg);
 }
 
 .incubadora {
