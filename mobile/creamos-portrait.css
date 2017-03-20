@@ -1,0 +1,168 @@
+body, ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #c7c9c9;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+
+/* Elements of main page */
+
+#navigation-wrapper {
+  height: 40vh;
+}
+
+.logo {
+	position: fixed;
+	top: 3vh;
+	left: 6vw;
+	z-index: 1;
+}
+
+.logo-img {
+	width: 7vh;
+}
+
+.Andromeda {
+  background: url("../Contents/logos&botones/bkgSpheresMain1080.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	position: fixed;
+  top: -6vh;
+  left: -14vw;
+  height: 30vh;
+  width: 30vh;
+}
+
+.Cygnus{
+  background: url("../Contents/logos&botones/bkgSpheresMain1080.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  opacity: 0.3;
+  top: -50vh;
+  left: -80vw;
+  height: 110vh;
+  width: 110vh;
+  transform: rotate(15deg);
+}
+
+.creamos-before {
+	position: fixed;
+	top: 8vh;
+	left: 10vh;
+	width: 17vh;
+	height: 17vh;
+
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 0.92vh solid #eceff1;
+	background-color: #eceff1;
+} .creamos-before:hover, .creamos-before.jqHover, .creamos-before:active, .creamos-before.jqActive {
+	border: 0.92vh solid #eceded;
+	background-color: #eceded;
+}
+
+.creamos {
+	position: relative;
+	width: 15.75vh;
+	height: 15.75vh;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 0.64vh solid #c7c9c9;
+	background-color: #7dc9db;
+	font-family: 'Nunito', sans-serif;
+	vertical-align: middle;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background-color 0.5s;
+} .creamos:hover, .creamos.jqHover, .creamos:active, .creamos.jqActive {
+	background-color: #1d8ab1;
+	transition: background-color 0.5s;
+}
+
+.creamos-p {
+  color: white;
+  position: relative;
+  top: 3.5vh;
+}
+
+.line {
+  width: 10vw;
+  height: 2vh;
+  position: relative;
+  background-color: #c7c9c9;
+}
+.line1 {
+  top: 10vh;
+  left: 10vw;
+}
+
+.line2{
+  top: 10vh;
+  left: 10vw;
+}
+
+.creamos-level {
+	position: relative;
+	height: 16.5vh;
+	width: 16.5vh;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 0.4vh solid #dddede;
+	background-color: lightblue;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+	font-size: 5vw;
+	vertical-align: middle;
+	text-align: center;
+	text-transform: capitalize;
+	color: white;
+	transition: background-color 0.5s;
+} .creamos-level:hover, .creamos-level.jqHover, .creamos-level:active, .creamos-level.jqActive {
+	border: 0.4vh solid #c7c9c9;
+	background-color: #32c1d8;
+	color: white;
+	transition: background-color 0.5s;
+}
+
+.lab-corp-p, .lab-pat-p {
+	position: absolute;
+	top: 4.1vh;
+	width: 100%;
+	font-size: 2.1vh;
+	line-height: 2.1vh;
+}
+
+.lab-corporativo {
+  top: 5vh;
+  left: 60vw;
+}
+
+.lab-patriota {
+  top: 12vh;
+  left: 35vw;
+}
+
+.creamos-content {
+  position: absolute;
+  top: 48vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-family: "Nunito";
+  font-size: 2.5vh;
+}
