@@ -136,9 +136,33 @@ a:visited {
 	line-height: 2.1vw;
 }
 
+.lab-corporativo:before {
+	content: '';
+	position: absolute;
+	top: -5vh;
+	left: -6vw;
+	width: 30vw;
+	height: 1vh;
+	background: #c7c9c9;
+	z-index: -1;
+	transform: rotate(100deg);
+}
+
 .lab-corporativo {
   top: 60vh;
   left: 4vw;
+}
+
+.lab-patriota:before {
+	content: '';
+	position: absolute;
+	top: 13vh;
+	left: -15vw;
+	width: 30vw;
+	height: 1vh;
+	background: #c7c9c9;
+	z-index: -1;
+	transform: rotate(15deg);
 }
 
 .lab-patriota {

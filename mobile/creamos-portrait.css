@@ -100,22 +100,6 @@ a:visited {
   top: 3.5vh;
 }
 
-.line {
-  width: 10vw;
-  height: 2vh;
-  position: relative;
-  background-color: #c7c9c9;
-}
-.line1 {
-  top: 10vh;
-  left: 10vw;
-}
-
-.line2{
-  top: 10vh;
-  left: 10vw;
-}
-
 .creamos-level {
 	position: relative;
 	height: 16.5vh;
@@ -147,10 +131,33 @@ a:visited {
 	font-size: 2.1vh;
 	line-height: 2.1vh;
 }
+.lab-corporativo:before {
+	content: '';
+	position: absolute;
+	top: 9vh;
+	left: -15vw;
+	width: 30vw;
+	height: 1vw;
+	background: #c7c9c9;
+	z-index: -1;
+	transform: rotate(-10deg);
+}
 
 .lab-corporativo {
   top: 5vh;
   left: 60vw;
+}
+
+.lab-patriota:before {
+	content: '';
+	position: absolute;
+	top: -8vh;
+	left: -15vw;
+	width: 30vw;
+	height: 1vw;
+	background: #c7c9c9;
+	z-index: -1;
+	transform: rotate(-120deg);
 }
 
 .lab-patriota {
